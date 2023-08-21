@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RISE Project - Interview New</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/baic.png' %}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/quill/quill.snow.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/quill/quill.bubble.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/simple-datatables/style.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="/home" class="logo d-flex align-items-center">
+        <img src="{% static 'assets/img/baic.png' %}" alt="">
+        <span class="d-none d-lg-block"> RISE Project</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+   <!-- Not Use
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="{% static 'assets/img/messages-1.jpg' %}" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="{% static 'assets/img/messages-2.jpg' %}" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="{% static 'assets/img/messages-3.jpg' %}" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="{% static 'assets/img/profile-img.jpg' %}" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+-->
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-people"></i><span>Subject</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/subjectList">
+              <i class="bi bi-circle"></i><span>Subject List</span>
+            </a>
+          </li>
+          <li>
+            <a href="/subjectNew">
+              <i class="bi bi-circle"></i><span>New Subject</span>
+            </a>
+          </li>
+
+        </ul>
+      </li><!-- End Components Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Interview</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/interviewList">
+              <i class="bi bi-circle"></i><span>Interview List</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Forms Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/povertyList">
+          <i class="bi bi-currency-dollar"></i>
+          <span>Poverty</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>
+          Interview Update
+      </h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">Interview</li>
+          <li class="breadcrumb-item active">Update</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+
+    </section>
+
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Interview Form</h5>
+                  <hr style="border-bottom: 2px solid black;">
+              <form class="row g-3 needs-validation" method="post" novalidate>
+                  {% csrf_token %}
+                <div class="col-6">
+                  <label for="{{ form.subject_id.id_for_label }}">Subject ID</label>
+                  <input type="text" class="form-control" id="{{ form.subject_id.id_for_label }}" name="{{ form.subject_id.name }}" value="{{ form.subject_id.value }}" readonly>
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.researcher.id_for_label }}">Researcher</label>
+                  <input type="text" class="form-control" id="{{ form.researcher.id_for_label }}" name="{{ form.researcher.name }}" value="{{ form.researcher.value }}" required>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.interview_id.id_for_label }}">Interview ID</label>
+                  <input type="text" class="form-control" id="{{ form.interview_id.id_for_label }}" name="{{ form.interview_id.name }}" value="{{ form.interview_id.value }}" readonly>
+                  <div class="invalid-feedback">Please, enter subject id!</div>
+                    {{ form.interview_id.errors }}
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.interview_type.id_for_label }}">Interview Type</label>
+                  <select class="form-select" aria-label="{{ form.interview_type.id_for_label }}" id="{{ form.interview_type.id_for_label }}" name="{{ form.interview_type.name }}"  required>
+                    <option value="" {% if form.interview_type.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="pv1" {% if form.interview_type.value == 'pv1' %}selected{% endif %}>PV1</option>
+                    <option value="pv2" {% if form.interview_type.value == 'pv2' %}selected{% endif %}>PV2</option>
+                    <option value="pv3" {% if form.interview_type.value == 'pv3' %}selected{% endif %}>PV3</option>
+                    <option value="pn1" {% if form.interview_type.value == 'pn1' %}selected{% endif %}>PN1</option>
+                    <option value="pn4" {% if form.interview_type.value == 'pn4' %}selected{% endif %}>PN4</option>
+                  </select>
+                  <div class="invalid-feedback">Please, select interview type!</div>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.interview_date.id_for_label }}">Interview Date</label>
+                  <input type="date" class="form-control" id="{{ form.interview_date.id_for_label }}" name="{{ form.interview_date.name }}" value="{{ form.interview_date.value|date:"Y-m-d" }}"  required>
+                  <div class="invalid-feedback">Please, enter interview_date!</div>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.financial_supporter_type.id_for_label }}">Financial Support Type</label>
+                  <select class="form-select" aria-label="{{ form.financial_supporter_type.id_for_label }}" id="{{ form.financial_supporter_type.id_for_label }}" name="{{ form.financial_supporter_type.name }}"  required>
+                    <option value="" {% if form.financial_supporter_type.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="biofather" {% if form.financial_supporter_type.value == 'biofather' %}selected{% endif %}>Bio Father</option>
+                    <option value="stepfather" {% if form.financial_supporter_type.value == 'stepfather' %}selected{% endif %}>Step Father</option>
+                    <option value="boyfriend" {% if form.financial_supporter_type.value == 'boyfriend' %}selected{% endif %}>Boy Friend</option>
+                    <option value="single" {% if form.financial_supporter_type.value == 'single' %}selected{% endif %}>Single</option>
+                  </select>
+                  <div class="invalid-feedback">Please, select financial_supporter_type!</div>
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.financial_familiy_adult.id_for_label }}">Financial Family Adult</label>
+                  <input type="number" class="form-control" id="{{ form.financial_familiy_adult.id_for_label }}" name="{{ form.financial_familiy_adult.name }}" value="{{ form.financial_familiy_adult.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.financial_familiy_child.id_for_label }}">Financial Family Child</label>
+                  <input type="number" class="form-control" id="{{ form.financial_familiy_child.id_for_label }}" name="{{ form.financial_familiy_child.name }}" value="{{ form.financial_familiy_child.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.household_adult.id_for_label }}">Household Adult</label>
+                  <input type="number" class="form-control" id="{{ form.household_adult.id_for_label }}" name="{{ form.household_adult.name }}" value="{{ form.household_adult.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.household_child.id_for_label }}">Household Child</label>
+                  <input type="number" class="form-control" id="{{ form.household_child.id_for_label }}" name="{{ form.household_child.name }}" value="{{ form.household_child.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.move_date.id_for_label }}">Move Date</label>
+                  <input type="date" class="form-control" id="{{ form.move_date.id_for_label }}" name="{{ form.move_date.name }}" value="{{ form.move_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-9">
+                  <label for="{{ form.housing_comments.id_for_label }}">Housing Comments</label>
+                  <input type="text" class="form-control" id="{{ form.housing_comments.id_for_label }}" name="{{ form.housing_comments.name }}" value="{{ form.housing_comments.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-4">
+                  <label for="{{ form.conception_date.id_for_label }}">Conception Date</label>
+                  <input type="date" class="form-control" id="{{ form.conception_date.id_for_label }}" name="{{ form.conception_date.name }}" value="{{ form.conception_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.birth_date.id_for_label }}">Birth Date</label>
+                  <input type="date" class="form-control" id="{{ form.birth_date.id_for_label }}" name="{{ form.birth_date.name }}" value="{{ form.birth_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.scan_date.id_for_label }}">Scan Date</label>
+                  <input type="date" class="form-control" id="{{ form.scan_date.id_for_label }}" name="{{ form.scan_date.name }}" value="{{ form.scan_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.tri1_date.id_for_label }}">Tri1 Date</label>
+                  <input type="date" class="form-control" id="{{ form.tri1_date.id_for_label }}" name="{{ form.tri1_date.name }}" value="{{ form.tri1_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.tri2_date.id_for_label }}">Tri2 Date</label>
+                  <input type="date" class="form-control" id="{{ form.tri2_date.id_for_label }}" name="{{ form.tri2_date.name }}" value="{{ form.tri2_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.tri3_date.id_for_label }}">Tri3 Date</label>
+                  <input type="date" class="form-control" id="{{ form.tri3_date.id_for_label }}" name="{{ form.tri3_date.name }}" value="{{ form.tri3_date.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-12">
+                  <label for="{{ form.event_comments.id_for_label }}">Event Comments</label>
+                  <input type="text" class="form-control" id="{{ form.event_comments.id_for_label }}" name="{{ form.event_comments.name }}" value="{{ form.event_comments.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_1.id_for_label }}">Object Type - 1</label>
+                  <select class="form-select" aria-label="{{ form.object_type_1.id_for_label }}" id="{{ form.object_type_1.id_for_label }}" name="{{ form.object_type_1.name }}">
+                    <option value="" {% if form.object_type_1.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_1.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_1.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_1.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_1.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_1.id_for_label }}">Object Working Hour - 1</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_1.id_for_label }}" name="{{ form.object_working_hour_1.name }}" value="{{ form.object_working_hour_1.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_1.id_for_label }}">Object Hourly Wage - 1</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_1.id_for_label }}" name="{{ form.object_hourly_wage_1.name }}" value="{{ form.object_hourly_wage_1.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_1.id_for_label }}">Object Monthly Income - 1</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_1.id_for_label }}" name="{{ form.object_monthly_income_1.name }}" value="{{ form.object_monthly_income_1.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_1.id_for_label }}">Object Start Date - 1</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_1.id_for_label }}" name="{{ form.object_start_date_1.name }}" value="{{ form.object_start_date_1.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_1.id_for_label }}">Object End Date - 1</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_1.id_for_label }}" name="{{ form.object_end_date_1.name }}" value="{{ form.object_end_date_1.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_1.id_for_label }}">Object Comments - 1</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_1.id_for_label }}" name="{{ form.object_comment_1.name }}" value="{{ form.object_comment_1.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_2.id_for_label }}">Object Type - 2</label>
+                  <select class="form-select" aria-label="{{ form.object_type_2.id_for_label }}" id="{{ form.object_type_2.id_for_label }}" name="{{ form.object_type_2.name }}">
+                    <option value="" {% if form.object_type_2.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_2.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_2.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_2.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_2.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_2.id_for_label }}">Object Working Hour - 2</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_2.id_for_label }}" name="{{ form.object_working_hour_2.name }}" value="{{ form.object_working_hour_2.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_2.id_for_label }}">Object Hourly Wage - 2</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_2.id_for_label }}" name="{{ form.object_hourly_wage_2.name }}" value="{{ form.object_hourly_wage_2.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_2.id_for_label }}">Object Monthly Income - 2</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_2.id_for_label }}" name="{{ form.object_monthly_income_2.name }}" value="{{ form.object_monthly_income_2.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_2.id_for_label }}">Object Start Date - 2</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_2.id_for_label }}" name="{{ form.object_start_date_2.name }}" value="{{ form.object_start_date_2.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_2.id_for_label }}">Object End Date - 2</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_2.id_for_label }}" name="{{ form.object_end_date_2.name }}" value="{{ form.object_end_date_2.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_2.id_for_label }}">Object Comments - 2</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_2.id_for_label }}" name="{{ form.object_comment_2.name }}" value="{{ form.object_comment_2.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_3.id_for_label }}">Object Type - 3</label>
+                  <select class="form-select" aria-label="{{ form.object_type_3.id_for_label }}" id="{{ form.object_type_3.id_for_label }}" name="{{ form.object_type_3.name }}">
+                    <option value="" {% if form.object_type_3.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_3.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_3.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_3.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_3.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_3.id_for_label }}">Object Working Hour - 3</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_3.id_for_label }}" name="{{ form.object_working_hour_3.name }}" value="{{ form.object_working_hour_3.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_3.id_for_label }}">Object Hourly Wage - 3</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_3.id_for_label }}" name="{{ form.object_hourly_wage_3.name }}" value="{{ form.object_hourly_wage_3.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_3.id_for_label }}">Object Monthly Income - 3</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_3.id_for_label }}" name="{{ form.object_monthly_income_3.name }}" value="{{ form.object_monthly_income_3.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_3.id_for_label }}">Object Start Date - 3</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_3.id_for_label }}" name="{{ form.object_start_date_3.name }}" value="{{ form.object_start_date_3.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_3.id_for_label }}">Object End Date - 3</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_3.id_for_label }}" name="{{ form.object_end_date_3.name }}" value="{{ form.object_end_date_3.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_3.id_for_label }}">Object Comments - 3</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_3.id_for_label }}" name="{{ form.object_comment_3.name }}" value="{{ form.object_comment_3.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_4.id_for_label }}">Object Type - 4</label>
+                  <select class="form-select" aria-label="{{ form.object_type_4.id_for_label }}" id="{{ form.object_type_4.id_for_label }}" name="{{ form.object_type_4.name }}">
+                    <option value="" {% if form.object_type_4.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_4.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_4.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_4.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_4.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_4.id_for_label }}">Object Working Hour - 4</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_4.id_for_label }}" name="{{ form.object_working_hour_4.name }}" value="{{ form.object_working_hour_4.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_4.id_for_label }}">Object Hourly Wage - 4</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_4.id_for_label }}" name="{{ form.object_hourly_wage_4.name }}" value="{{ form.object_hourly_wage_4.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_4.id_for_label }}">Object Monthly Income - 4</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_4.id_for_label }}" name="{{ form.object_monthly_income_4.name }}" value="{{ form.object_monthly_income_4.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_4.id_for_label }}">Object Start Date - 4</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_4.id_for_label }}" name="{{ form.object_start_date_4.name }}" value="{{ form.object_start_date_4.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_4.id_for_label }}">Object End Date - 4</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_4.id_for_label }}" name="{{ form.object_end_date_4.name }}" value="{{ form.object_end_date_4.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_4.id_for_label }}">Object Comments - 4</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_4.id_for_label }}" name="{{ form.object_comment_4.name }}" value="{{ form.object_comment_4.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_5.id_for_label }}">Object Type - 5</label>
+                  <select class="form-select" aria-label="{{ form.object_type_5.id_for_label }}" id="{{ form.object_type_5.id_for_label }}" name="{{ form.object_type_5.name }}">
+                    <option value="" {% if form.object_type_5.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_5.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_5.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_5.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_5.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_5.id_for_label }}">Object Working Hour - 5</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_5.id_for_label }}" name="{{ form.object_working_hour_5.name }}" value="{{ form.object_working_hour_5.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_5.id_for_label }}">Object Hourly Wage - 5</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_5.id_for_label }}" name="{{ form.object_hourly_wage_5.name }}" value="{{ form.object_hourly_wage_5.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_5.id_for_label }}">Object Monthly Income - 5</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_5.id_for_label }}" name="{{ form.object_monthly_income_5.name }}" value="{{ form.object_monthly_income_5.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_5.id_for_label }}">Object Start Date - 5</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_5.id_for_label }}" name="{{ form.object_start_date_5.name }}" value="{{ form.object_start_date_5.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_5.id_for_label }}">Object End Date - 5</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_5.id_for_label }}" name="{{ form.object_end_date_5.name }}" value="{{ form.object_end_date_5.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_5.id_for_label }}">Object Comments - 5</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_5.id_for_label }}" name="{{ form.object_comment_5.name }}" value="{{ form.object_comment_5.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_6.id_for_label }}">Object Type - 6</label>
+                  <select class="form-select" aria-label="{{ form.object_type_6.id_for_label }}" id="{{ form.object_type_6.id_for_label }}" name="{{ form.object_type_6.name }}">
+                    <option value="" {% if form.object_type_6.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_6.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_6.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_6.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_6.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_6.id_for_label }}">Object Working Hour - 6</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_6.id_for_label }}" name="{{ form.object_working_hour_6.name }}" value="{{ form.object_working_hour_6.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_6.id_for_label }}">Object Hourly Wage - 6</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_6.id_for_label }}" name="{{ form.object_hourly_wage_6.name }}" value="{{ form.object_hourly_wage_6.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_6.id_for_label }}">Object Monthly Income - 6</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_6.id_for_label }}" name="{{ form.object_monthly_income_6.name }}" value="{{ form.object_monthly_income_6.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_6.id_for_label }}">Object Start Date - 6</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_6.id_for_label }}" name="{{ form.object_start_date_6.name }}" value="{{ form.object_start_date_6.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_6.id_for_label }}">Object End Date - 6</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_6.id_for_label }}" name="{{ form.object_end_date_6.name }}" value="{{ form.object_end_date_6.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_6.id_for_label }}">Object Comments - 6</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_6.id_for_label }}" name="{{ form.object_comment_6.name }}" value="{{ form.object_comment_6.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_7.id_for_label }}">Object Type - 7</label>
+                  <select class="form-select" aria-label="{{ form.object_type_7.id_for_label }}" id="{{ form.object_type_7.id_for_label }}" name="{{ form.object_type_7.name }}" >
+                    <option value="" {% if form.object_type_7.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_7.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_7.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_7.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_7.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_7.id_for_label }}">Object Working Hour - 7</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_7.id_for_label }}" name="{{ form.object_working_hour_7.name }}" value="{{ form.object_working_hour_7.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_7.id_for_label }}">Object Hourly Wage - 7</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_7.id_for_label }}" name="{{ form.object_hourly_wage_7.name }}" value="{{ form.object_hourly_wage_7.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_7.id_for_label }}">Object Monthly Income - 7</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_7.id_for_label }}" name="{{ form.object_monthly_income_7.name }}" value="{{ form.object_monthly_income_7.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_7.id_for_label }}">Object Start Date - 7</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_7.id_for_label }}" name="{{ form.object_start_date_7.name }}" value="{{ form.object_start_date_7.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_7.id_for_label }}">Object End Date - 7</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_7.id_for_label }}" name="{{ form.object_end_date_7.name }}" value="{{ form.object_end_date_7.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_7.id_for_label }}">Object Comments - 7</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_7.id_for_label }}" name="{{ form.object_comment_7.name }}" value="{{ form.object_comment_7.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_8.id_for_label }}">Object Type - 8</label>
+                  <select class="form-select" aria-label="{{ form.object_type_8.id_for_label }}" id="{{ form.object_type_8.id_for_label }}" name="{{ form.object_type_8.name }}">
+                    <option value="" {% if form.object_type_8.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_8.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_8.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_8.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_8.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_8.id_for_label }}">Object Working Hour - 8</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_8.id_for_label }}" name="{{ form.object_working_hour_8.name }}" value="{{ form.object_working_hour_8.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_8.id_for_label }}">Object Hourly Wage - 8</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_8.id_for_label }}" name="{{ form.object_hourly_wage_8.name }}" value="{{ form.object_hourly_wage_8.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_8.id_for_label }}">Object Monthly Income - 8</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_8.id_for_label }}" name="{{ form.object_monthly_income_8.name }}" value="{{ form.object_monthly_income_8.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_8.id_for_label }}">Object Start Date - 8</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_8.id_for_label }}" name="{{ form.object_start_date_8.name }}" value="{{ form.object_start_date_8.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_8.id_for_label }}">Object End Date - 8</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_8.id_for_label }}" name="{{ form.object_end_date_8.name }}" value="{{ form.object_end_date_8.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_8.id_for_label }}">Object Comments - 8</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_8.id_for_label }}" name="{{ form.object_comment_8.name }}" value="{{ form.object_comment_8.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_9.id_for_label }}">Object Type - 9</label>
+                  <select class="form-select" aria-label="{{ form.object_type_9.id_for_label }}" id="{{ form.object_type_9.id_for_label }}" name="{{ form.object_type_9.name }}">
+                    <option value="" {% if form.object_type_9.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_9.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_9.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_9.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_9.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_9.id_for_label }}">Object Working Hour - 9</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_9.id_for_label }}" name="{{ form.object_working_hour_9.name }}" value="{{ form.object_working_hour_9.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_9.id_for_label }}">Object Hourly Wage - 9</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_9.id_for_label }}" name="{{ form.object_hourly_wage_9.name }}" value="{{ form.object_hourly_wage_9.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_9.id_for_label }}">Object Monthly Income - 9</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_9.id_for_label }}" name="{{ form.object_monthly_income_9.name }}" value="{{ form.object_monthly_income_9.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_9.id_for_label }}">Object Start Date - 9</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_9.id_for_label }}" name="{{ form.object_start_date_9.name }}" value="{{ form.object_start_date_9.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_9.id_for_label }}">Object End Date - 9</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_9.id_for_label }}" name="{{ form.object_end_date_9.name }}" value="{{ form.object_end_date_9.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_9.id_for_label }}">Object Comments - 9</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_9.id_for_label }}" name="{{ form.object_comment_9.name }}" value="{{ form.object_comment_9.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-3">
+                  <label for="{{ form.object_type_10.id_for_label }}">Object Type - 10</label>
+                  <select class="form-select" aria-label="{{ form.object_type_10.id_for_label }}" id="{{ form.object_type_10.id_for_label }}" name="{{ form.object_type_10.name }}">
+                    <option value="" {% if form.object_type_10.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="moc" {% if form.object_type_10.value == 'moc' %}selected{% endif %}>MOC</option>
+                    <option value="foc" {% if form.object_type_10.value == 'foc' %}selected{% endif %}>FOC</option>
+                    <option value="gov" {% if form.object_type_10.value == 'gov' %}selected{% endif %}>GOV</option>
+                    <option value="etc" {% if form.object_type_10.value == 'etc' %}selected{% endif %}>ETC</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_working_hour_10.id_for_label }}">Object Working Hour - 10</label>
+                  <input type="number" class="form-control" id="{{ form.object_working_hour_10.id_for_label }}" name="{{ form.object_working_hour_10.name }}" value="{{ form.object_working_hour_10.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_hourly_wage_10.id_for_label }}">Object Hourly Wage - 10</label>
+                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_10.id_for_label }}" name="{{ form.object_hourly_wage_10.name }}" value="{{ form.object_hourly_wage_10.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_monthly_income_10.id_for_label }}">Object Monthly Income - 10</label>
+                  <input type="number" class="form-control" id="{{ form.object_monthly_income_10.id_for_label }}" name="{{ form.object_monthly_income_10.name }}" value="{{ form.object_monthly_income_10.value }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_start_date_10.id_for_label }}">Object Start Date - 10</label>
+                  <input type="date" class="form-control" id="{{ form.object_start_date_10.id_for_label }}" name="{{ form.object_start_date_10.name }}" value="{{ form.object_start_date_10.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.object_end_date_10.id_for_label }}">Object End Date - 10</label>
+                  <input type="date" class="form-control" id="{{ form.object_end_date_10.id_for_label }}" name="{{ form.object_end_date_10.name }}" value="{{ form.object_end_date_10.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-6">
+                  <label for="{{ form.object_comment_10.id_for_label }}">Object Comments - 10</label>
+                  <input type="text" class="form-control" id="{{ form.object_comment_10.id_for_label }}" name="{{ form.object_comment_10.name }}" value="{{ form.object_comment_10.value|default:'' }}">
+                </div>
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+              </form><!-- Vertical Form -->
+            </div>
+          </div>
+        </div>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>B.AI.C Lab</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/apexcharts/apexcharts.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/chart.js/chart.umd.js' %}"></script>
+  <script src="{% static 'assets/vendor/echarts/echarts.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/quill/quill.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/simple-datatables/simple-datatables.js' %}"></script>
+  <script src="{% static 'assets/vendor/tinymce/tinymce.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
