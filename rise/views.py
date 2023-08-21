@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseNotFound
 from .models import Subject, Poverty, Interview
 from .forms import SubjectForm, CSVUploadForm, InterviewForm
 from django.core.exceptions import ObjectDoesNotExist
@@ -828,6 +828,9 @@ def subject_statics_download(request, subject_id=None):
         writer.writerow([row.subject_id, row.researcher, row.pv1, row.pv2, row.pv3, row.pn1, row.pn4])
 
     return response
+
+def page_not_found(request, exception):
+    return render(request, '404.html', status=404)
 
 ## Functions
 def get_conception_date(subject_id):

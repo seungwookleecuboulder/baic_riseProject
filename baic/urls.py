@@ -19,9 +19,14 @@ from django.urls import path
 
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import handler404
+
+import rise.views
 from rise.views import subject_list, subject_new, subject_delete, subject_update, subject_download, subject_upload, subject_statics, subject_statics_download,\
     poverty_list, poverty_download, poverty_upload, poverty_delete, \
-    interview_list, interview_new, interview_update, interview_delete, interview_download, interview_upload
+    interview_list, interview_new, interview_update, interview_delete, interview_download, interview_upload, page_not_found
+
+handler404 = 'rise.views.page_not_found'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
