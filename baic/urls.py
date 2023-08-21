@@ -31,6 +31,7 @@ handler404 = 'rise.views.page_not_found'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', subject_list, name='home'),
+    path('/', subject_list, name='home'),
 
     path('subjectList/', subject_list, name='subject_list'),
     path('subjectNew/', subject_new, name='subject_new'),
