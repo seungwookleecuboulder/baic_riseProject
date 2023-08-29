@@ -713,11 +713,17 @@ def subject_statics(request, subject_id=None):
             event = ""
             moc_work_end = 0
             foc_work_end = 0
+            moc_work_start = 0
+            foc_work_start = 0
             year = current_date.year
             month = current_date.month
-            monthly_income = calculate_monthly_income(subject_id, year, month)['tot_income']
+            moc_income = calculate_monthly_income(subject_id, year, month)['moc_income']
+            foc_income = calculate_monthly_income(subject_id, year, month)['foc_income']
+            monthly_income = moc_income + foc_income
             moc_work_end = calculate_monthly_income(subject_id, year, month)['moc_work_end']
             foc_work_end = calculate_monthly_income(subject_id, year, month)['foc_work_end']
+            moc_work_start = calculate_monthly_income(subject_id, year, month)['moc_work_start']
+            foc_work_start = calculate_monthly_income(subject_id, year, month)['foc_work_start']
 
             yearly_income = monthly_income * 12
 
@@ -763,12 +769,6 @@ def subject_statics(request, subject_id=None):
             if scan_date is not None:
                 if year == scan_date.year and month == scan_date.month:
                     event += "(Scan) "
-            if tri3_date is not None:
-                if year == tri3_date.year and month == tri3_date.month:
-                    event += "(Tri2 End) (Tri3 Start) "
-            if tri3_date is not None:
-                if year == tri3_date.year and month == tri3_date.month:
-                    event += "(Tri2 End) (Tri3 Start) "
             if pv1_interview_date is not None:
                 if year == pv1_interview_date.year and month == pv1_interview_date.month:
                     event += "(PV1) "
@@ -790,7 +790,7 @@ def subject_statics(request, subject_id=None):
                     event += "(Move) "
                     move_yn = 1
 
-            statics.append({'subject_id': subject_id, 'year': year, 'month': month, 'pline': pline, 'yearly_income': yearly_income, 'monthly_income': monthly_income, 'adult': adult, 'kid': kid, 'inr': inr, 'poverty_yn': poverty_yn, 'move_yn': move_yn, 'event': event, 'moc_work_end': moc_work_end, 'foc_work_end': foc_work_end})
+            statics.append({'subject_id': subject_id, 'year': year, 'month': month, 'pline': pline, 'yearly_income': yearly_income, 'monthly_income': monthly_income, 'adult': adult, 'kid': kid, 'inr': inr, 'poverty_yn': poverty_yn, 'move_yn': move_yn, 'event': event, 'moc_work_end': moc_work_end, 'foc_work_end': foc_work_end, 'moc_work_start': moc_work_start, 'foc_work_start': foc_work_start})
 
             # move to next month.
             if current_date.month == 12:
@@ -941,6 +941,8 @@ def calculate_monthly_income(subject_id, year=None, month=None):
     tot_income = 0
     moc_work_end = 0
     foc_work_end = 0
+    moc_work_start = 0
+    foc_work_start = 0
 
     interviews = Interview.objects.filter(subject_id=subject_id)
     for interview in interviews:
@@ -998,10 +1000,14 @@ def calculate_monthly_income(subject_id, year=None, month=None):
                         moc_income += income
                         if year == income_end.year and month == income_end.month:
                             moc_work_end += 1
+                        if year == income_start.year and month == income_start.month:
+                            moc_work_start += 1
                     elif getattr(interview, field_type) == 'foc':
                         foc_income += income
                         if year == income_end.year and month == income_end.month:
                             foc_work_end += 1
+                        if year == income_start.year and month == income_start.month:
+                            foc_work_start += 1
                     elif getattr(interview, field_type) == 'etc':
                         etc_income += income
                     elif getattr(interview, field_type) == 'gov':
@@ -1009,7 +1015,7 @@ def calculate_monthly_income(subject_id, year=None, month=None):
 
     tot_income = moc_income + foc_income + etc_income + gov_income
 
-    return {'moc_income': moc_income, 'foc_income': foc_income, 'etc_income': etc_income, 'gov_income': gov_income, 'tot_income': tot_income, 'moc_work_end': moc_work_end, 'foc_work_end': foc_work_end}
+    return {'moc_income': moc_income, 'foc_income': foc_income, 'etc_income': etc_income, 'gov_income': gov_income, 'tot_income': tot_income, 'moc_work_end': moc_work_end, 'foc_work_end': foc_work_end, 'moc_work_start': moc_work_start, 'foc_work_start': foc_work_start}
 def is_date_in_range(start_date, end_date, year, month):
     input_date = date(year, month, 1)
     start_date_obj = date(start_date.year, start_date.month, 1)
@@ -1061,7 +1067,9 @@ def calculate_events(work_start, work_end, statics, tag):
         for data in statics:
             if data['year'] == current_date.year and data['month'] == current_date.month:
                 moc_work_end_cnt += data['moc_work_end']
+                moc_work_end_cnt += data['moc_work_start']
                 foc_work_end_cnt += data['foc_work_end']
+                foc_work_end_cnt += data['foc_work_start']
                 duration_poverty += data['poverty_yn']
                 tot_inr += data['inr']
                 tot_move_cnt += data['move_yn']
