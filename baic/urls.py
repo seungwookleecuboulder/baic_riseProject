@@ -41,6 +41,7 @@ urlpatterns = [
     path('subjectUpload/', subject_upload, name='subject_upload'),
     path('subjectStatics/<str:subject_id>', subject_statics, name='subject_statics'),
     path('subjectStaticsDownload/', subject_statics_download, name='subject_statics_download'),
+    path('subjectStaticsDownload/<str:subject_id>', subject_statics_download, name='subject_statics_download'),
 
     path('povertyList/', poverty_list, name='poverty_list'),
     path('povertyDownload/', poverty_download, name='poverty_download'),

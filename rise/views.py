@@ -6,6 +6,8 @@ from django.core.exceptions import ObjectDoesNotExist
 from datetime import datetime, timedelta, date
 import calendar
 
+import io
+import zipfile
 import csv
 
 ## views
@@ -815,17 +817,199 @@ def subject_statics(request, subject_id=None):
     events.append(calculate_events(birth_date, pn4_interview_date, statics, "AVG POSTNATAL(Birth-PN4)"))
     events.append(calculate_events(pre_conception_date, birth_date, statics, "12-MONTH AVG(1 year pre - due date)"))
 
-    return render(request, 'subject_statics.html', {'statics': statics, 'events': events})
+    return render(request, 'subject_statics.html', {'statics': statics, 'events': events, 'subject_id': subject_id})
 def subject_statics_download(request, subject_id=None):
-    response = HttpResponse(content_type='text/csv')
-    response['Content-Disposition'] = 'attachment; filename="rise_project_subjects.csv"'
 
-    writer = csv.writer(response)
-    writer.writerow(['subject_id', 'researcher', 'pv1', 'pv2', 'pv3', 'pn1', 'pn4'])
+    csv_data1 = io.StringIO()
+    writer1 = csv.writer(csv_data1)
+    writer1.writerow(['Subject', 'Year', 'Month', 'Poverty', 'Income(Y)', 'Income(M)', 'Adults', 'Kids', 'INR', 'Poverty', 'Move', 'Event'])
 
-    queryset = Subject.objects.all()
-    for row in queryset:
-        writer.writerow([row.subject_id, row.researcher, row.pv1, row.pv2, row.pv3, row.pn1, row.pn4])
+    csv_data2 = io.StringIO()
+    writer2 = csv.writer(csv_data2)
+    writer2.writerow(['Subject', 'EVENT', 'INR', 'Income', 'Duration_Poverty', 'Move', '(M) Work Changed', '(F) Work Changed'])
+
+    birth_date = get_birth_date(subject_id)
+    conception_date = get_conception_date(subject_id)
+
+    if birth_date is None and conception_date is not None:
+        birth_date = add_months_to_date(conception_date, 9)
+    if birth_date is not None and conception_date is None:
+        conception_date = add_months_to_date(birth_date, -9)
+
+    tri1_date = get_tri1_date(subject_id)
+    tri2_date = get_tri2_date(subject_id)
+    tri3_date = get_tri3_date(subject_id)
+
+    if tri1_date is None:
+        tri1_date = conception_date
+    if tri2_date is None:
+        tri2_date = add_months_to_date(tri1_date, 3)
+    if tri3_date is None:
+        tri3_date = add_months_to_date(tri2_date, 3)
+
+    pv1_interview_date = get_interview_type_date(subject_id, 'pv1')
+    pv2_interview_date = get_interview_type_date(subject_id, 'pv2')
+    pv3_interview_date = get_interview_type_date(subject_id, 'pv3')
+    pn1_interview_date = get_interview_type_date(subject_id, 'pn1')
+    pn4_interview_date = get_interview_type_date(subject_id, 'pn4')
+
+    scan_date = get_scan_date(subject_id)
+    move_date = get_move_date(subject_id=subject_id)
+
+    interviews = Interview.objects.filter(subject_id=subject_id)
+
+    statics = []
+    pre_conception_date = None
+
+    for interview in interviews:
+        # Start/End date setting.
+        if interview.interview_type == 'pv1':
+            work_start = add_months_to_date(birth_date, -12).date()
+            pre_conception_date = work_start
+            work_end = pv1_interview_date
+        elif interview.interview_type == 'pv2':
+            work_start = pv1_interview_date
+            work_start = work_start.replace(day=1)
+            work_start = add_months_to_date(work_start, 1).date()
+            work_end = pv2_interview_date
+        elif interview.interview_type == 'pv3':
+            work_start = pv2_interview_date
+            work_start = work_start.replace(day=1)
+            work_start = add_months_to_date(work_start, 1).date()
+            work_end = pv3_interview_date
+        elif interview.interview_type == 'pn1':
+            work_start = pv3_interview_date
+            work_start = work_start.replace(day=1)
+            work_start = add_months_to_date(work_start, 1).date()
+            work_end = pn1_interview_date
+        elif interview.interview_type == 'pn4':
+            work_start = pn1_interview_date
+            work_start = work_start.replace(day=1)
+            work_start = add_months_to_date(work_start, 1).date()
+            work_end = pn4_interview_date
+
+        current_date = work_start
+        while current_date <= work_end:
+            event = ""
+            moc_work_end = 0
+            foc_work_end = 0
+            moc_work_start = 0
+            foc_work_start = 0
+            year = current_date.year
+            month = current_date.month
+            moc_income = calculate_monthly_income(subject_id, year, month)['moc_income']
+            foc_income = calculate_monthly_income(subject_id, year, month)['foc_income']
+            monthly_income = moc_income + foc_income
+            moc_work_end = calculate_monthly_income(subject_id, year, month)['moc_work_end']
+            foc_work_end = calculate_monthly_income(subject_id, year, month)['foc_work_end']
+            moc_work_start = calculate_monthly_income(subject_id, year, month)['moc_work_start']
+            foc_work_start = calculate_monthly_income(subject_id, year, month)['foc_work_start']
+
+            yearly_income = monthly_income * 12
+
+            f_adult = interview.financial_familiy_adult
+            h_adult = interview.household_adult
+            if f_adult is None:
+                f_adult = 0
+            if h_adult is None:
+                h_adult = 0
+            adult = max(f_adult, h_adult)
+
+            f_kid = interview.financial_familiy_child
+            h_kid = interview.household_child
+            if f_kid is None:
+                f_kid = 0
+            if h_kid is None:
+                h_kid = 0
+            kid = max(f_kid, h_kid)
+
+            pline = Poverty.objects.get(year=year, familysize=adult+kid, adult=adult, kid=kid).pline
+            inr = yearly_income / pline
+
+            poverty_yn = 0
+            if inr < 2:
+                poverty_yn = 1
+
+            # event check
+            if birth_date is not None:
+                if year == birth_date.year and month == birth_date.month:
+                    event += "(Birth) (Tri3_end) "
+            if conception_date is not None:
+                if year == conception_date.year and month == conception_date.month:
+                    event += "(Conception) "
+            if tri1_date is not None:
+                if year == tri1_date.year and month == tri1_date.month:
+                    event += "(Tri1 Start) "
+            if tri2_date is not None:
+                if year == tri2_date.year and month == tri2_date.month:
+                    event += "(Tri1 End) (Tri2 Start) "
+            if tri3_date is not None:
+                if year == tri3_date.year and month == tri3_date.month:
+                    event += "(Tri2 End) (Tri3 Start) "
+            if scan_date is not None:
+                if year == scan_date.year and month == scan_date.month:
+                    event += "(Scan) "
+            if pv1_interview_date is not None:
+                if year == pv1_interview_date.year and month == pv1_interview_date.month:
+                    event += "(PV1) "
+            if pv2_interview_date is not None:
+                if year == pv2_interview_date.year and month == pv2_interview_date.month:
+                    event += "(PV2) "
+            if pv3_interview_date is not None:
+                if year == pv3_interview_date.year and month == pv3_interview_date.month:
+                    event += "(PV3) "
+            if pn1_interview_date is not None:
+                if year == pn1_interview_date.year and month == pn1_interview_date.month:
+                    event += "(PN1) "
+            if pn4_interview_date is not None:
+                if year == pn4_interview_date.year and month == pn4_interview_date.month:
+                    event += "(PN4) "
+            move_yn = 0
+            if move_date is not None:
+                if year == move_date.year and month == move_date.month:
+                    event += "(Move) "
+                    move_yn = 1
+
+            writer1.writerow([subject_id, year, month, pline, yearly_income, monthly_income, adult, kid, inr, poverty_yn, move_yn, event])
+
+            statics.append({'subject_id': subject_id, 'year': year, 'month': month, 'pline': pline, 'yearly_income': yearly_income, 'monthly_income': monthly_income, 'adult': adult, 'kid': kid, 'inr': inr, 'poverty_yn': poverty_yn, 'move_yn': move_yn, 'event': event, 'moc_work_end': moc_work_end, 'foc_work_end': foc_work_end, 'moc_work_start': moc_work_start, 'foc_work_start': foc_work_start})
+
+            # move to next month.
+            if current_date.month == 12:
+                current_date = current_date.replace(year=current_date.year + 1, month=1)
+            else:
+                current_date = current_date.replace(month=current_date.month + 1)
+
+    events = []
+    events.append(calculate_events(pre_conception_date, conception_date, statics, "PRE_CONCEPTION-CONCEPTION"))
+    events.append(calculate_events(conception_date, pv1_interview_date, statics, "CONCEPTION-PV1"))
+    events.append(calculate_events(pv1_interview_date, pv2_interview_date, statics, "PV1-PV2"))
+    events.append(calculate_events(pv2_interview_date, pv3_interview_date, statics, "PV2-PV3"))
+    events.append(calculate_events(pv3_interview_date, pn1_interview_date, statics, "PV3-PN1"))
+    events.append(calculate_events(pn1_interview_date, pn4_interview_date, statics, "PN1-PN4"))
+    events.append(calculate_events(conception_date, tri2_date, statics, "1st TRIMESTER(Conception-Tri1End)"))
+    events.append(calculate_events(tri2_date, tri3_date, statics, "2nd TRIMESTER(Tri2Start-Tri2End)"))
+    events.append(calculate_events(tri3_date, birth_date, statics, "3rd TRIMESTER(Tri3Start-Tri3End)"))
+    events.append(calculate_events(birth_date, scan_date, statics, "SCAN Postnatal(Birth-Scan)"))
+    events.append(calculate_events(birth_date, pn1_interview_date, statics, "PN1 Postnatal(Birth-PN1)"))
+    events.append(calculate_events(pn1_interview_date, pn4_interview_date, statics, "PN4 Postnatal(PN1-PN4)"))
+    events.append(calculate_events(conception_date, birth_date, statics, "AVG PRENATAL(Conception-Birth)"))
+    events.append(calculate_events(birth_date, pn4_interview_date, statics, "AVG POSTNATAL(Birth-PN4)"))
+    events.append(calculate_events(pre_conception_date, birth_date, statics, "12-MONTH AVG(1 year pre - due date)"))
+
+    for event in events:
+        print(event)
+        writer2.writerow([subject_id, event['tag'], event['inr'], event['income'], event['duration_poverty'], event['tot_move_cnt'], event['moc_work_end_cnt'], event['foc_work_end_cnt'] ])#, month, pline, yearly_income, monthly_income, adult, kid, inr, poverty_yn, move_yn,event])
+
+
+    zip_buffer = io.BytesIO()
+    with zipfile.ZipFile(zip_buffer, 'w') as zipf:
+        zipf.writestr(f'rise_project_statics_{subject_id}.csv', csv_data1.getvalue())
+        zipf.writestr(f'rise_project_events_{subject_id}.csv', csv_data2.getvalue())
+
+    # ZIP 파일을 HttpResponse에 담아서 반환
+    response = HttpResponse(zip_buffer.getvalue(), content_type='application/zip')
+    response['Content-Disposition'] = f'attachment; filename="rise_project_statics_and_events_{subject_id}.zip"'
 
     return response
 
