@@ -343,21 +343,22 @@
               <form class="row g-3 needs-validation" method="post" novalidate>
                   {% csrf_token %}
                 <div class="col-6">
-                  <label for="{{ form.subject_id.id_for_label }}">Subject ID</label>
+                  <label for="{{ form.subject_id.id_for_label }}">Subject ID *</label>
                   <input type="text" class="form-control" id="{{ form.subject_id.id_for_label }}" name="{{ form.subject_id.name }}" value="{{ form.subject_id.value }}" readonly>
                 </div>
                 <div class="col-6">
-                  <label for="{{ form.researcher.id_for_label }}">Researcher</label>
+                  <label for="{{ form.researcher.id_for_label }}">Researcher *</label>
                   <input type="text" class="form-control" id="{{ form.researcher.id_for_label }}" name="{{ form.researcher.name }}" value="{{ form.researcher.value }}" required>
+                    <div class="invalid-feedback">Please, enter researcher!</div>
                 </div>
                 <div class="col-3">
-                  <label for="{{ form.interview_id.id_for_label }}">Interview ID</label>
+                  <label for="{{ form.interview_id.id_for_label }}">Interview ID *</label>
                   <input type="text" class="form-control" id="{{ form.interview_id.id_for_label }}" name="{{ form.interview_id.name }}" value="{{ form.interview_id.value }}" readonly>
                   <div class="invalid-feedback">Please, enter subject id!</div>
                     {{ form.interview_id.errors }}
                 </div>
                 <div class="col-3">
-                  <label for="{{ form.interview_type.id_for_label }}">Interview Type</label>
+                  <label for="{{ form.interview_type.id_for_label }}">Interview Type *</label>
                   <select class="form-select" aria-label="{{ form.interview_type.id_for_label }}" id="{{ form.interview_type.id_for_label }}" name="{{ form.interview_type.name }}"  required>
                     <option value="" {% if form.interview_type.value == '' %}selected{% endif %}>Choose...</option>
                     <option value="pv1" {% if form.interview_type.value == 'pv1' %}selected{% endif %}>PV1</option>
@@ -369,45 +370,154 @@
                   <div class="invalid-feedback">Please, select interview type!</div>
                 </div>
                 <div class="col-3">
-                  <label for="{{ form.interview_date.id_for_label }}">Interview Date</label>
+                  <label for="{{ form.interview_date.id_for_label }}">Interview Date *</label>
                   <input type="date" class="form-control" id="{{ form.interview_date.id_for_label }}" name="{{ form.interview_date.name }}" value="{{ form.interview_date.value|date:"Y-m-d" }}"  required>
                   <div class="invalid-feedback">Please, enter interview_date!</div>
                 </div>
                 <div class="col-3">
-                  <label for="{{ form.financial_supporter_type.id_for_label }}">Financial Support Type</label>
-                  <select class="form-select" aria-label="{{ form.financial_supporter_type.id_for_label }}" id="{{ form.financial_supporter_type.id_for_label }}" name="{{ form.financial_supporter_type.name }}"  required>
-                    <option value="" {% if form.financial_supporter_type.value == '' %}selected{% endif %}>Choose...</option>
-                    <option value="biofather" {% if form.financial_supporter_type.value == 'biofather' %}selected{% endif %}>Bio Father</option>
-                    <option value="stepfather" {% if form.financial_supporter_type.value == 'stepfather' %}selected{% endif %}>Step Father</option>
-                    <option value="boyfriend" {% if form.financial_supporter_type.value == 'boyfriend' %}selected{% endif %}>Boy Friend</option>
-                    <option value="single" {% if form.financial_supporter_type.value == 'single' %}selected{% endif %}>Single</option>
+                  <label for="{{ form.partner_support_status.id_for_label }}">Partner Support Status *</label>
+                  <select class="form-select" aria-label="{{ form.partner_support_status.id_for_label }}" id="{{ form.partner_support_status.id_for_label }}" name="{{ form.partner_support_status.name }}"  required>
+                    <option value="" {% if form.partner_support_status.value == '' %}selected{% endif %}>Choose...</option>
+                    <option value="biofather" {% if form.partner_support_status.value == 'biofather' %}selected{% endif %}>Bio Father</option>
+                    <option value="stepfather" {% if form.partner_support_status.value == 'stepfather' %}selected{% endif %}>Step Father</option>
+                    <option value="boyfriend" {% if form.partner_support_status.value == 'boyfriend' %}selected{% endif %}>Boy Friend</option>
+                    <option value="single" {% if form.partner_support_status.value == 'single' %}selected{% endif %}>Single</option>
                   </select>
-                  <div class="invalid-feedback">Please, select financial_supporter_type!</div>
+                  <div class="invalid-feedback">Please, select partner_support_status!</div>
                 </div>
+                <div class="col-3">
+                  <label for="{{ form.financial_familiy_adult.id_for_label }}">Financial Family Adult *</label>
+                  <input type="number" class="form-control" id="{{ form.financial_familiy_adult.id_for_label }}" name="{{ form.financial_familiy_adult.name }}" value="{{ form.financial_familiy_adult.value }}" required>
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.financial_familiy_child.id_for_label }}">Financial Family Child *</label>
+                  <input type="number" class="form-control" id="{{ form.financial_familiy_child.id_for_label }}" name="{{ form.financial_familiy_child.name }}" value="{{ form.financial_familiy_child.value }}" required>
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.household_adult.id_for_label }}">Household Adult *</label>
+                  <input type="number" class="form-control" id="{{ form.household_adult.id_for_label }}" name="{{ form.household_adult.name }}" value="{{ form.household_adult.value }}" required>
+                  <div class="invalid-feedback">Please, insert household number!</div>
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.household_child.id_for_label }}">Household Child *</label>
+                  <input type="number" class="form-control" id="{{ form.household_child.id_for_label }}" name="{{ form.household_child.name }}" value="{{ form.household_child.value }}" required>
+                  <div class="invalid-feedback">Please, insert household number!</div>
+                </div>
+               <div class="col-12">
+                  <label for="{{ form.household_member_changes.id_for_label }}">Comments on change of household members</label>
+                  <input type="text" class="form-control" id="{{ form.household_member_changes.id_for_label }}" name="{{ form.household_member_changes.name }}" value="{{ form.household_member_changes.value }}">
+                </div>
+
+
+                <div id="extraField_pv1" class="extra-field" style="display: none;">
+                    <hr style="border-bottom: 2px solid black;">
+                    <label>Questions for PV1</label>
+                    <!-- Question 1 -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="{{ form.pv1_q1.id_for_label }}" name="{{ form.pv1_q1.name }}">
+                                <option value="" {% if form.pv1_q1.value == '' %}selected{% endif %}>Choose...</option>
+                                <option value="1" {% if form.pv1_q1.value == 1 %}selected{% endif %}>Yes</option>
+                                <option value="0" {% if form.pv1_q1.value == 0 %}selected{% endif %}>No</option>
+                            </select>
+                            <label for="{{ form.pv1_q1.id_for_label }}">Q1. Did the participant earn at least $2500 in wages within Colorado over a period of a year?</label>
+                        </div>
+                    </div>
+
+
+                    <!-- Question 2 -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="{{ form.pv1_q2.id_for_label }}" name="{{ form.pv1_q2.name }}">
+                                <option value="" {% if form.pv1_q2.value == '' %}selected{% endif %}>Select an option</option>
+                                <option value="1" {% if form.pv1_q2.value == 1 %}selected{% endif %}>No leave</option>
+                                <option value="2" {% if form.pv1_q2.value == 2 %}selected{% endif %}>Unpaid leave</option>
+                                <option value="3" {% if form.pv1_q2.value == 3 %}selected{% endif %}>Paid leave</option>
+                                <option value="4" {% if form.pv1_q2.value == 4 %}selected{% endif %}>Other</option>
+                                <option value="5" {% if form.pv1_q2.value == 5 %}selected{% endif %}>N/A (Question #1 was “N”)</option>
+                            </select>
+                            <label for="{{ form.pv1_q2.id_for_label }}">Q2. Identify Leave category?</label>
+                        </div>
+                    </div>
+                    <!-- Question 3 -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="{{ form.pv1_q3.id_for_label }}" name="{{ form.pv1_q3.name }}">
+                                <option value="" {% if form.pv1_q3.value == '' %}selected{% endif %}>Select an option</option>
+                                <option value="1" {% if form.pv1_q3.value == 1 %}selected{% endif %}>Pregnancy</option>
+                                <option value="2" {% if form.pv1_q3.value == 2 %}selected{% endif %}>Postnatal</option>
+                                <option value="3" {% if form.pv1_q3.value == 3 %}selected{% endif %}>Participant did not stop working</option>
+                                <option value="4" {% if form.pv1_q3.value == 4 %}selected{% endif %}>Question #1 was “N”</option>
+                            </select>
+                            <label for="{{ form.pv1_q3.id_for_label }}">Q3. If participant stopped working, did they stop during pregnancy or the postnatal period?</label>
+                        </div>
+                    </div>
+                    <!-- Question 4 -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="{{ form.pv1_q4.id_for_label }}" name="{{ form.pv1_q4.name }}" value="{{ form.pv1_q4.value }}" placeholder="Q4">
+                            <label for="{{ form.pv1_q4.id_for_label }}"> Q4. How long was the participants leave in weeks (if applicable)?</label>
+                        </div>
+                    </div>
+                    <!-- Question 5 -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="{{ form.pv1_q5.id_for_label }}" name="{{ form.pv1_q5.name }}" value="{{ form.pv1_q5.value }}" placeholder="Q5">
+                            <label for="{{ form.pv1_q5.id_for_label }}"> Q5. How much income support did the participant receive (for participants with paid leave)?</label>
+                        </div>
+                    </div>
+                    <!-- Question 6 -->
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="{{ form.pv1_q6.id_for_label }}" name="{{ form.pv1_q6.name }}" value="{{ form.pv1_q6.value }}" placeholder="Q6">
+                            <label for="{{ form.pv1_q6.id_for_label }}"> Q6. Any other income support from government programs during the perinatal period? If yes, please list duration and amount</label>
+                        </div>
+                    </div>
+                </div>
+
+
                   <hr style="border-bottom: 2px solid black;">
                 <div class="col-3">
-                  <label for="{{ form.financial_familiy_adult.id_for_label }}">Financial Family Adult</label>
-                  <input type="number" class="form-control" id="{{ form.financial_familiy_adult.id_for_label }}" name="{{ form.financial_familiy_adult.name }}" value="{{ form.financial_familiy_adult.value }}">
-                </div>
-                <div class="col-3">
-                  <label for="{{ form.financial_familiy_child.id_for_label }}">Financial Family Child</label>
-                  <input type="number" class="form-control" id="{{ form.financial_familiy_child.id_for_label }}" name="{{ form.financial_familiy_child.name }}" value="{{ form.financial_familiy_child.value }}">
-                </div>
-                <div class="col-3">
-                  <label for="{{ form.household_adult.id_for_label }}">Household Adult</label>
-                  <input type="number" class="form-control" id="{{ form.household_adult.id_for_label }}" name="{{ form.household_adult.name }}" value="{{ form.household_adult.value }}">
-                </div>
-                <div class="col-3">
-                  <label for="{{ form.household_child.id_for_label }}">Household Child</label>
-                  <input type="number" class="form-control" id="{{ form.household_child.id_for_label }}" name="{{ form.household_child.name }}" value="{{ form.household_child.value }}">
-                </div>
-                <div class="col-3">
-                  <label for="{{ form.move_date.id_for_label }}">Move Date</label>
-                  <input type="date" class="form-control" id="{{ form.move_date.id_for_label }}" name="{{ form.move_date.name }}" value="{{ form.move_date.value|date:"Y-m-d" }}">
+                  <label for="{{ form.move_date_1.id_for_label }}">Move Date 1</label>
+                  <input type="date" class="form-control" id="{{ form.move_date_1.id_for_label }}" name="{{ form.move_date_1.name }}" value="{{ form.move_date_1.value|date:"Y-m-d" }}">
                 </div>
                 <div class="col-9">
-                  <label for="{{ form.housing_comments.id_for_label }}">Housing Comments</label>
-                  <input type="text" class="form-control" id="{{ form.housing_comments.id_for_label }}" name="{{ form.housing_comments.name }}" value="{{ form.housing_comments.value|default:'' }}">
+                  <label for="{{ form.housing_comments_1.id_for_label }}">Housing Comments 1</label>
+                  <input type="text" class="form-control" id="{{ form.housing_comments_1.id_for_label }}" name="{{ form.housing_comments_1.name }}" value="{{ form.housing_comments_1.value|default:'' }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.move_date_2.id_for_label }}">Move Date 2</label>
+                  <input type="date" class="form-control" id="{{ form.move_date_2.id_for_label }}" name="{{ form.move_date_2.name }}" value="{{ form.move_date_2.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-9">
+                  <label for="{{ form.housing_comments_2.id_for_label }}">Housing Comments 2</label>
+                  <input type="text" class="form-control" id="{{ form.housing_comments_2.id_for_label }}" name="{{ form.housing_comments_2.name }}" value="{{ form.housing_comments_2.value|default:'' }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.move_date_3.id_for_label }}">Move Date 3</label>
+                  <input type="date" class="form-control" id="{{ form.move_date_3.id_for_label }}" name="{{ form.move_date_3.name }}" value="{{ form.move_date_3.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-9">
+                  <label for="{{ form.housing_comments_3.id_for_label }}">Housing Comments 3</label>
+                  <input type="text" class="form-control" id="{{ form.housing_comments_3.id_for_label }}" name="{{ form.housing_comments_3.name }}" value="{{ form.housing_comments_3.value|default:'' }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.move_date_4.id_for_label }}">Move Date 4</label>
+                  <input type="date" class="form-control" id="{{ form.move_date_4.id_for_label }}" name="{{ form.move_date_4.name }}" value="{{ form.move_date_4.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-9">
+                  <label for="{{ form.housing_comments_4.id_for_label }}">Housing Comments 4</label>
+                  <input type="text" class="form-control" id="{{ form.housing_comments_4.id_for_label }}" name="{{ form.housing_comments_4.name }}" value="{{ form.housing_comments_4.value|default:'' }}">
+                </div>
+                <div class="col-3">
+                  <label for="{{ form.move_date_5.id_for_label }}">Move Date 5</label>
+                  <input type="date" class="form-control" id="{{ form.move_date_5.id_for_label }}" name="{{ form.move_date_5.name }}" value="{{ form.move_date_5.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-9">
+                  <label for="{{ form.housing_comments_5.id_for_label }}">Housing Comments 5</label>
+                  <input type="text" class="form-control" id="{{ form.housing_comments_5.id_for_label }}" name="{{ form.housing_comments_5.name }}" value="{{ form.housing_comments_5.value|default:'' }}">
                 </div>
                   <hr style="border-bottom: 2px solid black;">
                 <div class="col-4">
@@ -823,7 +933,32 @@
 
   <!-- Template Main JS File -->
   <script src="{% static 'assets/js/main.js' %}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            let interviewTypeSelect = document.getElementById('{{ form.interview_type.id_for_label }}');
 
+            const showExtraFieldBasedOnSelectedType = () => {
+                // 각 타입에 대한 추가 필드들을 숨깁니다.
+                document.querySelectorAll('[id^="extraField_"]').forEach((div) => {
+                    div.style.display = 'none';
+                });
+
+                let selectedType = interviewTypeSelect.value;
+                let extraFieldDiv = document.getElementById('extraField_' + selectedType);
+
+                // 선택된 타입에 해당하는 추가 필드를 표시합니다.
+                if(extraFieldDiv) {
+                    extraFieldDiv.style.display = 'block';
+                }
+            };
+
+            // 선택된 interview_type에 따라 추가 필드를 표시합니다.
+            showExtraFieldBasedOnSelectedType();
+
+            // interview_type이 변경될 때마다 추가 필드를 업데이트합니다.
+            interviewTypeSelect.addEventListener('change', showExtraFieldBasedOnSelectedType);
+        });
+    </script>
 </body>
 
 </html>

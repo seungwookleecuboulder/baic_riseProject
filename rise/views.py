@@ -71,11 +71,18 @@ def interview_list(request):
     return render(request, 'interview_list.html', {'interviews': interviews})
 def interview_new(request, interview_id=None):
     subject_id=None
+    interview_type=None
+    if interview_id is not None:
+        parts = interview_id.split('_')
+        if len(parts) == 2:
+            subject_id = parts[0]
+            interview_type = parts[1].lower()
     if request.method == 'POST':
         form = InterviewForm(request.POST)
         if form.is_valid():
             interview_id = form.cleaned_data.get('interview_id')
             subject_id = form.cleaned_data.get('subject_id')
+            interview_type = form.cleaned_data.get('interview_type')
             if interview_id is not None and Interview.objects.filter(interview_id=interview_id).exists():
                 form.add_error('interview_id', 'Interview ID already exists.')
             elif Subject.objects.filter(subject_id=subject_id).exists() is False:
@@ -87,13 +94,23 @@ def interview_new(request, interview_id=None):
                     researcher=form.cleaned_data.get('researcher'),
                     interview_type=form.cleaned_data.get('interview_type'),
                     interview_date=form.cleaned_data.get('interview_date'),
-                    financial_supporter_type=form.data.get('financial_supporter_type'),
+                    partner_support_status=form.data.get('partner_support_status'),
+                    financial_familiy_adult=form.data.get('financial_familiy_adult'),
+                    financial_familiy_child=form.data.get('financial_familiy_child'),
                     household_adult=form.data.get('household_adult'),
                     household_child=form.data.get('household_child'),
-                    financial_familiy_adult=form.data.get('financial_familiy_adult') or 0,
-                    financial_familiy_child=form.data.get('financial_familiy_child') or 0,
-                    move_date=form.data.get('move_date') or None,
-                    housing_comments=form.data.get('housing_comments') or None,
+                    household_member_changes=form.data.get('household_member_changes') or None,
+
+                    move_date_1=form.data.get('move_date_1') or None,
+                    housing_comments_1=form.data.get('housing_comments_1') or None,
+                    move_date_2=form.data.get('move_date_2') or None,
+                    housing_comments_2=form.data.get('housing_comments_2') or None,
+                    move_date_3=form.data.get('move_date_3') or None,
+                    housing_comments_3=form.data.get('housing_comments_3') or None,
+                    move_date_4=form.data.get('move_date_4') or None,
+                    housing_comments_4=form.data.get('housing_comments_4') or None,
+                    move_date_5=form.data.get('move_date_5') or None,
+                    housing_comments_5=form.data.get('housing_comments_5') or None,
                     conception_date=form.data.get('conception_date') or None,
                     tri1_date=form.data.get('tri1_date') or None,
                     tri2_date=form.data.get('tri2_date') or None,
@@ -101,6 +118,13 @@ def interview_new(request, interview_id=None):
                     birth_date=form.data.get('birth_date') or None,
                     scan_date=form.data.get('scan_date') or None,
                     event_comments=form.data.get('event_comments') or None,
+
+                    pv1_q1=form.data.get('pv1_q1') or None,
+                    pv1_q2=form.data.get('pv1_q2') or None,
+                    pv1_q3=form.data.get('pv1_q3') or None,
+                    pv1_q4=form.data.get('pv1_q4') or None,
+                    pv1_q5=form.data.get('pv1_q5') or None,
+                    pv1_q6=form.data.get('pv1_q6') or None,
 
                     object_type_1=form.data.get('object_type_1') or None,
                     object_working_hour_1=form.data.get('object_working_hour_1') or None,
@@ -186,12 +210,7 @@ def interview_new(request, interview_id=None):
     else:
         form = InterviewForm()
 
-    if interview_id is not None:
-        parts = interview_id.split('_')
-        if len(parts) > 0:
-            subject_id = parts[0]
-
-    return render(request, 'interview_new.html', {'form': form, 'interview_id': interview_id, 'subject_id': subject_id})
+    return render(request, 'interview_new.html', {'form': form, 'interview_id': interview_id, 'subject_id': subject_id, 'interview_type': interview_type})
 def interview_update(request, interview_id):
     if request.method == 'POST':
         form = SubjectForm(request.POST)
@@ -201,13 +220,23 @@ def interview_update(request, interview_id):
                 researcher=form.data.get('researcher'),
                 interview_type=form.data.get('interview_type'),
                 interview_date=form.data.get('interview_date'),
-                financial_supporter_type=form.data.get('financial_supporter_type'),
-                household_adult=form.data.get('household_adult'),
-                household_child=form.data.get('household_child'),
+                partner_support_status=form.data.get('partner_support_status'),
                 financial_familiy_adult=form.data.get('financial_familiy_adult') or 0,
                 financial_familiy_child=form.data.get('financial_familiy_child') or 0,
-                move_date=form.data.get('move_date') or None,
-                housing_comments=form.data.get('housing_comments') or None,
+                household_adult=form.data.get('household_adult') or 0,
+                household_child=form.data.get('household_child') or 0,
+                household_member_changes=form.data.get('household_member_changes') or None,
+
+                move_date_1=form.data.get('move_date_1') or None,
+                housing_comments_1=form.data.get('housing_comments_1') or None,
+                move_date_2=form.data.get('move_date_2') or None,
+                housing_comments_2=form.data.get('housing_comments_2') or None,
+                move_date_3=form.data.get('move_date_3') or None,
+                housing_comments_3=form.data.get('housing_comments_3') or None,
+                move_date_4=form.data.get('move_date_4') or None,
+                housing_comments_4=form.data.get('housing_comments_4') or None,
+                move_date_5=form.data.get('move_date_5') or None,
+                housing_comments_5=form.data.get('housing_comments_5') or None,
                 conception_date=form.data.get('conception_date') or None,
                 tri1_date=form.data.get('tri1_date') or None,
                 tri2_date=form.data.get('tri2_date') or None,
@@ -215,6 +244,13 @@ def interview_update(request, interview_id):
                 birth_date=form.data.get('birth_date') or None,
                 scan_date=form.data.get('scan_date') or None,
                 event_comments=form.data.get('event_comments') or None,
+
+                pv1_q1=form.data.get('pv1_q1') or None,
+                pv1_q2=form.data.get('pv1_q2') or None,
+                pv1_q3=form.data.get('pv1_q3') or None,
+                pv1_q4=form.data.get('pv1_q4') or None,
+                pv1_q5=form.data.get('pv1_q5') or None,
+                pv1_q6=form.data.get('pv1_q6') or None,
 
                 object_type_1=form.data.get('object_type_1') or None,
                 object_working_hour_1=form.data.get('object_working_hour_1') or None,
@@ -316,9 +352,11 @@ def interview_download(request):
     response['Content-Disposition'] = 'attachment; filename="rise_project_interviews.csv"'
 
     writer = csv.writer(response)
-    writer.writerow(['interview_id', 'subject_id', 'researcher', 'interview_type', 'interview_date', 'financial_supporter_type',
-                   'household_adult', 'household_child', 'financial_familiy_adult', 'financial_familiy_child', 'move_date', 'housing_comments',
+    writer.writerow(['interview_id', 'subject_id', 'researcher', 'interview_type', 'interview_date', 'partner_support_status',
+                   'household_adult', 'household_child', 'financial_familiy_adult', 'financial_familiy_child', 'household_member_changes',
+                   'move_date_1', 'housing_comments_1', 'move_date_2', 'housing_comments_2', 'move_date_3', 'housing_comments_3', 'move_date_4', 'housing_comments_4', 'move_date_5', 'housing_comments_5',
                    'conception_date', 'tri1_date', 'tri2_date', 'tri3_date', 'birth_date', 'scan_date', 'event_comments',
+                   'pv1_q1', 'pv1_q2', 'pv1_q3', 'pv1_q4', 'pv1_q5', 'pv1_q6',
                    'object_type_1', 'object_working_hour_1', 'object_hourly_wage_1', 'object_monthly_income_1', 'object_start_date_1', 'object_end_date_1', 'object_comment_1',
                    'object_type_2', 'object_working_hour_2', 'object_hourly_wage_2', 'object_monthly_income_2', 'object_start_date_2', 'object_end_date_2', 'object_comment_2',
                    'object_type_3', 'object_working_hour_3', 'object_hourly_wage_3', 'object_monthly_income_3', 'object_start_date_3', 'object_end_date_3', 'object_comment_3',
@@ -333,9 +371,11 @@ def interview_download(request):
     queryset = Interview.objects.all()
     for row in queryset:
         writer.writerow([
-            row.interview_id, row.subject_id, row.researcher, row.interview_type, row.interview_date, row.financial_supporter_type,
-            row.household_adult, row.household_child, row.financial_familiy_adult, row.financial_familiy_child, row.move_date, row.housing_comments,
+            row.interview_id, row.subject_id, row.researcher, row.interview_type, row.interview_date, row.partner_support_status,
+            row.household_adult, row.household_child, row.financial_familiy_adult, row.financial_familiy_child, row.household_member_changes,
+            row.move_date_1, row.housing_comments_1, row.move_date_2, row.housing_comments_2, row.move_date_3, row.housing_comments_3, row.move_date_4, row.housing_comments_4, row.move_date_5, row.housing_comments_5,
             row.conception_date, row.tri1_date, row.tri2_date, row.tri3_date, row.birth_date, row.scan_date, row.event_comments,
+            row.pv1_q1, row.pv1_q2, row.pv1_q3, row.pv1_q4, row.pv1_q5, row.pv1_q6,
             row.object_type_1, row.object_working_hour_1, row.object_hourly_wage_1, row.object_monthly_income_1,
             row.object_start_date_1, row.object_end_date_1, row.object_comment_1,
             row.object_type_2, row.object_working_hour_2, row.object_hourly_wage_2, row.object_monthly_income_2,
@@ -375,90 +415,107 @@ def interview_upload(request):
                 researcher = row[2]
                 interview_type = row[3]
                 interview_date = row[4]
-                financial_supporter_type = row[5]
+                partner_support_status = row[5]
                 household_adult = row[6]
                 household_child = row[7]
                 financial_familiy_adult = row[8]
                 financial_familiy_child = row[9]
-                housing_comments = row[10]
-                move_date = row[11]
-                conception_date = row[12]
-                tri1_date = row[13]
-                tri2_date = row[14]
-                tri3_date = row[15]
-                birth_date = row[16]
-                scan_date = row[17]
-                event_comments = row[18]
-                object_type_1 = row[19]
-                object_working_hour_1 = row[20]
-                object_hourly_wage_1 = row[21]
-                object_monthly_income_1 = row[22]
-                object_start_date_1 = row[23]
-                object_end_date_1 = row[24]
-                object_comment_1 = row[25]
-                object_type_2 = row[26]
-                object_working_hour_2 = row[27]
-                object_hourly_wage_2 = row[28]
-                object_monthly_income_2 = row[29]
-                object_start_date_2 = row[30]
-                object_end_date_2 = row[31]
-                object_comment_2 = row[32]
-                object_type_3 = row[33]
-                object_working_hour_3 = row[34]
-                object_hourly_wage_3 = row[35]
-                object_monthly_income_3 = row[36]
-                object_start_date_3 = row[37]
-                object_end_date_3 = row[38]
-                object_comment_3 = row[39]
-                object_type_4 = row[40]
-                object_working_hour_4 = row[41]
-                object_hourly_wage_4 = row[42]
-                object_monthly_income_4 = row[43]
-                object_start_date_4 = row[44]
-                object_end_date_4 = row[45]
-                object_comment_4 = row[46]
-                object_type_5 = row[47]
-                object_working_hour_5 = row[48]
-                object_hourly_wage_5 = row[49]
-                object_monthly_income_5 = row[50]
-                object_start_date_5 = row[51]
-                object_end_date_5 = row[52]
-                object_comment_5 = row[53]
-                object_type_6 = row[54]
-                object_working_hour_6 = row[55]
-                object_hourly_wage_6 = row[56]
-                object_monthly_income_6 = row[57]
-                object_start_date_6 = row[58]
-                object_end_date_6 = row[59]
-                object_comment_6 = row[60]
-                object_type_7 = row[61]
-                object_working_hour_7 = row[62]
-                object_hourly_wage_7 = row[63]
-                object_monthly_income_7 = row[64]
-                object_start_date_7 = row[65]
-                object_end_date_7 = row[66]
-                object_comment_7 = row[67]
-                object_type_8 = row[68]
-                object_working_hour_8 = row[69]
-                object_hourly_wage_8 = row[70]
-                object_monthly_income_8 = row[71]
-                object_start_date_8 = row[72]
-                object_end_date_8 = row[73]
-                object_comment_8 = row[74]
-                object_type_9 = row[75]
-                object_working_hour_9 = row[76]
-                object_hourly_wage_9 = row[77]
-                object_monthly_income_9 = row[78]
-                object_start_date_9 = row[79]
-                object_end_date_9 = row[80]
-                object_comment_9 = row[81]
-                object_type_10 = row[82]
-                object_working_hour_10 = row[83]
-                object_hourly_wage_10 = row[84]
-                object_monthly_income_10 = row[85]
-                object_start_date_10 = row[86]
-                object_end_date_10 = row[87]
-                object_comment_10 = row[88]
+                household_member_changes = row[10]
+                move_date_1 = row[11]
+                housing_comments_1 = row[12]
+                move_date_2 = row[13]
+                housing_comments_2 = row[14]
+                move_date_3 = row[15]
+                housing_comments_3 = row[16]
+                move_date_4 = row[17]
+                housing_comments_4 = row[18]
+                move_date_5 = row[19]
+                housing_comments_5 = row[20]
+                conception_date = row[21]
+                tri1_date = row[22]
+                tri2_date = row[23]
+                tri3_date = row[24]
+                birth_date = row[25]
+                scan_date = row[26]
+                event_comments = row[27]
+
+                pv1_q1 = row[28]
+                pv1_q2 = row[29]
+                pv1_q3 = row[30]
+                pv1_q4 = row[31]
+                pv1_q5 = row[32]
+                pv1_q6 = row[33]
+
+                object_type_1 = row[34]
+                object_working_hour_1 = row[35]
+                object_hourly_wage_1 = row[36]
+                object_monthly_income_1 = row[37]
+                object_start_date_1 = row[38]
+                object_end_date_1 = row[39]
+                object_comment_1 = row[40]
+                object_type_2 = row[41]
+                object_working_hour_2 = row[42]
+                object_hourly_wage_2 = row[43]
+                object_monthly_income_2 = row[44]
+                object_start_date_2 = row[45]
+                object_end_date_2 = row[46]
+                object_comment_2 = row[47]
+                object_type_3 = row[48]
+                object_working_hour_3 = row[49]
+                object_hourly_wage_3 = row[50]
+                object_monthly_income_3 = row[51]
+                object_start_date_3 = row[52]
+                object_end_date_3 = row[53]
+                object_comment_3 = row[54]
+                object_type_4 = row[55]
+                object_working_hour_4 = row[56]
+                object_hourly_wage_4 = row[57]
+                object_monthly_income_4 = row[58]
+                object_start_date_4 = row[59]
+                object_end_date_4 = row[60]
+                object_comment_4 = row[61]
+                object_type_5 = row[62]
+                object_working_hour_5 = row[63]
+                object_hourly_wage_5 = row[64]
+                object_monthly_income_5 = row[65]
+                object_start_date_5 = row[66]
+                object_end_date_5 = row[67]
+                object_comment_5 = row[68]
+                object_type_6 = row[69]
+                object_working_hour_6 = row[70]
+                object_hourly_wage_6 = row[71]
+                object_monthly_income_6 = row[72]
+                object_start_date_6 = row[73]
+                object_end_date_6 = row[74]
+                object_comment_6 = row[75]
+                object_type_7 = row[76]
+                object_working_hour_7 = row[77]
+                object_hourly_wage_7 = row[78]
+                object_monthly_income_7 = row[79]
+                object_start_date_7 = row[80]
+                object_end_date_7 = row[81]
+                object_comment_7 = row[82]
+                object_type_8 = row[83]
+                object_working_hour_8 = row[84]
+                object_hourly_wage_8 = row[85]
+                object_monthly_income_8 = row[86]
+                object_start_date_8 = row[87]
+                object_end_date_8 = row[88]
+                object_comment_8 = row[89]
+                object_type_9 = row[90]
+                object_working_hour_9 = row[91]
+                object_hourly_wage_9 = row[92]
+                object_monthly_income_9 = row[93]
+                object_start_date_9 = row[94]
+                object_end_date_9 = row[95]
+                object_comment_9 = row[96]
+                object_type_10 = row[97]
+                object_working_hour_10 = row[98]
+                object_hourly_wage_10 = row[99]
+                object_monthly_income_10 = row[100]
+                object_start_date_10 = row[101]
+                object_end_date_10 = row[102]
+                object_comment_10 = row[103]
                 try:
                     interview = Interview.objects.get(interview_id=interview_id)
                     pass
@@ -469,13 +526,22 @@ def interview_upload(request):
                         researcher=researcher or None,
                         interview_type=interview_type or None,
                         interview_date=interview_date or None,
-                        financial_supporter_type=financial_supporter_type or None,
+                        partner_support_status=partner_support_status or None,
                         household_adult=household_adult or None,
                         household_child=household_child or None,
                         financial_familiy_adult=financial_familiy_adult or None,
                         financial_familiy_child=financial_familiy_child or None,
-                        housing_comments=housing_comments or None,
-                        move_date=move_date or None,
+                        household_member_changes=household_member_changes or None,
+                        move_date_1=move_date_1 or None,
+                        housing_comments_1=housing_comments_1 or None,
+                        move_date_2=move_date_2 or None,
+                        housing_comments_2=housing_comments_2 or None,
+                        move_date_3=move_date_3 or None,
+                        housing_comments_3=housing_comments_3 or None,
+                        move_date_4=move_date_4 or None,
+                        housing_comments_4=housing_comments_4 or None,
+                        move_date_5=move_date_5 or None,
+                        housing_comments_5=housing_comments_5 or None,
                         conception_date=conception_date or None,
                         tri1_date=tri1_date or None,
                         tri2_date=tri2_date or None,
@@ -483,6 +549,12 @@ def interview_upload(request):
                         birth_date=birth_date or None,
                         scan_date=scan_date or None,
                         event_comments=event_comments or None,
+                        pv1_q1=pv1_q1 or None,
+                        pv1_q2=pv1_q2 or None,
+                        pv1_q3=pv1_q3 or None,
+                        pv1_q4=pv1_q4 or None,
+                        pv1_q5=pv1_q5 or None,
+                        pv1_q6=pv1_q6 or None,
                         object_type_1=object_type_1 or None,
                         object_working_hour_1=object_working_hour_1 or None,
                         object_hourly_wage_1=object_hourly_wage_1 or None,
@@ -575,11 +647,11 @@ def subject_new(request):
                 Subject.objects.create(
                     subject_id=form.cleaned_data.get('subject_id'),
                     researcher=form.cleaned_data.get('researcher'),
-                    pv1=form.cleaned_data.get('subject_id')+'_5126',
-                    pv2=form.cleaned_data.get('subject_id')+'_5120',
-                    pv3=form.cleaned_data.get('subject_id')+'_5109',
-                    pn1=form.cleaned_data.get('subject_id')+'_5081',
-                    pn4=form.cleaned_data.get('subject_id')+'_5018'
+                    pv1=form.cleaned_data.get('subject_id')+'_PV1',
+                    pv2=form.cleaned_data.get('subject_id')+'_PV2',
+                    pv3=form.cleaned_data.get('subject_id')+'_PV3',
+                    pn1=form.cleaned_data.get('subject_id')+'_PN1',
+                    pn4=form.cleaned_data.get('subject_id')+'_PN4'
                 )
                 return redirect('/home')
     else:
@@ -637,11 +709,11 @@ def subject_upload(request):
                     Subject.objects.create(
                         subject_id=subject_id,
                         researcher=researcher,
-                        pv1=subject_id+'_5126',
-                        pv2=subject_id+'_5120',
-                        pv3=subject_id+'_5109',
-                        pn1=subject_id+'_5081',
-                        pn4=subject_id+'_5018'
+                        pv1=subject_id+'_PV1',
+                        pv2=subject_id+'_PV2',
+                        pv3=subject_id+'_PV3',
+                        pn1=subject_id+'_PN1',
+                        pn4=subject_id+'_PN4'
                     )
             return redirect('/home')
     else:
@@ -676,7 +748,11 @@ def subject_statics(request, subject_id=None):
     pn4_interview_date = get_interview_type_date(subject_id, 'pn4')
 
     scan_date = get_scan_date(subject_id)
-    move_date = get_move_date(subject_id=subject_id)
+    move_date = get_move_date(subject_id=subject_id, no=1)
+    move_date_2 = get_move_date(subject_id=subject_id, no=2)
+    move_date_3 = get_move_date(subject_id=subject_id, no=3)
+    move_date_4 = get_move_date(subject_id=subject_id, no=4)
+    move_date_5 = get_move_date(subject_id=subject_id, no=5)
 
     interviews = Interview.objects.filter(subject_id=subject_id)
 
@@ -686,28 +762,28 @@ def subject_statics(request, subject_id=None):
     for interview in interviews:
         # Start/End date setting.
         if interview.interview_type == 'pv1':
-            work_start = add_months_to_date(birth_date, -12).date()
+            work_start = add_months_to_date(birth_date, -12)
             pre_conception_date = work_start
             work_end = pv1_interview_date
         elif interview.interview_type == 'pv2':
             work_start = pv1_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pv2_interview_date
         elif interview.interview_type == 'pv3':
             work_start = pv2_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pv3_interview_date
         elif interview.interview_type == 'pn1':
             work_start = pv3_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pn1_interview_date
         elif interview.interview_type == 'pn4':
             work_start = pn1_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pn4_interview_date
 
         current_date = work_start
@@ -721,7 +797,8 @@ def subject_statics(request, subject_id=None):
             month = current_date.month
             moc_income = calculate_monthly_income(subject_id, year, month)['moc_income']
             foc_income = calculate_monthly_income(subject_id, year, month)['foc_income']
-            monthly_income = moc_income + foc_income
+            etc_income = calculate_monthly_income(subject_id, year, month)['etc_income']
+            monthly_income = moc_income + foc_income + etc_income
             moc_work_end = calculate_monthly_income(subject_id, year, month)['moc_work_end']
             foc_work_end = calculate_monthly_income(subject_id, year, month)['foc_work_end']
             moc_work_start = calculate_monthly_income(subject_id, year, month)['moc_work_start']
@@ -787,10 +864,13 @@ def subject_statics(request, subject_id=None):
                 if year == pn4_interview_date.year and month == pn4_interview_date.month:
                     event += "(PN4) "
             move_yn = 0
-            if move_date is not None:
-                if year == move_date.year and month == move_date.month:
-                    event += "(Move) "
-                    move_yn = 1
+            for i in range(1,6):
+                move_date = get_move_date(subject_id=subject_id, no=i)
+                if move_date is not None:
+                    if year == move_date.year and month == move_date.month:
+                        event += "(Move) "
+                        move_yn += 1
+
 
             statics.append({'subject_id': subject_id, 'year': year, 'month': month, 'pline': pline, 'yearly_income': yearly_income, 'monthly_income': monthly_income, 'adult': adult, 'kid': kid, 'inr': inr, 'poverty_yn': poverty_yn, 'move_yn': move_yn, 'event': event, 'moc_work_end': moc_work_end, 'foc_work_end': foc_work_end, 'moc_work_start': moc_work_start, 'foc_work_start': foc_work_start})
 
@@ -798,6 +878,11 @@ def subject_statics(request, subject_id=None):
             if current_date.month == 12:
                 current_date = current_date.replace(year=current_date.year + 1, month=1)
             else:
+                if current_date.month + 1 == 2:
+                    if current_date.day > 28 and is_leap_year(current_date.year):
+                        current_date = current_date.replace(day=29)
+                    elif current_date.day > 28:
+                        current_date = current_date.replace(day=28)
                 current_date = current_date.replace(month=current_date.month + 1)
 
     events = []
@@ -854,7 +939,6 @@ def subject_statics_download(request, subject_id=None):
     pn4_interview_date = get_interview_type_date(subject_id, 'pn4')
 
     scan_date = get_scan_date(subject_id)
-    move_date = get_move_date(subject_id=subject_id)
 
     interviews = Interview.objects.filter(subject_id=subject_id)
 
@@ -864,28 +948,28 @@ def subject_statics_download(request, subject_id=None):
     for interview in interviews:
         # Start/End date setting.
         if interview.interview_type == 'pv1':
-            work_start = add_months_to_date(birth_date, -12).date()
+            work_start = add_months_to_date(birth_date, -12)
             pre_conception_date = work_start
             work_end = pv1_interview_date
         elif interview.interview_type == 'pv2':
             work_start = pv1_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pv2_interview_date
         elif interview.interview_type == 'pv3':
             work_start = pv2_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pv3_interview_date
         elif interview.interview_type == 'pn1':
             work_start = pv3_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pn1_interview_date
         elif interview.interview_type == 'pn4':
             work_start = pn1_interview_date
             work_start = work_start.replace(day=1)
-            work_start = add_months_to_date(work_start, 1).date()
+            work_start = add_months_to_date(work_start, 1)
             work_end = pn4_interview_date
 
         current_date = work_start
@@ -965,10 +1049,12 @@ def subject_statics_download(request, subject_id=None):
                 if year == pn4_interview_date.year and month == pn4_interview_date.month:
                     event += "(PN4) "
             move_yn = 0
-            if move_date is not None:
-                if year == move_date.year and month == move_date.month:
-                    event += "(Move) "
-                    move_yn = 1
+            for i in range(1,6):
+                move_date = get_move_date(subject_id=subject_id, no=i)
+                if move_date is not None:
+                    if year == move_date.year and month == move_date.month:
+                        event += "(Move) "
+                        move_yn += 1
 
             writer1.writerow([subject_id, year, month, pline, yearly_income, monthly_income, adult, kid, inr, poverty_yn, move_yn, event])
 
@@ -1107,14 +1193,14 @@ def get_tri3_date(subject_id):
                 days_to_add = 91*2
                 tri3_date = conception_date + timedelta(days=days_to_add)
     return tri3_date
-def get_move_date(subject_id):
+def get_move_date(subject_id, no=1):
     move_date = None
     interviews = Interview.objects.filter(subject_id=subject_id)
+    field = f'move_date_{no}'
 
     for interview in interviews:
-        if interview.move_date is not None:
-            move_date = interview.move_date
-
+        if getattr(interview, field) is not None:
+            move_date = getattr(interview, field)
     return move_date
 def calculate_monthly_income(subject_id, year=None, month=None):
 
@@ -1163,6 +1249,8 @@ def calculate_monthly_income(subject_id, year=None, month=None):
                     worked_day = (min_end_date - max_start_date).days + 1
                     if worked_day < 0:
                         worked_day = 0
+                    if worked_day >= 28:
+                        worked_day = 28
 
                     # 이제 실제 일한 날짜를 계산해야 해
                     # 기준 월을 받아서 헤당 월의 시작일과 종료일 그리고 총 일수 계산
@@ -1172,11 +1260,13 @@ def calculate_monthly_income(subject_id, year=None, month=None):
                     if hasattr(interview, field_monthly) and getattr(interview, field_monthly) is not None:
                         income_monthly = getattr(interview, field_monthly, 0)
                         if income_monthly is not None and total_days > 0:
-                            income = (income_monthly / total_days) * worked_day
-                    else:
+                            #income = (income_monthly / total_days) * worked_day
+                            income = income_monthly * (worked_day / 28)
+                    elif getattr(interview, field_hour) is not None or getattr(interview, field_wage) is not None:
                         income_hour = getattr(interview, field_hour, 0)
                         income_wage = getattr(interview, field_wage, 0)
-                        income = ((income_hour * income_wage) / 7) * worked_day
+                        #income = ((income_hour * income_wage) / 7) * worked_day
+                        income = ((income_hour * income_wage) * 4) * (worked_day/28)
 
                     # 날짜 별에 따른 주급/월급 계산하기
 
@@ -1212,7 +1302,9 @@ def add_months_to_date(date, months):
         year = date.year + (date.month + months - 1) // 12
         month = (date.month + months - 1) % 12 + 1
         day = date.day
-        new_date = datetime(year, month, day)
+        new_datetime = datetime(year, month, day)
+        new_date = new_datetime.date()
+        #new_date = new_datetime
     return new_date
 def calculate_events(work_start, work_end, statics, tag):
 
@@ -1278,3 +1370,13 @@ def calculate_events(work_start, work_end, statics, tag):
         avg_income = 0
 
     return {'tag': tag, 'inr': avg_inr, 'income': avg_income, 'duration_poverty': duration_poverty, 'tot_move_cnt': tot_move_cnt, 'moc_work_end_cnt': moc_work_end_cnt, 'foc_work_end_cnt': foc_work_end_cnt}
+
+def is_leap_year(year):
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+        return False
