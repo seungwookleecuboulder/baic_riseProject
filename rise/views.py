@@ -984,11 +984,11 @@ def subject_statics_download(request, subject_id=None):
 
     csv_data1 = io.StringIO()
     writer1 = csv.writer(csv_data1)
-    writer1.writerow(['Subject', 'Year', 'Month', 'Poverty', 'Income(Y)', 'Income(M)', 'Adults', 'Kids', 'INR', 'Poverty', 'Move', 'Event'])
+    writer1.writerow(['Subject', 'Year', 'Month', 'Poverty', 'Income(Y)', 'Income(M)', 'Adults', 'Kids', 'INR', 'Poverty', 'Move', 'FamChanged', 'Event'])
 
     csv_data2 = io.StringIO()
     writer2 = csv.writer(csv_data2)
-    writer2.writerow(['Subject', 'EVENT', 'INR', 'Income', 'Duration_Poverty', 'Move', '(M) Work Changed', '(F) Work Changed'])
+    writer2.writerow(['Subject', 'EVENT', 'INR', 'Income', 'Duration_Poverty', 'Move', 'Fam-Changed','(M) Work Changed', '(F) Work Changed'])
 
     birth_date = get_birth_date(subject_id)
     conception_date = get_conception_date(subject_id)
