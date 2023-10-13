@@ -358,6 +358,7 @@
                     <th scope="col">INR</th>
                     <th scope="col">Poverty Y/N</th>
                     <th scope="col">Move Y/N</th>
+                    <th scope="col">Fam-Changed Y/N</th>
                     <th scope="col">Event</th>
                   </tr>
                 </thead>
@@ -375,6 +376,7 @@
                         <td>{{ data.inr|floatformat:2 }}</td>
                         <td>{{ data.poverty_yn }}</td>
                         <td>{{ data.move_yn }}</td>
+                        <td>{{ data.household_member_changes_yn }}</td>
                         <td>{{ data.event }}</td>
                     </tr>
                     {% endfor %}
@@ -408,6 +410,7 @@
                     <th scope="col">Income</th>
                     <th scope="col">Duration Poverty</th>
                     <th scope="col"># Move</th>
+                    <th scope="col"># Fam-Changed</th>
                     <th scope="col">(M) Work Changed</th>
                     <th scope="col">(F) Work Changed</th>
                   </tr>
@@ -420,6 +423,7 @@
                         <td>{{ data.income|floatformat:1 }}</td>
                         <td>{{ data.duration_poverty }}</td>
                         <td>{{ data.tot_move_cnt }}</td>
+                        <td>{{ data.tot_famchange_cnt }}</td>
                         <td>{{ data.moc_work_end_cnt }}</td>
                         <td>{{ data.foc_work_end_cnt }}</td>
                     </tr>

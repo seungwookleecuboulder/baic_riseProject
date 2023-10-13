@@ -21,7 +21,18 @@ class InterviewForm(forms.ModelForm):
     household_adult = forms.IntegerField(required=True)
     household_child = forms.IntegerField(required=True)
 
-    household_member_changes = forms.CharField(widget=forms.Textarea, required=False)
+    household_member_changes_date_1 = forms.DateField(required=False)
+    household_member_changes_comments_1 = forms.CharField(widget=forms.Textarea, required=False)
+    household_member_changes_date_2 = forms.DateField(required=False)
+    household_member_changes_comments_2 = forms.CharField(widget=forms.Textarea, required=False)
+    household_member_changes_date_3 = forms.DateField(required=False)
+    household_member_changes_comments_3 = forms.CharField(widget=forms.Textarea, required=False)
+    household_member_changes_date_4 = forms.DateField(required=False)
+    household_member_changes_comments_4 = forms.CharField(widget=forms.Textarea, required=False)
+    household_member_changes_date_5 = forms.DateField(required=False)
+    household_member_changes_comments_5 = forms.CharField(widget=forms.Textarea, required=False)
+
+
 
     move_date_1 = forms.DateField(required=False)
     housing_comments_1 = forms.CharField(widget=forms.Textarea, required=False)
@@ -43,12 +54,12 @@ class InterviewForm(forms.ModelForm):
     scan_date = forms.DateField(required=False)
     event_comments = forms.CharField(widget=forms.Textarea, required=False)
 
-    pv1_q1 = forms.IntegerField(required=False)
-    pv1_q2 = forms.IntegerField(required=False)
-    pv1_q3 = forms.IntegerField(required=False)
-    pv1_q4 = forms.IntegerField(required=False)
-    pv1_q5 = forms.CharField(widget=forms.Textarea, required=False)
-    pv1_q6 = forms.CharField(widget=forms.Textarea, required=False)
+    pn1_q1 = forms.IntegerField(required=False)
+    pn1_q2 = forms.IntegerField(required=False)
+    pn1_q3 = forms.IntegerField(required=False)
+    pn1_q4 = forms.IntegerField(required=False)
+    pn1_q5 = forms.CharField(widget=forms.Textarea, required=False)
+    pn1_q6 = forms.CharField(widget=forms.Textarea, required=False)
 
     # Define object type fields (up to 10 objects)
     object_type_1 = forms.CharField(max_length=20, required=False)
@@ -134,10 +145,19 @@ class InterviewForm(forms.ModelForm):
     class Meta:
         model = Interview
         fields = [ 'interview_id', 'subject_id', 'researcher', 'interview_type', 'interview_date', 'partner_support_status',
-                   'household_adult', 'household_child', 'financial_familiy_adult', 'financial_familiy_child', 'household_member_changes',
-                   'move_date_1', 'housing_comments_1', 'move_date_2', 'housing_comments_2', 'move_date_3', 'housing_comments_3', 'move_date_4', 'housing_comments_4', 'move_date_5', 'housing_comments_5',
+                   'household_adult', 'household_child', 'financial_familiy_adult', 'financial_familiy_child',
+                   'household_member_changes_date_1', 'household_member_changes_comments_1',
+                   'household_member_changes_date_2', 'household_member_changes_comments_2',
+                   'household_member_changes_date_3', 'household_member_changes_comments_3',
+                   'household_member_changes_date_4', 'household_member_changes_comments_4',
+                   'household_member_changes_date_5', 'household_member_changes_comments_5',
+                   'move_date_1', 'housing_comments_1',
+                   'move_date_2', 'housing_comments_2',
+                   'move_date_3', 'housing_comments_3',
+                   'move_date_4', 'housing_comments_4',
+                   'move_date_5', 'housing_comments_5',
                    'conception_date', 'tri1_date', 'tri2_date', 'tri3_date', 'birth_date', 'scan_date', 'event_comments',
-                   'pv1_q1', 'pv1_q2', 'pv1_q3', 'pv1_q4', 'pv1_q5', 'pv1_q6',
+                   'pn1_q1', 'pn1_q2', 'pn1_q3', 'pn1_q4', 'pn1_q5', 'pn1_q6',
                    'object_type_1', 'object_working_hour_1', 'object_hourly_wage_1', 'object_monthly_income_1', 'object_start_date_1', 'object_end_date_1', 'object_comment_1',
                    'object_type_2', 'object_working_hour_2', 'object_hourly_wage_2', 'object_monthly_income_2', 'object_start_date_2', 'object_end_date_2', 'object_comment_2',
                    'object_type_3', 'object_working_hour_3', 'object_hourly_wage_3', 'object_monthly_income_3', 'object_start_date_3', 'object_end_date_3', 'object_comment_3',
