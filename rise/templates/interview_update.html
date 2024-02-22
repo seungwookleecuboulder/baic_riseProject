@@ -386,13 +386,13 @@
                   <div class="invalid-feedback">Please, select partner_support_status!</div>
                 </div>
                 <div class="col-3">
-                  <label for="{{ form.financial_familiy_adult.id_for_label }}">Financial Family Adult *</label>
-                  <input type="number" class="form-control" id="{{ form.financial_familiy_adult.id_for_label }}" name="{{ form.financial_familiy_adult.name }}" value="{{ form.financial_familiy_adult.value }}" required>
+                  <label for="{{ form.financial_family_adult.id_for_label }}">Financial Family Adult *</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_adult.id_for_label }}" name="{{ form.financial_family_adult.name }}" value="{{ form.financial_family_adult.value }}" required>
                   <div class="invalid-feedback">Please, insert family number!</div>
                 </div>
                 <div class="col-3">
-                  <label for="{{ form.financial_familiy_child.id_for_label }}">Financial Family Child *</label>
-                  <input type="number" class="form-control" id="{{ form.financial_familiy_child.id_for_label }}" name="{{ form.financial_familiy_child.name }}" value="{{ form.financial_familiy_child.value }}" required>
+                  <label for="{{ form.financial_family_child.id_for_label }}">Financial Family Child *</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_child.id_for_label }}" name="{{ form.financial_family_child.name }}" value="{{ form.financial_family_child.value }}" required>
                   <div class="invalid-feedback">Please, insert family number!</div>
                 </div>
                 <div class="col-3">
@@ -472,6 +472,80 @@
                         </div>
                     </div>
                 </div>
+
+                  <hr style="border-bottom: 2px solid black;">
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_date_1.id_for_label }}">Financial Family Changes Date 1</label>
+                  <input type="date" class="form-control" id="{{ form.financial_family_changes_date_1.id_for_label }}" name="{{ form.financial_family_changes_date_1.name }}" value="{{ form.financial_family_changes_date_1.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_adult_1.id_for_label }}">Financial Family Adult 1</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_adult_1.id_for_label }}" name="{{ form.financial_family_changes_adult_1.name }}" value="{{ form.financial_family_changes_adult_1.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_child_1.id_for_label }}">Financial Family Child 1</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_child_1.id_for_label }}" name="{{ form.financial_family_changes_child_1.name }}" value="{{ form.financial_family_changes_child_1.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_date_2.id_for_label }}">Financial Family Changes Date 2</label>
+                  <input type="date" class="form-control" id="{{ form.financial_family_changes_date_2.id_for_label }}" name="{{ form.financial_family_changes_date_2.name }}" value="{{ form.financial_family_changes_date_2.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_adult_2.id_for_label }}">Financial Family Adult 2</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_adult_2.id_for_label }}" name="{{ form.financial_family_changes_adult_2.name }}" value="{{ form.financial_family_changes_adult_2.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_child_2.id_for_label }}">Financial Family Child 2</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_child_2.id_for_label }}" name="{{ form.financial_family_changes_child_2.name }}" value="{{ form.financial_family_changes_child_2.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_date_3.id_for_label }}">Financial Family Changes Date 3</label>
+                  <input type="date" class="form-control" id="{{ form.financial_family_changes_date_3.id_for_label }}" name="{{ form.financial_family_changes_date_3.name }}" value="{{ form.financial_family_changes_date_3.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_adult_3.id_for_label }}">Financial Family Adult 3</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_adult_3.id_for_label }}" name="{{ form.financial_family_changes_adult_3.name }}" value="{{ form.financial_family_changes_adult_3.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_child_3.id_for_label }}">Financial Family Child 3</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_child_3.id_for_label }}" name="{{ form.financial_family_changes_child_3.name }}" value="{{ form.financial_family_changes_child_3.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_date_4.id_for_label }}">Financial Family Changes Date 4</label>
+                  <input type="date" class="form-control" id="{{ form.financial_family_changes_date_4.id_for_label }}" name="{{ form.financial_family_changes_date_4.name }}" value="{{ form.financial_family_changes_date_4.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_adult_4.id_for_label }}">Financial Family Adult 4</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_adult_4.id_for_label }}" name="{{ form.financial_family_changes_adult_4.name }}" value="{{ form.financial_family_changes_adult_4.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_child_4.id_for_label }}">Financial Family Child 4</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_child_4.id_for_label }}" name="{{ form.financial_family_changes_child_4.name }}" value="{{ form.financial_family_changes_child_4.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_date_5.id_for_label }}">Financial Family Changes Date 5</label>
+                  <input type="date" class="form-control" id="{{ form.financial_family_changes_date_5.id_for_label }}" name="{{ form.financial_family_changes_date_5.name }}" value="{{ form.financial_family_changes_date_5.value|date:"Y-m-d" }}">
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_adult_5.id_for_label }}">Financial Family Adult 5</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_adult_5.id_for_label }}" name="{{ form.financial_family_changes_adult_5.name }}" value="{{ form.financial_family_changes_adult_5.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+                <div class="col-4">
+                  <label for="{{ form.financial_family_changes_child_5.id_for_label }}">Financial Family Child 5</label>
+                  <input type="number" class="form-control" id="{{ form.financial_family_changes_child_5.id_for_label }}" name="{{ form.financial_family_changes_child_5.name }}" value="{{ form.financial_family_changes_child_5.value }}">
+                  <div class="invalid-feedback">Please, insert family number!</div>
+                </div>
+
+
 
                   <hr style="border-bottom: 2px solid black;">
 
@@ -604,11 +678,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_1.id_for_label }}">Object Hourly Wage - 1</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_1.id_for_label }}" name="{{ form.object_hourly_wage_1.name }}" value="{{ form.object_hourly_wage_1.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_1.id_for_label }}" name="{{ form.object_hourly_wage_1.name }}" value="{{ form.object_hourly_wage_1.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_1.id_for_label }}">Object Monthly Income - 1</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_1.id_for_label }}" name="{{ form.object_monthly_income_1.name }}" value="{{ form.object_monthly_income_1.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_1.id_for_label }}" name="{{ form.object_monthly_income_1.name }}" value="{{ form.object_monthly_income_1.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_1.id_for_label }}">Object Start Date - 1</label>
@@ -639,11 +713,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_2.id_for_label }}">Object Hourly Wage - 2</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_2.id_for_label }}" name="{{ form.object_hourly_wage_2.name }}" value="{{ form.object_hourly_wage_2.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_2.id_for_label }}" name="{{ form.object_hourly_wage_2.name }}" value="{{ form.object_hourly_wage_2.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_2.id_for_label }}">Object Monthly Income - 2</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_2.id_for_label }}" name="{{ form.object_monthly_income_2.name }}" value="{{ form.object_monthly_income_2.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_2.id_for_label }}" name="{{ form.object_monthly_income_2.name }}" value="{{ form.object_monthly_income_2.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_2.id_for_label }}">Object Start Date - 2</label>
@@ -674,11 +748,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_3.id_for_label }}">Object Hourly Wage - 3</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_3.id_for_label }}" name="{{ form.object_hourly_wage_3.name }}" value="{{ form.object_hourly_wage_3.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_3.id_for_label }}" name="{{ form.object_hourly_wage_3.name }}" value="{{ form.object_hourly_wage_3.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_3.id_for_label }}">Object Monthly Income - 3</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_3.id_for_label }}" name="{{ form.object_monthly_income_3.name }}" value="{{ form.object_monthly_income_3.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_3.id_for_label }}" name="{{ form.object_monthly_income_3.name }}" value="{{ form.object_monthly_income_3.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_3.id_for_label }}">Object Start Date - 3</label>
@@ -709,11 +783,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_4.id_for_label }}">Object Hourly Wage - 4</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_4.id_for_label }}" name="{{ form.object_hourly_wage_4.name }}" value="{{ form.object_hourly_wage_4.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_4.id_for_label }}" name="{{ form.object_hourly_wage_4.name }}" value="{{ form.object_hourly_wage_4.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_4.id_for_label }}">Object Monthly Income - 4</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_4.id_for_label }}" name="{{ form.object_monthly_income_4.name }}" value="{{ form.object_monthly_income_4.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_4.id_for_label }}" name="{{ form.object_monthly_income_4.name }}" value="{{ form.object_monthly_income_4.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_4.id_for_label }}">Object Start Date - 4</label>
@@ -744,11 +818,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_5.id_for_label }}">Object Hourly Wage - 5</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_5.id_for_label }}" name="{{ form.object_hourly_wage_5.name }}" value="{{ form.object_hourly_wage_5.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_5.id_for_label }}" name="{{ form.object_hourly_wage_5.name }}" value="{{ form.object_hourly_wage_5.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_5.id_for_label }}">Object Monthly Income - 5</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_5.id_for_label }}" name="{{ form.object_monthly_income_5.name }}" value="{{ form.object_monthly_income_5.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_5.id_for_label }}" name="{{ form.object_monthly_income_5.name }}" value="{{ form.object_monthly_income_5.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_5.id_for_label }}">Object Start Date - 5</label>
@@ -779,11 +853,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_6.id_for_label }}">Object Hourly Wage - 6</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_6.id_for_label }}" name="{{ form.object_hourly_wage_6.name }}" value="{{ form.object_hourly_wage_6.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_6.id_for_label }}" name="{{ form.object_hourly_wage_6.name }}" value="{{ form.object_hourly_wage_6.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_6.id_for_label }}">Object Monthly Income - 6</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_6.id_for_label }}" name="{{ form.object_monthly_income_6.name }}" value="{{ form.object_monthly_income_6.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_6.id_for_label }}" name="{{ form.object_monthly_income_6.name }}" value="{{ form.object_monthly_income_6.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_6.id_for_label }}">Object Start Date - 6</label>
@@ -814,11 +888,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_7.id_for_label }}">Object Hourly Wage - 7</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_7.id_for_label }}" name="{{ form.object_hourly_wage_7.name }}" value="{{ form.object_hourly_wage_7.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_7.id_for_label }}" name="{{ form.object_hourly_wage_7.name }}" value="{{ form.object_hourly_wage_7.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_7.id_for_label }}">Object Monthly Income - 7</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_7.id_for_label }}" name="{{ form.object_monthly_income_7.name }}" value="{{ form.object_monthly_income_7.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_7.id_for_label }}" name="{{ form.object_monthly_income_7.name }}" value="{{ form.object_monthly_income_7.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_7.id_for_label }}">Object Start Date - 7</label>
@@ -849,11 +923,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_8.id_for_label }}">Object Hourly Wage - 8</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_8.id_for_label }}" name="{{ form.object_hourly_wage_8.name }}" value="{{ form.object_hourly_wage_8.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_8.id_for_label }}" name="{{ form.object_hourly_wage_8.name }}" value="{{ form.object_hourly_wage_8.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_8.id_for_label }}">Object Monthly Income - 8</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_8.id_for_label }}" name="{{ form.object_monthly_income_8.name }}" value="{{ form.object_monthly_income_8.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_8.id_for_label }}" name="{{ form.object_monthly_income_8.name }}" value="{{ form.object_monthly_income_8.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_8.id_for_label }}">Object Start Date - 8</label>
@@ -884,11 +958,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_9.id_for_label }}">Object Hourly Wage - 9</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_9.id_for_label }}" name="{{ form.object_hourly_wage_9.name }}" value="{{ form.object_hourly_wage_9.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_9.id_for_label }}" name="{{ form.object_hourly_wage_9.name }}" value="{{ form.object_hourly_wage_9.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_9.id_for_label }}">Object Monthly Income - 9</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_9.id_for_label }}" name="{{ form.object_monthly_income_9.name }}" value="{{ form.object_monthly_income_9.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_9.id_for_label }}" name="{{ form.object_monthly_income_9.name }}" value="{{ form.object_monthly_income_9.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_9.id_for_label }}">Object Start Date - 9</label>
@@ -919,11 +993,11 @@
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_hourly_wage_10.id_for_label }}">Object Hourly Wage - 10</label>
-                  <input type="number" class="form-control" id="{{ form.object_hourly_wage_10.id_for_label }}" name="{{ form.object_hourly_wage_10.name }}" value="{{ form.object_hourly_wage_10.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_hourly_wage_10.id_for_label }}" name="{{ form.object_hourly_wage_10.name }}" value="{{ form.object_hourly_wage_10.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_monthly_income_10.id_for_label }}">Object Monthly Income - 10</label>
-                  <input type="number" class="form-control" id="{{ form.object_monthly_income_10.id_for_label }}" name="{{ form.object_monthly_income_10.name }}" value="{{ form.object_monthly_income_10.value }}">
+                  <input type="number" step="0.01" class="form-control" id="{{ form.object_monthly_income_10.id_for_label }}" name="{{ form.object_monthly_income_10.name }}" value="{{ form.object_monthly_income_10.value }}">
                 </div>
                 <div class="col-3">
                   <label for="{{ form.object_start_date_10.id_for_label }}">Object Start Date - 10</label>

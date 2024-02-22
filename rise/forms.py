@@ -16,10 +16,26 @@ class CSVUploadForm(forms.Form):
     csv_file = forms.FileField(label='Upload CSV File')
 
 class InterviewForm(forms.ModelForm):
-    financial_familiy_adult = forms.IntegerField(required=True)
-    financial_familiy_child = forms.IntegerField(required=True)
+    financial_family_adult = forms.IntegerField(required=True)
+    financial_family_child = forms.IntegerField(required=True)
     household_adult = forms.IntegerField(required=True)
     household_child = forms.IntegerField(required=True)
+
+    financial_family_changes_date_1 = forms.DateField(required=False)
+    financial_family_changes_adult_1 = forms.IntegerField(required=False)
+    financial_family_changes_child_1 = forms.IntegerField(required=False)
+    financial_family_changes_date_2 = forms.DateField(required=False)
+    financial_family_changes_adult_2 = forms.IntegerField(required=False)
+    financial_family_changes_child_2 = forms.IntegerField(required=False)
+    financial_family_changes_date_3 = forms.DateField(required=False)
+    financial_family_changes_adult_3 = forms.IntegerField(required=False)
+    financial_family_changes_child_3 = forms.IntegerField(required=False)
+    financial_family_changes_date_4 = forms.DateField(required=False)
+    financial_family_changes_adult_4 = forms.IntegerField(required=False)
+    financial_family_changes_child_4 = forms.IntegerField(required=False)
+    financial_family_changes_date_5 = forms.DateField(required=False)
+    financial_family_changes_adult_5 = forms.IntegerField(required=False)
+    financial_family_changes_child_5 = forms.IntegerField(required=False)
 
     household_member_changes_date_1 = forms.DateField(required=False)
     household_member_changes_comments_1 = forms.CharField(widget=forms.Textarea, required=False)
@@ -31,8 +47,6 @@ class InterviewForm(forms.ModelForm):
     household_member_changes_comments_4 = forms.CharField(widget=forms.Textarea, required=False)
     household_member_changes_date_5 = forms.DateField(required=False)
     household_member_changes_comments_5 = forms.CharField(widget=forms.Textarea, required=False)
-
-
 
     move_date_1 = forms.DateField(required=False)
     housing_comments_1 = forms.CharField(widget=forms.Textarea, required=False)
@@ -64,88 +78,94 @@ class InterviewForm(forms.ModelForm):
     # Define object type fields (up to 10 objects)
     object_type_1 = forms.CharField(max_length=20, required=False)
     object_working_hour_1 = forms.IntegerField(required=False)
-    object_hourly_wage_1 = forms.IntegerField(required=False)
-    object_monthly_income_1 = forms.IntegerField(required=False)
+    object_hourly_wage_1 = forms.FloatField(required=False)
+    object_monthly_income_1 = forms.FloatField(required=False)
     object_start_date_1 = forms.DateField(required=False)
     object_end_date_1 = forms.DateField(required=False)
     object_comment_1 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_2 = forms.CharField(max_length=20, required=False)
     object_working_hour_2 = forms.IntegerField(required=False)
-    object_hourly_wage_2 = forms.IntegerField(required=False)
-    object_monthly_income_2 = forms.IntegerField(required=False)
+    object_hourly_wage_2 = forms.FloatField(required=False)
+    object_monthly_income_2 = forms.FloatField(required=False)
     object_start_date_2 = forms.DateField(required=False)
     object_end_date_2 = forms.DateField(required=False)
     object_comment_2 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_3 = forms.CharField(max_length=20, required=False)
     object_working_hour_3 = forms.IntegerField(required=False)
-    object_hourly_wage_3 = forms.IntegerField(required=False)
-    object_monthly_income_3 = forms.IntegerField(required=False)
+    object_hourly_wage_3 = forms.FloatField(required=False)
+    object_monthly_income_3 = forms.FloatField(required=False)
     object_start_date_3 = forms.DateField(required=False)
     object_end_date_3 = forms.DateField(required=False)
     object_comment_3 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_4 = forms.CharField(max_length=20, required=False)
     object_working_hour_4 = forms.IntegerField(required=False)
-    object_hourly_wage_4 = forms.IntegerField(required=False)
-    object_monthly_income_4 = forms.IntegerField(required=False)
+    object_hourly_wage_4 = forms.FloatField(required=False)
+    object_monthly_income_4 = forms.FloatField(required=False)
     object_start_date_4 = forms.DateField(required=False)
     object_end_date_4 = forms.DateField(required=False)
     object_comment_4 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_5 = forms.CharField(max_length=20, required=False)
     object_working_hour_5 = forms.IntegerField(required=False)
-    object_hourly_wage_5 = forms.IntegerField(required=False)
-    object_monthly_income_5 = forms.IntegerField(required=False)
+    object_hourly_wage_5 = forms.FloatField(required=False)
+    object_monthly_income_5 = forms.FloatField(required=False)
     object_start_date_5 = forms.DateField(required=False)
     object_end_date_5 = forms.DateField(required=False)
     object_comment_5 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_6 = forms.CharField(max_length=20, required=False)
     object_working_hour_6 = forms.IntegerField(required=False)
-    object_hourly_wage_6 = forms.IntegerField(required=False)
-    object_monthly_income_6 = forms.IntegerField(required=False)
+    object_hourly_wage_6 = forms.FloatField(required=False)
+    object_monthly_income_6 = forms.FloatField(required=False)
     object_start_date_6 = forms.DateField(required=False)
     object_end_date_6 = forms.DateField(required=False)
     object_comment_6 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_7 = forms.CharField(max_length=20, required=False)
     object_working_hour_7 = forms.IntegerField(required=False)
-    object_hourly_wage_7 = forms.IntegerField(required=False)
-    object_monthly_income_7 = forms.IntegerField(required=False)
+    object_hourly_wage_7 = forms.FloatField(required=False)
+    object_monthly_income_7 = forms.FloatField(required=False)
     object_start_date_7 = forms.DateField(required=False)
     object_end_date_7 = forms.DateField(required=False)
     object_comment_7 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_8 = forms.CharField(max_length=20, required=False)
     object_working_hour_8 = forms.IntegerField(required=False)
-    object_hourly_wage_8 = forms.IntegerField(required=False)
-    object_monthly_income_8 = forms.IntegerField(required=False)
+    object_hourly_wage_8 = forms.FloatField(required=False)
+    object_monthly_income_8 = forms.FloatField(required=False)
     object_start_date_8 = forms.DateField(required=False)
     object_end_date_8 = forms.DateField(required=False)
     object_comment_8 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_9 = forms.CharField(max_length=20, required=False)
     object_working_hour_9 = forms.IntegerField(required=False)
-    object_hourly_wage_9 = forms.IntegerField(required=False)
-    object_monthly_income_9 = forms.IntegerField(required=False)
+    object_hourly_wage_9 = forms.FloatField(required=False)
+    object_monthly_income_9 = forms.FloatField(required=False)
     object_start_date_9 = forms.DateField(required=False)
     object_end_date_9 = forms.DateField(required=False)
     object_comment_9 = forms.CharField(widget=forms.Textarea, required=False)
 
     object_type_10 = forms.CharField(max_length=20, required=False)
     object_working_hour_10 = forms.IntegerField(required=False)
-    object_hourly_wage_10 = forms.IntegerField(required=False)
-    object_monthly_income_10 = forms.IntegerField(required=False)
+    object_hourly_wage_10 = forms.FloatField(required=False)
+    object_monthly_income_10 = forms.FloatField(required=False)
     object_start_date_10 = forms.DateField(required=False)
     object_end_date_10 = forms.DateField(required=False)
     object_comment_10 = forms.CharField(widget=forms.Textarea, required=False)
 
+
     class Meta:
         model = Interview
         fields = [ 'interview_id', 'subject_id', 'researcher', 'interview_type', 'interview_date', 'partner_support_status',
-                   'household_adult', 'household_child', 'financial_familiy_adult', 'financial_familiy_child',
+                   'household_adult', 'household_child', 'financial_family_adult', 'financial_family_child',
+                   'financial_family_changes_date_1', 'financial_family_changes_adult_1', 'financial_family_changes_child_1',
+                   'financial_family_changes_date_2', 'financial_family_changes_adult_2', 'financial_family_changes_child_2',
+                   'financial_family_changes_date_3', 'financial_family_changes_adult_3', 'financial_family_changes_child_3',
+                   'financial_family_changes_date_4', 'financial_family_changes_adult_4', 'financial_family_changes_child_4',
+                   'financial_family_changes_date_5', 'financial_family_changes_adult_5', 'financial_family_changes_child_5',
                    'household_member_changes_date_1', 'household_member_changes_comments_1',
                    'household_member_changes_date_2', 'household_member_changes_comments_2',
                    'household_member_changes_date_3', 'household_member_changes_comments_3',

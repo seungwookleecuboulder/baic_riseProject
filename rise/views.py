@@ -95,10 +95,26 @@ def interview_new(request, interview_id=None):
                     interview_type=form.cleaned_data.get('interview_type'),
                     interview_date=form.cleaned_data.get('interview_date'),
                     partner_support_status=form.data.get('partner_support_status'),
-                    financial_familiy_adult=form.data.get('financial_familiy_adult'),
-                    financial_familiy_child=form.data.get('financial_familiy_child'),
+                    financial_family_adult=form.data.get('financial_family_adult'),
+                    financial_family_child=form.data.get('financial_family_child'),
                     household_adult=form.data.get('household_adult'),
                     household_child=form.data.get('household_child'),
+
+                    financial_family_changes_date_1=form.data.get('financial_family_changes_date_1') or None,
+                    financial_family_changes_adult_1=form.data.get('financial_family_changes_adult_1') or None,
+                    financial_family_changes_child_1=form.data.get('financial_family_changes_child_1') or None,
+                    financial_family_changes_date_2=form.data.get('financial_family_changes_date_2') or None,
+                    financial_family_changes_adult_2=form.data.get('financial_family_changes_adult_2') or None,
+                    financial_family_changes_child_2=form.data.get('financial_family_changes_child_2') or None,
+                    financial_family_changes_date_3=form.data.get('financial_family_changes_date_3') or None,
+                    financial_family_changes_adult_3=form.data.get('financial_family_changes_adult_3') or None,
+                    financial_family_changes_child_3=form.data.get('financial_family_changes_child_3') or None,
+                    financial_family_changes_date_4=form.data.get('financial_family_changes_date_4') or None,
+                    financial_family_changes_adult_4=form.data.get('financial_family_changes_adult_4') or None,
+                    financial_family_changes_child_4=form.data.get('financial_family_changes_child_4') or None,
+                    financial_family_changes_date_5=form.data.get('financial_family_changes_date_5') or None,
+                    financial_family_changes_adult_5=form.data.get('financial_family_changes_adult_5') or None,
+                    financial_family_changes_child_5=form.data.get('financial_family_changes_child_5') or None,
 
                     household_member_changes_date_1=form.data.get('household_member_changes_date_1') or None,
                     household_member_changes_comments_1=form.data.get('household_member_changes_comments_1') or None,
@@ -232,10 +248,26 @@ def interview_update(request, interview_id):
                 interview_type=form.data.get('interview_type'),
                 interview_date=form.data.get('interview_date'),
                 partner_support_status=form.data.get('partner_support_status'),
-                financial_familiy_adult=form.data.get('financial_familiy_adult') or 0,
-                financial_familiy_child=form.data.get('financial_familiy_child') or 0,
+                financial_family_adult=form.data.get('financial_family_adult') or 0,
+                financial_family_child=form.data.get('financial_family_child') or 0,
                 household_adult=form.data.get('household_adult') or 0,
                 household_child=form.data.get('household_child') or 0,
+
+                financial_family_changes_date_1=form.data.get('financial_family_changes_date_1') or None,
+                financial_family_changes_adult_1=form.data.get('financial_family_changes_adult_1') or None,
+                financial_family_changes_child_1=form.data.get('financial_family_changes_child_1') or None,
+                financial_family_changes_date_2=form.data.get('financial_family_changes_date_2') or None,
+                financial_family_changes_adult_2=form.data.get('financial_family_changes_adult_2') or None,
+                financial_family_changes_child_2=form.data.get('financial_family_changes_child_2') or None,
+                financial_family_changes_date_3=form.data.get('financial_family_changes_date_3') or None,
+                financial_family_changes_adult_3=form.data.get('financial_family_changes_adult_3') or None,
+                financial_family_changes_child_3=form.data.get('financial_family_changes_child_3') or None,
+                financial_family_changes_date_4=form.data.get('financial_family_changes_date_4') or None,
+                financial_family_changes_adult_4=form.data.get('financial_family_changes_adult_4') or None,
+                financial_family_changes_child_4=form.data.get('financial_family_changes_child_4') or None,
+                financial_family_changes_date_5=form.data.get('financial_family_changes_date_5') or None,
+                financial_family_changes_adult_5=form.data.get('financial_family_changes_adult_5') or None,
+                financial_family_changes_child_5=form.data.get('financial_family_changes_child_5') or None,
 
                 household_member_changes_date_1=form.data.get('household_member_changes_date_1') or None,
                 household_member_changes_comments_1=form.data.get('household_member_changes_comments_1') or None,
@@ -375,7 +407,17 @@ def interview_download(request):
 
     writer = csv.writer(response)
     writer.writerow(['interview_id', 'subject_id', 'researcher', 'interview_type', 'interview_date', 'partner_support_status',
-                     'household_adult', 'household_child', 'financial_familiy_adult', 'financial_familiy_child',
+                     'household_adult', 'household_child', 'financial_family_adult', 'financial_family_child',
+                     'financial_family_changes_date_1', 'financial_family_changes_adult_1',
+                     'financial_family_changes_child_1',
+                     'financial_family_changes_date_2', 'financial_family_changes_adult_2',
+                     'financial_family_changes_child_2',
+                     'financial_family_changes_date_3', 'financial_family_changes_adult_3',
+                     'financial_family_changes_child_3',
+                     'financial_family_changes_date_4', 'financial_family_changes_adult_4',
+                     'financial_family_changes_child_4',
+                     'financial_family_changes_date_5', 'financial_family_changes_adult_5',
+                     'financial_family_changes_child_5',
                      'household_member_changes_date_1', 'household_member_changes_comments_1',
                      'household_member_changes_date_2', 'household_member_changes_comments_2',
                      'household_member_changes_date_3', 'household_member_changes_comments_3',
@@ -403,7 +445,12 @@ def interview_download(request):
     for row in queryset:
         writer.writerow([
             row.interview_id, row.subject_id, row.researcher, row.interview_type, row.interview_date, row.partner_support_status,
-            row.household_adult, row.household_child, row.financial_familiy_adult, row.financial_familiy_child,
+            row.household_adult, row.household_child, row.financial_family_adult, row.financial_family_child,
+            row.financial_family_changes_date_1, row.financial_family_changes_adult_1, row.financial_family_changes_child_1,
+            row.financial_family_changes_date_2, row.financial_family_changes_adult_2, row.financial_family_changes_child_2,
+            row.financial_family_changes_date_3, row.financial_family_changes_adult_3, row.financial_family_changes_child_3,
+            row.financial_family_changes_date_4, row.financial_family_changes_adult_4, row.financial_family_changes_child_4,
+            row.financial_family_changes_date_5, row.financial_family_changes_adult_5, row.financial_family_changes_child_5,
             row.household_member_changes_date_1, row.household_member_changes_comments_1,
             row.household_member_changes_date_2, row.household_member_changes_comments_2,
             row.household_member_changes_date_3, row.household_member_changes_comments_3,
@@ -458,116 +505,132 @@ def interview_upload(request):
                 partner_support_status = row[5]
                 household_adult = row[6]
                 household_child = row[7]
-                financial_familiy_adult = row[8]
-                financial_familiy_child = row[9]
+                financial_family_adult = row[8]
+                financial_family_child = row[9]
 
-                household_member_changes_date_1 = row[10]
-                household_member_changes_comments_1 = row[11]
-                household_member_changes_date_2 = row[12]
-                household_member_changes_comments_2 = row[13]
-                household_member_changes_date_3 = row[14]
-                household_member_changes_comments_3 = row[15]
-                household_member_changes_date_4 = row[16]
-                household_member_changes_comments_4 = row[17]
-                household_member_changes_date_5 = row[18]
-                household_member_changes_comments_5 = row[19]
+                financial_family_changes_date_1 = row[10]
+                financial_family_changes_adult_1 = row[11]
+                financial_family_changes_child_1 = row[12]
+                financial_family_changes_date_2 = row[13]
+                financial_family_changes_adult_2 = row[14]
+                financial_family_changes_child_2 = row[15]
+                financial_family_changes_date_3 = row[16]
+                financial_family_changes_adult_3 = row[17]
+                financial_family_changes_child_3 = row[18]
+                financial_family_changes_date_4 = row[19]
+                financial_family_changes_adult_4 = row[20]
+                financial_family_changes_child_4 = row[21]
+                financial_family_changes_date_5 = row[22]
+                financial_family_changes_adult_5 = row[23]
+                financial_family_changes_child_5 = row[24]
 
-                move_date_1 = row[20]
-                housing_comments_1 = row[21]
-                move_date_2 = row[22]
-                housing_comments_2 = row[23]
-                move_date_3 = row[24]
-                housing_comments_3 = row[25]
-                move_date_4 = row[26]
-                housing_comments_4 = row[27]
-                move_date_5 = row[28]
-                housing_comments_5 = row[29]
+                household_member_changes_date_1 = row[25]
+                household_member_changes_comments_1 = row[26]
+                household_member_changes_date_2 = row[27]
+                household_member_changes_comments_2 = row[28]
+                household_member_changes_date_3 = row[29]
+                household_member_changes_comments_3 = row[30]
+                household_member_changes_date_4 = row[31]
+                household_member_changes_comments_4 = row[32]
+                household_member_changes_date_5 = row[33]
+                household_member_changes_comments_5 = row[34]
 
-                conception_date = row[30]
-                tri1_date = row[31]
-                tri2_date = row[32]
-                tri3_date = row[33]
-                birth_date = row[34]
-                scan_date = row[35]
-                event_comments = row[36]
+                move_date_1 = row[35]
+                housing_comments_1 = row[36]
+                move_date_2 = row[37]
+                housing_comments_2 = row[38]
+                move_date_3 = row[39]
+                housing_comments_3 = row[40]
+                move_date_4 = row[41]
+                housing_comments_4 = row[42]
+                move_date_5 = row[43]
+                housing_comments_5 = row[44]
 
-                pn1_q1 = row[37]
-                pn1_q2 = row[38]
-                pn1_q3 = row[39]
-                pn1_q4 = row[40]
-                pn1_q5 = row[41]
-                pn1_q6 = row[42]
+                conception_date = row[45]
+                tri1_date = row[46]
+                tri2_date = row[47]
+                tri3_date = row[48]
+                birth_date = row[49]
+                scan_date = row[50]
+                event_comments = row[51]
 
-                object_type_1 = row[43]
-                object_working_hour_1 = row[44]
-                object_hourly_wage_1 = row[45]
-                object_monthly_income_1 = row[46]
-                object_start_date_1 = row[47]
-                object_end_date_1 = row[48]
-                object_comment_1 = row[49]
-                object_type_2 = row[50]
-                object_working_hour_2 = row[51]
-                object_hourly_wage_2 = row[52]
-                object_monthly_income_2 = row[53]
-                object_start_date_2 = row[54]
-                object_end_date_2 = row[55]
-                object_comment_2 = row[56]
-                object_type_3 = row[57]
-                object_working_hour_3 = row[58]
-                object_hourly_wage_3 = row[59]
-                object_monthly_income_3 = row[60]
-                object_start_date_3 = row[61]
-                object_end_date_3 = row[62]
-                object_comment_3 = row[63]
-                object_type_4 = row[64]
-                object_working_hour_4 = row[65]
-                object_hourly_wage_4 = row[66]
-                object_monthly_income_4 = row[67]
-                object_start_date_4 = row[68]
-                object_end_date_4 = row[69]
-                object_comment_4 = row[70]
-                object_type_5 = row[71]
-                object_working_hour_5 = row[72]
-                object_hourly_wage_5 = row[73]
-                object_monthly_income_5 = row[74]
-                object_start_date_5 = row[75]
-                object_end_date_5 = row[76]
-                object_comment_5 = row[77]
-                object_type_6 = row[78]
-                object_working_hour_6 = row[79]
-                object_hourly_wage_6 = row[80]
-                object_monthly_income_6 = row[81]
-                object_start_date_6 = row[82]
-                object_end_date_6 = row[83]
-                object_comment_6 = row[84]
-                object_type_7 = row[85]
-                object_working_hour_7 = row[86]
-                object_hourly_wage_7 = row[87]
-                object_monthly_income_7 = row[88]
-                object_start_date_7 = row[89]
-                object_end_date_7 = row[90]
-                object_comment_7 = row[91]
-                object_type_8 = row[92]
-                object_working_hour_8 = row[93]
-                object_hourly_wage_8 = row[94]
-                object_monthly_income_8 = row[95]
-                object_start_date_8 = row[96]
-                object_end_date_8 = row[97]
-                object_comment_8 = row[98]
-                object_type_9 = row[99]
-                object_working_hour_9 = row[100]
-                object_hourly_wage_9 = row[101]
-                object_monthly_income_9 = row[102]
-                object_start_date_9 = row[103]
-                object_end_date_9 = row[104]
-                object_comment_9 = row[105]
-                object_type_10 = row[106]
-                object_working_hour_10 = row[107]
-                object_hourly_wage_10 = row[108]
-                object_monthly_income_10 = row[109]
-                object_start_date_10 = row[110]
-                object_end_date_10 = row[111]
-                object_comment_10 = row[112]
+                pn1_q1 = row[52]
+                pn1_q2 = row[53]
+                pn1_q3 = row[54]
+                pn1_q4 = row[55]
+                pn1_q5 = row[56]
+                pn1_q6 = row[57]
+
+                object_type_1 = row[58]
+                object_working_hour_1 = row[59]
+                object_hourly_wage_1 = row[60]
+                object_monthly_income_1 = row[61]
+                object_start_date_1 = row[62]
+                object_end_date_1 = row[63]
+                object_comment_1 = row[64]
+                object_type_2 = row[65]
+                object_working_hour_2 = row[66]
+                object_hourly_wage_2 = row[67]
+                object_monthly_income_2 = row[68]
+                object_start_date_2 = row[69]
+                object_end_date_2 = row[70]
+                object_comment_2 = row[71]
+                object_type_3 = row[72]
+                object_working_hour_3 = row[73]
+                object_hourly_wage_3 = row[74]
+                object_monthly_income_3 = row[75]
+                object_start_date_3 = row[76]
+                object_end_date_3 = row[77]
+                object_comment_3 = row[78]
+                object_type_4 = row[79]
+                object_working_hour_4 = row[80]
+                object_hourly_wage_4 = row[81]
+                object_monthly_income_4 = row[82]
+                object_start_date_4 = row[83]
+                object_end_date_4 = row[84]
+                object_comment_4 = row[85]
+                object_type_5 = row[86]
+                object_working_hour_5 = row[87]
+                object_hourly_wage_5 = row[88]
+                object_monthly_income_5 = row[89]
+                object_start_date_5 = row[90]
+                object_end_date_5 = row[91]
+                object_comment_5 = row[92]
+                object_type_6 = row[93]
+                object_working_hour_6 = row[94]
+                object_hourly_wage_6 = row[95]
+                object_monthly_income_6 = row[96]
+                object_start_date_6 = row[97]
+                object_end_date_6 = row[98]
+                object_comment_6 = row[99]
+                object_type_7 = row[100]
+                object_working_hour_7 = row[101]
+                object_hourly_wage_7 = row[102]
+                object_monthly_income_7 = row[103]
+                object_start_date_7 = row[104]
+                object_end_date_7 = row[105]
+                object_comment_7 = row[106]
+                object_type_8 = row[107]
+                object_working_hour_8 = row[108]
+                object_hourly_wage_8 = row[109]
+                object_monthly_income_8 = row[110]
+                object_start_date_8 = row[111]
+                object_end_date_8 = row[112]
+                object_comment_8 = row[113]
+                object_type_9 = row[114]
+                object_working_hour_9 = row[115]
+                object_hourly_wage_9 = row[116]
+                object_monthly_income_9 = row[117]
+                object_start_date_9 = row[118]
+                object_end_date_9 = row[119]
+                object_comment_9 = row[120]
+                object_type_10 = row[121]
+                object_working_hour_10 = row[122]
+                object_hourly_wage_10 = row[123]
+                object_monthly_income_10 = row[124]
+                object_start_date_10 = row[125]
+                object_end_date_10 = row[126]
+                object_comment_10 = row[127]
                 try:
                     interview = Interview.objects.get(interview_id=interview_id)
                     pass
@@ -581,8 +644,25 @@ def interview_upload(request):
                         partner_support_status=partner_support_status or None,
                         household_adult=household_adult or None,
                         household_child=household_child or None,
-                        financial_familiy_adult=financial_familiy_adult or None,
-                        financial_familiy_child=financial_familiy_child or None,
+                        financial_family_adult=financial_family_adult or None,
+                        financial_family_child=financial_family_child or None,
+
+                        financial_family_changes_date_1=financial_family_changes_date_1 or None,
+                        financial_family_changes_adult_1=financial_family_changes_adult_1 or None,
+                        financial_family_changes_child_1=financial_family_changes_child_1 or None,
+                        financial_family_changes_date_2=financial_family_changes_date_2 or None,
+                        financial_family_changes_adult_2=financial_family_changes_adult_2 or None,
+                        financial_family_changes_child_2=financial_family_changes_child_2 or None,
+                        financial_family_changes_date_3=financial_family_changes_date_3 or None,
+                        financial_family_changes_adult_3=financial_family_changes_adult_3 or None,
+                        financial_family_changes_child_3=financial_family_changes_child_3 or None,
+                        financial_family_changes_date_4=financial_family_changes_date_4 or None,
+                        financial_family_changes_adult_4=financial_family_changes_adult_4 or None,
+                        financial_family_changes_child_4=financial_family_changes_child_4 or None,
+                        financial_family_changes_date_5=financial_family_changes_date_5 or None,
+                        financial_family_changes_adult_5=financial_family_changes_adult_5 or None,
+                        financial_family_changes_child_5=financial_family_changes_child_5 or None,
+
                         household_member_changes_date_1=household_member_changes_date_1 or None,
                         household_member_changes_comments_1=household_member_changes_comments_1 or None,
                         household_member_changes_date_2=household_member_changes_date_2 or None,
@@ -791,6 +871,7 @@ def subject_statics(request, subject_id=None):
     if birth_date is not None and conception_date is None:
         conception_date = add_months_to_date(birth_date, -9)
 
+
     tri1_date = get_tri1_date(subject_id)
     tri2_date = get_tri2_date(subject_id)
     tri3_date = get_tri3_date(subject_id)
@@ -873,7 +954,7 @@ def subject_statics(request, subject_id=None):
 
             yearly_income = monthly_income * 12
 
-            f_adult = interview.financial_familiy_adult
+            f_adult = interview.financial_family_adult
             h_adult = interview.household_adult
             if f_adult is None:
                 f_adult = 0
@@ -881,13 +962,14 @@ def subject_statics(request, subject_id=None):
                 h_adult = 0
             adult = max(f_adult, h_adult)
 
-            f_kid = interview.financial_familiy_child
+            f_kid = interview.financial_family_child
             h_kid = interview.household_child
             if f_kid is None:
                 f_kid = 0
             if h_kid is None:
                 h_kid = 0
             kid = max(f_kid, h_kid)
+            adult, kid = get_family(interview.interview_id, year, month)
 
             pline = Poverty.objects.get(year=year, familysize=adult+kid, adult=adult, kid=kid).pline
             inr = yearly_income / pline
@@ -1068,7 +1150,7 @@ def subject_statics_download(request, subject_id=None):
 
             yearly_income = monthly_income * 12
 
-            f_adult = interview.financial_familiy_adult
+            f_adult = interview.financial_family_adult
             h_adult = interview.household_adult
             if f_adult is None:
                 f_adult = 0
@@ -1076,7 +1158,7 @@ def subject_statics_download(request, subject_id=None):
                 h_adult = 0
             adult = max(f_adult, h_adult)
 
-            f_kid = interview.financial_familiy_child
+            f_kid = interview.financial_family_child
             h_kid = interview.household_child
             if f_kid is None:
                 f_kid = 0
@@ -1296,6 +1378,53 @@ def get_household_member_changes_date(subject_id, no=1):
     return household_member_changes_date
 
 
+def find_index_greater_than_target(date_list, target_date):
+    try:
+        # 주어진 날짜의 인덱스 찾기
+        index = 0
+        # 다음 인덱스부터 시작하여 값을 찾음
+        for i in range(index + 1, len(date_list)):
+            if ((date_list[i].year, date_list[i].month) > (target_date.year, target_date.month)) and ((target_date.year, target_date.month) >= (date_list[i-1].year, date_list[i-1].month)):
+                return i-1  # 해당 값보다 큰 값을 가진 첫 번째 인덱스 반환
+        return -1  # 찾지 못한 경우 None 반환
+    except ValueError:
+        return -2  # 주어진 날짜가 리스트에 없는 경우 None 반환
+
+
+def get_family(interview_id, year, month):
+    interview = Interview.objects.filter(interview_id=interview_id).first()
+    f_adult = interview.financial_family_adult
+    f_kid = interview.financial_family_child
+    h_adult = interview.household_adult
+    h_kid = interview.household_child
+
+    current_date = date(year, month, 1)
+
+    date_list = []
+    date_list.append(interview.interview_date)
+
+    for no in range(1,5):
+        field = f'financial_family_changes_date_{no}'
+        if getattr(interview, field) is not None:
+            date_list.append(getattr(interview, field))
+    date_list.sort()
+
+    index = find_index_greater_than_target(date_list, current_date)
+    for no in range(1, 5):
+        field = f'financial_family_changes_date_{no}'
+        if getattr(interview, field) is not None:
+            if index > -1 and getattr(interview, field) == date_list[index]:
+                f_adult = getattr(interview, f'financial_family_changes_adult_{no}')
+                f_kid = getattr(interview, f'financial_family_changes_child_{no}')
+
+    if f_adult == 0 and f_kid == 0:
+        adult = h_adult
+        kid = h_kid
+    else:
+        adult = f_adult
+        kid = f_kid
+
+    return adult, kid
 def calculate_monthly_income(subject_id, year=None, month=None):
 
     moc_income = 0
